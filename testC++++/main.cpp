@@ -16,9 +16,15 @@
 #include "237_删除链表中的节点.hpp"
 #include "509_斐波那契数.h"
 #include "876_链表的中间节点.hpp"
+#include "1290_二进制链表转整数.hpp"
+#include "offer_06_从尾到头打印链表.hpp"
+#include "offer_22_链表中倒数第k个节点.hpp"
+#include "offer_24_反转链表.hpp"
+#include "faceTest_0201_移除重复节点.hpp"
+#include "faceTest_0202_返回倒数第 k 个节点.hpp"
 
 int main(int argc, const char * argv[]) {
     
-    _876_test();
+    _facetest_0201_test();
     return 0;
 }
