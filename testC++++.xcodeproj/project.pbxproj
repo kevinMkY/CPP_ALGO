@@ -24,6 +24,11 @@
 		65870732250BB3F1005BFEC2 /* offer_24_反转链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65870730250BB3F1005BFEC2 /* offer_24_反转链表.cpp */; };
 		65870735250BB560005BFEC2 /* faceTest_0201_移除重复节点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65870733250BB560005BFEC2 /* faceTest_0201_移除重复节点.cpp */; };
 		65B5374C250903DB00FE9807 /* 203_移除链表元素.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65B5374A250903DB00FE9807 /* 203_移除链表元素.cpp */; };
+		65B6820F250F583A00C039AB /* 160_相交链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65B6820D250F583A00C039AB /* 160_相交链表.cpp */; };
+		65D2EAB1250F4214009DC352 /* faceTest_0207_链表相交.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D2EAAF250F4214009DC352 /* faceTest_0207_链表相交.cpp */; };
+		65D2EAB4250F4AE0009DC352 /* 21_合并两个有序链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D2EAB2250F4AE0009DC352 /* 21_合并两个有序链表.cpp */; };
+		65D2EAB7250F52D5009DC352 /* offer_52_两个链表的第一个公共节点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D2EAB5250F52D5009DC352 /* offer_52_两个链表的第一个公共节点.cpp */; };
+		65D2EABA250F53E9009DC352 /* offer_18_删除链表的节点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D2EAB8250F53E9009DC352 /* offer_18_删除链表的节点.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +78,16 @@
 		65870734250BB560005BFEC2 /* faceTest_0201_移除重复节点.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "faceTest_0201_移除重复节点.hpp"; sourceTree = "<group>"; };
 		65B5374A250903DB00FE9807 /* 203_移除链表元素.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "203_移除链表元素.cpp"; sourceTree = "<group>"; };
 		65B5374B250903DB00FE9807 /* 203_移除链表元素.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "203_移除链表元素.hpp"; sourceTree = "<group>"; };
+		65B6820D250F583A00C039AB /* 160_相交链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "160_相交链表.cpp"; sourceTree = "<group>"; };
+		65B6820E250F583A00C039AB /* 160_相交链表.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "160_相交链表.hpp"; sourceTree = "<group>"; };
+		65D2EAAF250F4214009DC352 /* faceTest_0207_链表相交.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "faceTest_0207_链表相交.cpp"; sourceTree = "<group>"; };
+		65D2EAB0250F4214009DC352 /* faceTest_0207_链表相交.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "faceTest_0207_链表相交.hpp"; sourceTree = "<group>"; };
+		65D2EAB2250F4AE0009DC352 /* 21_合并两个有序链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "21_合并两个有序链表.cpp"; sourceTree = "<group>"; };
+		65D2EAB3250F4AE0009DC352 /* 21_合并两个有序链表.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "21_合并两个有序链表.hpp"; sourceTree = "<group>"; };
+		65D2EAB5250F52D5009DC352 /* offer_52_两个链表的第一个公共节点.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "offer_52_两个链表的第一个公共节点.cpp"; sourceTree = "<group>"; };
+		65D2EAB6250F52D5009DC352 /* offer_52_两个链表的第一个公共节点.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "offer_52_两个链表的第一个公共节点.hpp"; sourceTree = "<group>"; };
+		65D2EAB8250F53E9009DC352 /* offer_18_删除链表的节点.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "offer_18_删除链表的节点.cpp"; sourceTree = "<group>"; };
+		65D2EAB9250F53E9009DC352 /* offer_18_删除链表的节点.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "offer_18_删除链表的节点.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +104,14 @@
 		65118AEC2508E907004D8F15 /* 链表 */ = {
 			isa = PBXGroup;
 			children = (
+				65D2EAB2250F4AE0009DC352 /* 21_合并两个有序链表.cpp */,
+				65D2EAB3250F4AE0009DC352 /* 21_合并两个有序链表.hpp */,
 				654466B52509111000E5959E /* 83_删除排序链表中的重复元素.cpp */,
 				654466B62509111000E5959E /* 83_删除排序链表中的重复元素.hpp */,
 				65118AFC2508FF79004D8F15 /* 141_环形链表.cpp */,
 				65118AFD2508FF79004D8F15 /* 141_环形链表.hpp */,
+				65B6820D250F583A00C039AB /* 160_相交链表.cpp */,
+				65B6820E250F583A00C039AB /* 160_相交链表.hpp */,
 				65B5374A250903DB00FE9807 /* 203_移除链表元素.cpp */,
 				65B5374B250903DB00FE9807 /* 203_移除链表元素.hpp */,
 				65118AF62508F3E4004D8F15 /* 206_反转链表.cpp */,
@@ -105,14 +124,20 @@
 				65870725250B9C5D005BFEC2 /* 1290_二进制链表转整数.hpp */,
 				6587072D250BA768005BFEC2 /* offer_06_从尾到头打印链表.cpp */,
 				6587072E250BA768005BFEC2 /* offer_06_从尾到头打印链表.hpp */,
+				65D2EAB8250F53E9009DC352 /* offer_18_删除链表的节点.cpp */,
+				65D2EAB9250F53E9009DC352 /* offer_18_删除链表的节点.hpp */,
 				65870727250BA06C005BFEC2 /* offer_22_链表中倒数第k个节点.cpp */,
 				65870728250BA06C005BFEC2 /* offer_22_链表中倒数第k个节点.hpp */,
 				65870730250BB3F1005BFEC2 /* offer_24_反转链表.cpp */,
 				65870731250BB3F1005BFEC2 /* offer_24_反转链表.hpp */,
+				65D2EAB5250F52D5009DC352 /* offer_52_两个链表的第一个公共节点.cpp */,
+				65D2EAB6250F52D5009DC352 /* offer_52_两个链表的第一个公共节点.hpp */,
 				65870733250BB560005BFEC2 /* faceTest_0201_移除重复节点.cpp */,
 				65870734250BB560005BFEC2 /* faceTest_0201_移除重复节点.hpp */,
 				6587072A250BA320005BFEC2 /* faceTest_0202_返回倒数第 k 个节点.cpp */,
 				6587072B250BA320005BFEC2 /* faceTest_0202_返回倒数第 k 个节点.hpp */,
+				65D2EAAF250F4214009DC352 /* faceTest_0207_链表相交.cpp */,
+				65D2EAB0250F4214009DC352 /* faceTest_0207_链表相交.hpp */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -223,22 +248,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				65870729250BA06C005BFEC2 /* offer_22_链表中倒数第k个节点.cpp in Sources */,
+				65B6820F250F583A00C039AB /* 160_相交链表.cpp in Sources */,
 				65118AFB2508F836004D8F15 /* ListNode.hpp in Sources */,
 				65B5374C250903DB00FE9807 /* 203_移除链表元素.cpp in Sources */,
 				65118AE72508CFBD004D8F15 /* 509_斐波那契数.cpp in Sources */,
 				654466B72509111000E5959E /* 83_删除排序链表中的重复元素.cpp in Sources */,
 				65870726250B9C5D005BFEC2 /* 1290_二进制链表转整数.cpp in Sources */,
+				65D2EAB4250F4AE0009DC352 /* 21_合并两个有序链表.cpp in Sources */,
+				65D2EAB7250F52D5009DC352 /* offer_52_两个链表的第一个公共节点.cpp in Sources */,
 				6587072F250BA768005BFEC2 /* offer_06_从尾到头打印链表.cpp in Sources */,
 				65870735250BB560005BFEC2 /* faceTest_0201_移除重复节点.cpp in Sources */,
 				65870732250BB3F1005BFEC2 /* offer_24_反转链表.cpp in Sources */,
 				65118AF32508EC4B004D8F15 /* 14_最长公共前缀.cpp in Sources */,
 				658295E124ED057E0077E48E /* main.cpp in Sources */,
+				65D2EABA250F53E9009DC352 /* offer_18_删除链表的节点.cpp in Sources */,
 				654466BA2509134800E5959E /* 876_链表的中间节点.cpp in Sources */,
 				6587072C250BA320005BFEC2 /* faceTest_0202_返回倒数第 k 个节点.cpp in Sources */,
 				65118AFE2508FF79004D8F15 /* 141_环形链表.cpp in Sources */,
 				65118AEF2508EA58004D8F15 /* 237_删除链表中的节点.cpp in Sources */,
 				65118AE92508D175004D8F15 /* 5_最长回文子串.cpp in Sources */,
 				65118AF82508F3E4004D8F15 /* 206_反转链表.cpp in Sources */,
+				65D2EAB1250F4214009DC352 /* faceTest_0207_链表相交.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
