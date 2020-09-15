@@ -44,20 +44,43 @@
 bool isValid(string s) {
     
     stack<string> mystack;
-    int length = s.length();
+    int length = s.size();
+    
+    if (length%2==1) {
+        return false;
+    }
     
     for (int i = 0; i<length; i++) {
         string c = s.substr(i,1);
-        if (c == "{" || c == "(" || c == "[" ) {
+        bool res1 = !c.compare("{");
+        bool res2 = !c.compare("(");
+        bool res3 = !c.compare("[");
+        if (res1 || res2 || res3) {
             mystack.push(c);
+        }else{
+            if (mystack.empty()) {
+                return false;
+            }
+            string d = mystack.top();
+            if (!d.compare("{") && !c.compare("}")) {
+                
+            }else if (!d.compare("(") && !c.compare(")")) {
+                
+            }else if (!d.compare("[") && !c.compare("]")) {
+                
+            }else{
+                return false;
+            }
+            mystack.pop();
         }
+
     }
     
-    return false;
+    return mystack.empty();
 }
 
 void _20_test(){
-    string s = "{([])}";
+    string s = "){";
     bool isValidRes = isValid(s);
     
 }
