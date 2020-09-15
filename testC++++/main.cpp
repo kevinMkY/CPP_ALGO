@@ -13,12 +13,15 @@
 #include "21_合并两个有序链表.hpp"
 #include "83_删除排序链表中的重复元素.hpp"
 #include "141_环形链表.hpp"
+#include "150_逆波兰表达式求值.hpp"
 #include "160_相交链表.hpp"
 #include "203_移除链表元素.hpp"
 #include "206_反转链表.hpp"
+#include "224_基本计算器.hpp"
 #include "234_回文链表.hpp"
 #include "237_删除链表中的节点.hpp"
 #include "509_斐波那契数.h"
+#include "856_括号的分数.hpp"
 #include "876_链表的中间节点.hpp"
 #include "1290_二进制链表转整数.hpp"
 #include "offer_06_从尾到头打印链表.hpp"
@@ -33,6 +36,6 @@
 
 int main(int argc, const char * argv[]) {
     
-    _20_test();
+    _224_test();
     return 0;
 }

@@ -18,6 +18,9 @@
 		65282CFF250F6DE000CEFC94 /* 234_回文链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65282CFD250F6DE000CEFC94 /* 234_回文链表.cpp */; };
 		654466B72509111000E5959E /* 83_删除排序链表中的重复元素.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654466B52509111000E5959E /* 83_删除排序链表中的重复元素.cpp */; };
 		654466BA2509134800E5959E /* 876_链表的中间节点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654466B82509134800E5959E /* 876_链表的中间节点.cpp */; };
+		6546F4612510DF8E0016F09D /* 856_括号的分数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6546F45F2510DF8E0016F09D /* 856_括号的分数.cpp */; };
+		6546F4642510F0730016F09D /* 150_逆波兰表达式求值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6546F4622510F0730016F09D /* 150_逆波兰表达式求值.cpp */; };
+		6546F4672510F5650016F09D /* 224_基本计算器.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6546F4652510F5650016F09D /* 224_基本计算器.cpp */; };
 		658295E124ED057E0077E48E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 658295E024ED057E0077E48E /* main.cpp */; };
 		65870726250B9C5D005BFEC2 /* 1290_二进制链表转整数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65870724250B9C5D005BFEC2 /* 1290_二进制链表转整数.cpp */; };
 		65870729250BA06C005BFEC2 /* offer_22_链表中倒数第k个节点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65870727250BA06C005BFEC2 /* offer_22_链表中倒数第k个节点.cpp */; };
@@ -69,6 +72,12 @@
 		654466B62509111000E5959E /* 83_删除排序链表中的重复元素.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "83_删除排序链表中的重复元素.hpp"; sourceTree = "<group>"; };
 		654466B82509134800E5959E /* 876_链表的中间节点.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "876_链表的中间节点.cpp"; sourceTree = "<group>"; };
 		654466B92509134800E5959E /* 876_链表的中间节点.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "876_链表的中间节点.hpp"; sourceTree = "<group>"; };
+		6546F45F2510DF8E0016F09D /* 856_括号的分数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "856_括号的分数.cpp"; sourceTree = "<group>"; };
+		6546F4602510DF8E0016F09D /* 856_括号的分数.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "856_括号的分数.hpp"; sourceTree = "<group>"; };
+		6546F4622510F0730016F09D /* 150_逆波兰表达式求值.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "150_逆波兰表达式求值.cpp"; sourceTree = "<group>"; };
+		6546F4632510F0730016F09D /* 150_逆波兰表达式求值.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "150_逆波兰表达式求值.hpp"; sourceTree = "<group>"; };
+		6546F4652510F5650016F09D /* 224_基本计算器.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "224_基本计算器.cpp"; sourceTree = "<group>"; };
+		6546F4662510F5650016F09D /* 224_基本计算器.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "224_基本计算器.hpp"; sourceTree = "<group>"; };
 		658295DD24ED057E0077E48E /* testC++++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "testC++++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		658295E024ED057E0077E48E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		65870724250B9C5D005BFEC2 /* 1290_二进制链表转整数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1290_二进制链表转整数.cpp"; sourceTree = "<group>"; };
@@ -210,6 +219,12 @@
 			children = (
 				65CCFBC4250F75E700ECC563 /* 20_有效的括号.cpp */,
 				65CCFBC5250F75E700ECC563 /* 20_有效的括号.hpp */,
+				6546F4622510F0730016F09D /* 150_逆波兰表达式求值.cpp */,
+				6546F4632510F0730016F09D /* 150_逆波兰表达式求值.hpp */,
+				6546F4652510F5650016F09D /* 224_基本计算器.cpp */,
+				6546F4662510F5650016F09D /* 224_基本计算器.hpp */,
+				6546F45F2510DF8E0016F09D /* 856_括号的分数.cpp */,
+				6546F4602510DF8E0016F09D /* 856_括号的分数.hpp */,
 			);
 			path = "栈";
 			sourceTree = "<group>";
@@ -274,6 +289,7 @@
 				65B6820F250F583A00C039AB /* 160_相交链表.cpp in Sources */,
 				65118AFB2508F836004D8F15 /* ListNode.hpp in Sources */,
 				65B5374C250903DB00FE9807 /* 203_移除链表元素.cpp in Sources */,
+				6546F4642510F0730016F09D /* 150_逆波兰表达式求值.cpp in Sources */,
 				65118AE72508CFBD004D8F15 /* 509_斐波那契数.cpp in Sources */,
 				654466B72509111000E5959E /* 83_删除排序链表中的重复元素.cpp in Sources */,
 				65870726250B9C5D005BFEC2 /* 1290_二进制链表转整数.cpp in Sources */,
@@ -287,6 +303,8 @@
 				65870732250BB3F1005BFEC2 /* offer_24_反转链表.cpp in Sources */,
 				65118AF32508EC4B004D8F15 /* 14_最长公共前缀.cpp in Sources */,
 				658295E124ED057E0077E48E /* main.cpp in Sources */,
+				6546F4612510DF8E0016F09D /* 856_括号的分数.cpp in Sources */,
+				6546F4672510F5650016F09D /* 224_基本计算器.cpp in Sources */,
 				65D2EABA250F53E9009DC352 /* offer_18_删除链表的节点.cpp in Sources */,
 				654466BA2509134800E5959E /* 876_链表的中间节点.cpp in Sources */,
 				6587072C250BA320005BFEC2 /* faceTest_0202_返回倒数第 k 个节点.cpp in Sources */,
