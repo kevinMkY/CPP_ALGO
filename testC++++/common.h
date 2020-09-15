@@ -9,6 +9,7 @@
 #define common_h
 
 #include <stdio.h>
+#include <cmath>
 
 
 #pragma mark string
