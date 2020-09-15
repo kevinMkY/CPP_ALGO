@@ -13,7 +13,10 @@
 
 #include <string>
 
+
 #include <vector>
+
+#include <stack>
 
 ////vector的添加数据
 //2     void push_back(数据) 向vector 尾部添加一个数据data
