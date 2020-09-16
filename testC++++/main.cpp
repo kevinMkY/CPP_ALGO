@@ -18,13 +18,20 @@
 #include "203_移除链表元素.hpp"
 #include "206_反转链表.hpp"
 #include "224_基本计算器.hpp"
+#include "232_用栈实现队列.hpp"
 #include "234_回文链表.hpp"
 #include "237_删除链表中的节点.hpp"
+#include "496_下一个更大元素 I.hpp"
 #include "509_斐波那契数.h"
+#include "682_棒球比赛.hpp"
 #include "856_括号的分数.hpp"
 #include "876_链表的中间节点.hpp"
+#include "1021_删除最外层的括号.hpp"
+#include "1047__删除字符串中的所有相邻重复项.hpp"
 #include "1290_二进制链表转整数.hpp"
+#include "1441_用栈操作构建数组.hpp"
 #include "offer_06_从尾到头打印链表.hpp"
+#include "offer_09_用两个栈实现队列.hpp"
 #include "offer_18_删除链表的节点.hpp"
 #include "offer_22_链表中倒数第k个节点.hpp"
 #include "offer_24_反转链表.hpp"
@@ -36,6 +43,7 @@
 
 int main(int argc, const char * argv[]) {
     
-    _224_test();
+    _1441_test();
+//    _offer_09_test();
     return 0;
 }
