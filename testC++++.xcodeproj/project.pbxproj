@@ -42,6 +42,8 @@
 		65FA4BDF2511FFB700FB8651 /* 682_棒球比赛.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65FA4BDD2511FFB700FB8651 /* 682_棒球比赛.cpp */; };
 		65FA4BE22512024E00FB8651 /* 496_下一个更大元素 I.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65FA4BE02512024E00FB8651 /* 496_下一个更大元素 I.cpp */; };
 		65FA4BE5251205FA00FB8651 /* 1441_用栈操作构建数组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65FA4BE3251205FA00FB8651 /* 1441_用栈操作构建数组.cpp */; };
+		65FA4BE825120AD000FB8651 /* faceTest_0302_栈的最小值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65FA4BE625120AD000FB8651 /* faceTest_0302_栈的最小值.cpp */; };
+		65FA4BEB25120D8D00FB8651 /* 844_比较含退格的字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65FA4BE925120D8D00FB8651 /* 844_比较含退格的字符串.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -127,6 +129,11 @@
 		65FA4BE12512024E00FB8651 /* 496_下一个更大元素 I.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "496_下一个更大元素 I.hpp"; sourceTree = "<group>"; };
 		65FA4BE3251205FA00FB8651 /* 1441_用栈操作构建数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1441_用栈操作构建数组.cpp"; sourceTree = "<group>"; };
 		65FA4BE4251205FA00FB8651 /* 1441_用栈操作构建数组.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "1441_用栈操作构建数组.hpp"; sourceTree = "<group>"; };
+		65FA4BE625120AD000FB8651 /* faceTest_0302_栈的最小值.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "faceTest_0302_栈的最小值.cpp"; sourceTree = "<group>"; };
+		65FA4BE725120AD000FB8651 /* faceTest_0302_栈的最小值.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "faceTest_0302_栈的最小值.hpp"; sourceTree = "<group>"; };
+		65FA4BE925120D8D00FB8651 /* 844_比较含退格的字符串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "844_比较含退格的字符串.cpp"; sourceTree = "<group>"; };
+		65FA4BEA25120D8D00FB8651 /* 844_比较含退格的字符串.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "844_比较含退格的字符串.hpp"; sourceTree = "<group>"; };
+		65FA4BEC25120DC000FB8651 /* fileNameHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fileNameHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +233,7 @@
 			children = (
 				658295E024ED057E0077E48E /* main.cpp */,
 				65118AF42508EC7A004D8F15 /* common.h */,
+				65FA4BEC25120DC000FB8651 /* fileNameHeader.h */,
 				65118AFA2508F836004D8F15 /* ListNode.hpp */,
 				65CCFBC3250F75CE00ECC563 /* 栈 */,
 				65118AF02508EBC1004D8F15 /* 字符串 */,
@@ -250,6 +258,8 @@
 				65FA4BE12512024E00FB8651 /* 496_下一个更大元素 I.hpp */,
 				65FA4BDD2511FFB700FB8651 /* 682_棒球比赛.cpp */,
 				65FA4BDE2511FFB700FB8651 /* 682_棒球比赛.hpp */,
+				65FA4BE925120D8D00FB8651 /* 844_比较含退格的字符串.cpp */,
+				65FA4BEA25120D8D00FB8651 /* 844_比较含退格的字符串.hpp */,
 				6546F45F2510DF8E0016F09D /* 856_括号的分数.cpp */,
 				6546F4602510DF8E0016F09D /* 856_括号的分数.hpp */,
 				6546F46D2511F2D30016F09D /* 1021_删除最外层的括号.cpp */,
@@ -260,6 +270,8 @@
 				65FA4BE4251205FA00FB8651 /* 1441_用栈操作构建数组.hpp */,
 				65FA4BD72511F73900FB8651 /* offer_09_用两个栈实现队列.cpp */,
 				65FA4BD82511F73900FB8651 /* offer_09_用两个栈实现队列.hpp */,
+				65FA4BE625120AD000FB8651 /* faceTest_0302_栈的最小值.cpp */,
+				65FA4BE725120AD000FB8651 /* faceTest_0302_栈的最小值.hpp */,
 			);
 			path = "栈";
 			sourceTree = "<group>";
@@ -321,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65870729250BA06C005BFEC2 /* offer_22_链表中倒数第k个节点.cpp in Sources */,
+				65FA4BEB25120D8D00FB8651 /* 844_比较含退格的字符串.cpp in Sources */,
 				65B6820F250F583A00C039AB /* 160_相交链表.cpp in Sources */,
 				65118AFB2508F836004D8F15 /* ListNode.hpp in Sources */,
 				65B5374C250903DB00FE9807 /* 203_移除链表元素.cpp in Sources */,
@@ -353,6 +366,7 @@
 				65118AE92508D175004D8F15 /* 5_最长回文子串.cpp in Sources */,
 				65118AF82508F3E4004D8F15 /* 206_反转链表.cpp in Sources */,
 				65FA4BE5251205FA00FB8651 /* 1441_用栈操作构建数组.cpp in Sources */,
+				65FA4BE825120AD000FB8651 /* faceTest_0302_栈的最小值.cpp in Sources */,
 				65D2EAB1250F4214009DC352 /* faceTest_0207_链表相交.cpp in Sources */,
 				6546F46C2511ED570016F09D /* 232_用栈实现队列.cpp in Sources */,
 			);
