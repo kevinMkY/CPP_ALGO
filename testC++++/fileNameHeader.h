@@ -24,12 +24,14 @@
 #include "232_用栈实现队列.hpp"
 #include "234_回文链表.hpp"
 #include "237_删除链表中的节点.hpp"
+#include "239_滑动窗口最大值.hpp"
 #include "496_下一个更大元素 I.hpp"
 #include "509_斐波那契数.h"
 #include "682_棒球比赛.hpp"
 #include "844_比较含退格的字符串.hpp"
 #include "856_括号的分数.hpp"
 #include "876_链表的中间节点.hpp"
+#include "933_最近的请求次数.hpp"
 #include "1021_删除最外层的括号.hpp"
 #include "1047__删除字符串中的所有相邻重复项.hpp"
 #include "1290_二进制链表转整数.hpp"
@@ -43,7 +45,7 @@
 #include "offer_22_链表中倒数第k个节点.hpp"
 #include "offer_24_反转链表.hpp"
 #include "offer_52_两个链表的第一个公共节点.hpp"
-
+#include "offer_59_滑动窗口的最大值.hpp"
 
 #pragma mark faceTest
 #include "faceTest_0201_移除重复节点.hpp"

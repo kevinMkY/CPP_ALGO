@@ -32,6 +32,9 @@
 		65870735250BB560005BFEC2 /* faceTest_0201_移除重复节点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65870733250BB560005BFEC2 /* faceTest_0201_移除重复节点.cpp */; };
 		65A1285A25135967008E24AF /* 1544_整理字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1285825135967008E24AF /* 1544_整理字符串.cpp */; };
 		65A1285E251374BE008E24AF /* 225_用队列实现栈.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1285C251374BE008E24AF /* 225_用队列实现栈.cpp */; };
+		65A1286425138DAE008E24AF /* 933_最近的请求次数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1286225138DAE008E24AF /* 933_最近的请求次数.cpp */; };
+		65A1286925139293008E24AF /* offer_59_滑动窗口的最大值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1286725139293008E24AF /* offer_59_滑动窗口的最大值.cpp */; };
+		65A1286D2513A84B008E24AF /* 239_滑动窗口最大值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1286B2513A84B008E24AF /* 239_滑动窗口最大值.cpp */; };
 		65B5374C250903DB00FE9807 /* 203_移除链表元素.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65B5374A250903DB00FE9807 /* 203_移除链表元素.cpp */; };
 		65B6820F250F583A00C039AB /* 160_相交链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65B6820D250F583A00C039AB /* 160_相交链表.cpp */; };
 		65CCFBC6250F75E700ECC563 /* 20_有效的括号.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65CCFBC4250F75E700ECC563 /* 20_有效的括号.cpp */; };
@@ -111,6 +114,12 @@
 		65A1285925135967008E24AF /* 1544_整理字符串.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "1544_整理字符串.hpp"; sourceTree = "<group>"; };
 		65A1285C251374BE008E24AF /* 225_用队列实现栈.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "225_用队列实现栈.cpp"; sourceTree = "<group>"; };
 		65A1285D251374BE008E24AF /* 225_用队列实现栈.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "225_用队列实现栈.hpp"; sourceTree = "<group>"; };
+		65A1286225138DAE008E24AF /* 933_最近的请求次数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "933_最近的请求次数.cpp"; sourceTree = "<group>"; };
+		65A1286325138DAE008E24AF /* 933_最近的请求次数.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "933_最近的请求次数.hpp"; sourceTree = "<group>"; };
+		65A1286725139293008E24AF /* offer_59_滑动窗口的最大值.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "offer_59_滑动窗口的最大值.cpp"; sourceTree = "<group>"; };
+		65A1286825139293008E24AF /* offer_59_滑动窗口的最大值.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "offer_59_滑动窗口的最大值.hpp"; sourceTree = "<group>"; };
+		65A1286B2513A84B008E24AF /* 239_滑动窗口最大值.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "239_滑动窗口最大值.cpp"; sourceTree = "<group>"; };
+		65A1286C2513A84B008E24AF /* 239_滑动窗口最大值.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "239_滑动窗口最大值.hpp"; sourceTree = "<group>"; };
 		65B5374A250903DB00FE9807 /* 203_移除链表元素.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "203_移除链表元素.cpp"; sourceTree = "<group>"; };
 		65B5374B250903DB00FE9807 /* 203_移除链表元素.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "203_移除链表元素.hpp"; sourceTree = "<group>"; };
 		65B6820D250F583A00C039AB /* 160_相交链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "160_相交链表.cpp"; sourceTree = "<group>"; };
@@ -241,12 +250,26 @@
 				65118AF42508EC7A004D8F15 /* common.h */,
 				65FA4BEC25120DC000FB8651 /* fileNameHeader.h */,
 				65118AFA2508F836004D8F15 /* ListNode.hpp */,
+				65A1286025138D9D008E24AF /* 队列 */,
 				65CCFBC3250F75CE00ECC563 /* 栈 */,
 				65118AF02508EBC1004D8F15 /* 字符串 */,
 				65118AEC2508E907004D8F15 /* 链表 */,
 				65118AF52508EEB9004D8F15 /* 数字计算 */,
 			);
 			path = "testC++++";
+			sourceTree = "<group>";
+		};
+		65A1286025138D9D008E24AF /* 队列 */ = {
+			isa = PBXGroup;
+			children = (
+				65A1286225138DAE008E24AF /* 933_最近的请求次数.cpp */,
+				65A1286325138DAE008E24AF /* 933_最近的请求次数.hpp */,
+				65A1286725139293008E24AF /* offer_59_滑动窗口的最大值.cpp */,
+				65A1286825139293008E24AF /* offer_59_滑动窗口的最大值.hpp */,
+				65A1286B2513A84B008E24AF /* 239_滑动窗口最大值.cpp */,
+				65A1286C2513A84B008E24AF /* 239_滑动窗口最大值.hpp */,
+			);
+			path = "队列";
 			sourceTree = "<group>";
 		};
 		65CCFBC3250F75CE00ECC563 /* 栈 */ = {
@@ -343,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65870729250BA06C005BFEC2 /* offer_22_链表中倒数第k个节点.cpp in Sources */,
+				65A1286925139293008E24AF /* offer_59_滑动窗口的最大值.cpp in Sources */,
 				65FA4BEB25120D8D00FB8651 /* 844_比较含退格的字符串.cpp in Sources */,
 				65B6820F250F583A00C039AB /* 160_相交链表.cpp in Sources */,
 				65118AFB2508F836004D8F15 /* ListNode.hpp in Sources */,
@@ -350,11 +374,13 @@
 				65FA4BD92511F73900FB8651 /* offer_09_用两个栈实现队列.cpp in Sources */,
 				65A1285E251374BE008E24AF /* 225_用队列实现栈.cpp in Sources */,
 				6546F4642510F0730016F09D /* 150_逆波兰表达式求值.cpp in Sources */,
+				65A1286D2513A84B008E24AF /* 239_滑动窗口最大值.cpp in Sources */,
 				65FA4BDC2511F9D000FB8651 /* 1047__删除字符串中的所有相邻重复项.cpp in Sources */,
 				65118AE72508CFBD004D8F15 /* 509_斐波那契数.cpp in Sources */,
 				654466B72509111000E5959E /* 83_删除排序链表中的重复元素.cpp in Sources */,
 				65870726250B9C5D005BFEC2 /* 1290_二进制链表转整数.cpp in Sources */,
 				65D2EAB4250F4AE0009DC352 /* 21_合并两个有序链表.cpp in Sources */,
+				65A1286425138DAE008E24AF /* 933_最近的请求次数.cpp in Sources */,
 				65282CFF250F6DE000CEFC94 /* 234_回文链表.cpp in Sources */,
 				65282CFC250F5E0C00CEFC94 /* faceTest_0206_回文链表.cpp in Sources */,
 				65D2EAB7250F52D5009DC352 /* offer_52_两个链表的第一个公共节点.cpp in Sources */,
