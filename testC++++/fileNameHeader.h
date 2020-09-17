@@ -33,6 +33,7 @@
 #include "1047__删除字符串中的所有相邻重复项.hpp"
 #include "1290_二进制链表转整数.hpp"
 #include "1441_用栈操作构建数组.hpp"
+#include "1544_整理字符串.hpp"
 
 #pragma mark offer
 #include "offer_06_从尾到头打印链表.hpp"

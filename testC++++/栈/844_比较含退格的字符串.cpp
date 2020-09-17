@@ -115,10 +115,10 @@ void _844_test(){
     string S3 = "a##c", T3 = "#a#c";
     string S4 = "a#c", T4 = "b";
     string S5 = "bbbextm", T5 = "bbb#extm";
-    bool res1 = backspaceCompare2(S1, T1);
-    bool res2 = backspaceCompare2(S2, T2);
-    bool res3 = backspaceCompare2(S3, T3);
-    bool res4 = backspaceCompare2(S4, T4);
-    bool res5 = backspaceCompare2(S5, T5);
+    bool res1 = backspaceCompare(S1, T1);
+    bool res2 = backspaceCompare(S2, T2);
+    bool res3 = backspaceCompare(S3, T3);
+    bool res4 = backspaceCompare(S4, T4);
+    bool res5 = backspaceCompare(S5, T5);
     
 }
