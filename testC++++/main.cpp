@@ -10,7 +10,7 @@
 
 int main(int argc, const char * argv[]) {
     
-    _1544_test();
+    _225_test();
 //    _offer_09_test();
 //    _facetest_0302_test();
     return 0;

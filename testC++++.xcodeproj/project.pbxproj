@@ -31,6 +31,7 @@
 		65870732250BB3F1005BFEC2 /* offer_24_反转链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65870730250BB3F1005BFEC2 /* offer_24_反转链表.cpp */; };
 		65870735250BB560005BFEC2 /* faceTest_0201_移除重复节点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65870733250BB560005BFEC2 /* faceTest_0201_移除重复节点.cpp */; };
 		65A1285A25135967008E24AF /* 1544_整理字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1285825135967008E24AF /* 1544_整理字符串.cpp */; };
+		65A1285E251374BE008E24AF /* 225_用队列实现栈.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1285C251374BE008E24AF /* 225_用队列实现栈.cpp */; };
 		65B5374C250903DB00FE9807 /* 203_移除链表元素.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65B5374A250903DB00FE9807 /* 203_移除链表元素.cpp */; };
 		65B6820F250F583A00C039AB /* 160_相交链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65B6820D250F583A00C039AB /* 160_相交链表.cpp */; };
 		65CCFBC6250F75E700ECC563 /* 20_有效的括号.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65CCFBC4250F75E700ECC563 /* 20_有效的括号.cpp */; };
@@ -108,6 +109,8 @@
 		65870734250BB560005BFEC2 /* faceTest_0201_移除重复节点.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "faceTest_0201_移除重复节点.hpp"; sourceTree = "<group>"; };
 		65A1285825135967008E24AF /* 1544_整理字符串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1544_整理字符串.cpp"; sourceTree = "<group>"; };
 		65A1285925135967008E24AF /* 1544_整理字符串.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "1544_整理字符串.hpp"; sourceTree = "<group>"; };
+		65A1285C251374BE008E24AF /* 225_用队列实现栈.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "225_用队列实现栈.cpp"; sourceTree = "<group>"; };
+		65A1285D251374BE008E24AF /* 225_用队列实现栈.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "225_用队列实现栈.hpp"; sourceTree = "<group>"; };
 		65B5374A250903DB00FE9807 /* 203_移除链表元素.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "203_移除链表元素.cpp"; sourceTree = "<group>"; };
 		65B5374B250903DB00FE9807 /* 203_移除链表元素.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "203_移除链表元素.hpp"; sourceTree = "<group>"; };
 		65B6820D250F583A00C039AB /* 160_相交链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "160_相交链表.cpp"; sourceTree = "<group>"; };
@@ -255,6 +258,8 @@
 				6546F4632510F0730016F09D /* 150_逆波兰表达式求值.hpp */,
 				6546F4652510F5650016F09D /* 224_基本计算器.cpp */,
 				6546F4662510F5650016F09D /* 224_基本计算器.hpp */,
+				65A1285C251374BE008E24AF /* 225_用队列实现栈.cpp */,
+				65A1285D251374BE008E24AF /* 225_用队列实现栈.hpp */,
 				6546F46A2511ED570016F09D /* 232_用栈实现队列.cpp */,
 				6546F46B2511ED570016F09D /* 232_用栈实现队列.hpp */,
 				65FA4BE02512024E00FB8651 /* 496_下一个更大元素 I.cpp */,
@@ -343,6 +348,7 @@
 				65118AFB2508F836004D8F15 /* ListNode.hpp in Sources */,
 				65B5374C250903DB00FE9807 /* 203_移除链表元素.cpp in Sources */,
 				65FA4BD92511F73900FB8651 /* offer_09_用两个栈实现队列.cpp in Sources */,
+				65A1285E251374BE008E24AF /* 225_用队列实现栈.cpp in Sources */,
 				6546F4642510F0730016F09D /* 150_逆波兰表达式求值.cpp in Sources */,
 				65FA4BDC2511F9D000FB8651 /* 1047__删除字符串中的所有相邻重复项.cpp in Sources */,
 				65118AE72508CFBD004D8F15 /* 509_斐波那契数.cpp in Sources */,
