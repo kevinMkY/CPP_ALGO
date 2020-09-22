@@ -21,6 +21,7 @@
 #include "206_反转链表.hpp"
 #include "224_基本计算器.hpp"
 #include "225_用队列实现栈.hpp"
+#include "226_翻转二叉树.hpp"
 #include "232_用栈实现队列.hpp"
 #include "234_回文链表.hpp"
 #include "237_删除链表中的节点.hpp"

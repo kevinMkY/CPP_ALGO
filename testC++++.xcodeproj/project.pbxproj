@@ -37,6 +37,7 @@
 		65A1286D2513A84B008E24AF /* 239_滑动窗口最大值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A1286B2513A84B008E24AF /* 239_滑动窗口最大值.cpp */; };
 		65B5374C250903DB00FE9807 /* 203_移除链表元素.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65B5374A250903DB00FE9807 /* 203_移除链表元素.cpp */; };
 		65B6820F250F583A00C039AB /* 160_相交链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65B6820D250F583A00C039AB /* 160_相交链表.cpp */; };
+		65C28C6A2519DA9F00C94E7C /* 226_翻转二叉树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65C28C682519DA9F00C94E7C /* 226_翻转二叉树.cpp */; };
 		65CCFBC6250F75E700ECC563 /* 20_有效的括号.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65CCFBC4250F75E700ECC563 /* 20_有效的括号.cpp */; };
 		65D2EAB1250F4214009DC352 /* faceTest_0207_链表相交.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D2EAAF250F4214009DC352 /* faceTest_0207_链表相交.cpp */; };
 		65D2EAB4250F4AE0009DC352 /* 21_合并两个有序链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D2EAB2250F4AE0009DC352 /* 21_合并两个有序链表.cpp */; };
@@ -124,6 +125,9 @@
 		65B5374B250903DB00FE9807 /* 203_移除链表元素.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "203_移除链表元素.hpp"; sourceTree = "<group>"; };
 		65B6820D250F583A00C039AB /* 160_相交链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "160_相交链表.cpp"; sourceTree = "<group>"; };
 		65B6820E250F583A00C039AB /* 160_相交链表.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "160_相交链表.hpp"; sourceTree = "<group>"; };
+		65C28C682519DA9F00C94E7C /* 226_翻转二叉树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "226_翻转二叉树.cpp"; sourceTree = "<group>"; };
+		65C28C692519DA9F00C94E7C /* 226_翻转二叉树.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "226_翻转二叉树.hpp"; sourceTree = "<group>"; };
+		65C28C6D2519DC5A00C94E7C /* TreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TreeNode.hpp; sourceTree = "<group>"; };
 		65CCFBC4250F75E700ECC563 /* 20_有效的括号.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "20_有效的括号.cpp"; sourceTree = "<group>"; };
 		65CCFBC5250F75E700ECC563 /* 20_有效的括号.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "20_有效的括号.hpp"; sourceTree = "<group>"; };
 		65D2EAAF250F4214009DC352 /* faceTest_0207_链表相交.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "faceTest_0207_链表相交.cpp"; sourceTree = "<group>"; };
@@ -250,6 +254,8 @@
 				65118AF42508EC7A004D8F15 /* common.h */,
 				65FA4BEC25120DC000FB8651 /* fileNameHeader.h */,
 				65118AFA2508F836004D8F15 /* ListNode.hpp */,
+				65C28C6D2519DC5A00C94E7C /* TreeNode.hpp */,
+				65C28C672519DA6F00C94E7C /* 二叉树 */,
 				65A1286025138D9D008E24AF /* 队列 */,
 				65CCFBC3250F75CE00ECC563 /* 栈 */,
 				65118AF02508EBC1004D8F15 /* 字符串 */,
@@ -270,6 +276,15 @@
 				65A1286C2513A84B008E24AF /* 239_滑动窗口最大值.hpp */,
 			);
 			path = "队列";
+			sourceTree = "<group>";
+		};
+		65C28C672519DA6F00C94E7C /* 二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				65C28C682519DA9F00C94E7C /* 226_翻转二叉树.cpp */,
+				65C28C692519DA9F00C94E7C /* 226_翻转二叉树.hpp */,
+			);
+			path = "二叉树";
 			sourceTree = "<group>";
 		};
 		65CCFBC3250F75CE00ECC563 /* 栈 */ = {
@@ -399,6 +414,7 @@
 				654466BA2509134800E5959E /* 876_链表的中间节点.cpp in Sources */,
 				6587072C250BA320005BFEC2 /* faceTest_0202_返回倒数第 k 个节点.cpp in Sources */,
 				65118AFE2508FF79004D8F15 /* 141_环形链表.cpp in Sources */,
+				65C28C6A2519DA9F00C94E7C /* 226_翻转二叉树.cpp in Sources */,
 				65118AEF2508EA58004D8F15 /* 237_删除链表中的节点.cpp in Sources */,
 				65118AE92508D175004D8F15 /* 5_最长回文子串.cpp in Sources */,
 				65118AF82508F3E4004D8F15 /* 206_反转链表.cpp in Sources */,
