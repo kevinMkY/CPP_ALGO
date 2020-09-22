@@ -17,6 +17,9 @@ struct TreeNode {
 
 
 static TreeNode *AddNodeToTree(TreeNode *root,int val){
+    if (val == NULL) {
+        return root;
+    }
     if (root == nullptr) {
         TreeNode *node = new TreeNode(val);
         return node;
