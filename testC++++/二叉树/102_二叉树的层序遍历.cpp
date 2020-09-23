@@ -69,9 +69,9 @@ void _102_test(){
     
     
     vector<int> list1 = {4,2,7,1,3,6,9};
-    vector<int> list2 = {3,9,20,NULL,NULL,15,7};    //注意,这个带NULL的数据生成的tree是与题目不符的
+    vector<int> list2 = {3,9,20,NULL,NULL,15,7};
     TreeNode *node1 = initTreeWithVector(list1);
-    TreeNode *node2 = initTreeWithVector(list2);
+    TreeNode *node2 = initTreeWithNULLVector(list2);
 //    TreeNode *node1 = initTreeWithVector(list1);
     
     vector<vector<int>> res1 = levelOrder1(node1);
