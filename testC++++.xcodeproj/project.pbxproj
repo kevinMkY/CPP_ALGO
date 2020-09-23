@@ -98,6 +98,7 @@
 		65282CFB250F5E0C00CEFC94 /* faceTest_0206_回文链表.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "faceTest_0206_回文链表.hpp"; sourceTree = "<group>"; };
 		65282CFD250F6DE000CEFC94 /* 234_回文链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "234_回文链表.cpp"; sourceTree = "<group>"; };
 		65282CFE250F6DE000CEFC94 /* 234_回文链表.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "234_回文链表.hpp"; sourceTree = "<group>"; };
+		652FAB73251B400700AB91C6 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		654466B52509111000E5959E /* 83_删除排序链表中的重复元素.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "83_删除排序链表中的重复元素.cpp"; sourceTree = "<group>"; };
 		654466B62509111000E5959E /* 83_删除排序链表中的重复元素.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "83_删除排序链表中的重复元素.hpp"; sourceTree = "<group>"; };
 		654466B82509134800E5959E /* 876_链表的中间节点.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "876_链表的中间节点.cpp"; sourceTree = "<group>"; };
@@ -300,6 +301,7 @@
 				65FA4BEC25120DC000FB8651 /* fileNameHeader.h */,
 				65118AFA2508F836004D8F15 /* ListNode.hpp */,
 				65C28C6D2519DC5A00C94E7C /* TreeNode.hpp */,
+				652FAB73251B400700AB91C6 /* Node.hpp */,
 				65C28C672519DA6F00C94E7C /* 二叉树 */,
 				65A1286025138D9D008E24AF /* 队列 */,
 				65CCFBC3250F75CE00ECC563 /* 栈 */,

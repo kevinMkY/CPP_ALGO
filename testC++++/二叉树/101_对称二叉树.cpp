@@ -38,19 +38,33 @@
 //链接：https://leetcode-cn.com/problems/symmetric-tree
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
+//递归
+bool isSymmetric1(TreeNode* root) {
+    
+    return false;
+    }
+
+//迭代
+bool isSymmetric2(TreeNode* root) {
+    
+    if (root == nullptr) {
+        return true;
+    }
+    deque<pair<TreeNode *, int>>myqueue;
+    myqueue.push_back({root,1});
+    
+    return false;
+}
+
 void _101_test(){
     
-    
-    vector<int> list1 = {4,2,7,1,3,6,9};
-    vector<int> list2 = {3,9,20,NULL,NULL,15,7};
+    vector<int> list1 = {1,2,2,3,4,4,3};
+    vector<int> list2 = {1,2,2,NULL,3,NULL,3};
     TreeNode *node1 = initTreeWithVector(list1);
     TreeNode *node2 = initTreeWithNULLVector(list2);
-//    TreeNode *node1 = initTreeWithVector(list1);
     
-//    int res1 = maxDepth1(node1);
-//    int res2 = maxDepth1(node2);
+    bool res1 = isSymmetric1(node1);
+    bool res2 = isSymmetric2(node1);
     
-//    int res3 = maxDepth2(node1);
-//    int res4 = maxDepth2(node2);
-    
+
 }

@@ -33,8 +33,31 @@
 
 vector<vector<int>> levelOrderBottom1(TreeNode* root) {
     vector<vector<int>> res;
-    
+    if (root == nullptr) {
+        return res;
+    }
     vector<int> levelRes;
+    queue<TreeNode *> myqueue;
+    myqueue.push(root);
+    int size = 1;
+    while (!myqueue.empty()) {
+        TreeNode *node = myqueue.front();
+        myqueue.pop();
+        levelRes.push_back(node->val);
+        size--;
+        if (node->left) {
+            myqueue.push(node->left);
+        }
+        if (node->right) {
+            myqueue.push(node->right);
+        }
+        if (size == 0) {
+            size = myqueue.size();
+            res.push_back(levelRes);
+            levelRes = {};
+        }
+    }
+    reverse(res.begin(), res.end());
     return res;
     }
 

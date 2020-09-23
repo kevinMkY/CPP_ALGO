@@ -7,6 +7,7 @@
 
 #include "559_N叉树的最大深度.hpp"
 #include "common.h"
+#include "Node.hpp"
 
 //给定一个 N 叉树，找到其最大深度。
 //
@@ -31,20 +32,64 @@
 //链接：https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
+//递归
+int maxDepth1(Node* root) {
+    
+    int h = 0;
+    if (root == nullptr) {
+        return h;
+    }
+    
+    vector<Node *>childs = root->children;
+    
+    for (int i = 0; i<childs.size(); i++) {
+        Node *child = childs[i];
+        h = max(h, maxDepth1(child));
+    }
+    
+    return h + 1;
+    }
+
+//迭代
+int maxDepth2(Node* root) {
+    
+    int h = 0;
+    if (root == nullptr) {
+        return h;
+    }
+    
+    queue<Node *> myqueue;
+    myqueue.push(root);
+    h = 0;
+    int size = 1;
+    while (!myqueue.empty()) {
+        Node *node = myqueue.front();
+        myqueue.pop();
+        size--;
+        vector<Node *>childs = node->children;
+        for (int i = 0; i<childs.size(); i++) {
+            Node *child = childs[i];
+            myqueue.push(child);
+        }
+        if (size == 0) {
+            size = myqueue.size();
+            h++;
+        }
+    }
+    
+    return h;
+    }
+
 void _559_test(){
     
     
-    vector<int> list1 = {4,2,7,1,3,6,9};
-    vector<int> list2 = {3,9,20,NULL,NULL,15,7};
-    TreeNode *node1 = initTreeWithVector(list1);
-    TreeNode *node2 = initTreeWithNULLVector(list2);
-//    TreeNode *node1 = initTreeWithVector(list1);
+//    vector<int> list1 = {4,2,7,1,3,6,9};
+    vector<int> list2 = {1,NULL,3,2,4,NULL,5,6};
+//    Node *node1 = initNXTreeWithVector(list1);
+    Node *node2 = initNXTreeWithVector(list2);
     
-//    int res1 = maxDepth1(node1);
-//    int res2 = maxDepth1(node2);
-    
-//    int res3 = maxDepth2(node1);
-//    int res4 = maxDepth2(node2);
+    int res3 = maxDepth1(node2);
+    int res4 = maxDepth2(node2);
     
 }
 
