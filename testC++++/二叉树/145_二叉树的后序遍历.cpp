@@ -34,20 +34,6 @@
 vector<int> postorderTraversal1(TreeNode* root) {
 
     vector<int> res;
-    if (root == nullptr) {
-        return res;
-    }
-    
-    vector<int> leftRes = postorderTraversal1(root->left);
-    vector<int> rightRes = postorderTraversal1(root->right);
-    
-    for (int i = 0; i<leftRes.size(); i++) {
-        res.push_back(leftRes[i]);
-    }
-    for (int i = 0; i<rightRes.size(); i++) {
-        res.push_back(rightRes[i]);
-    }
-    res.push_back(root->val);
     
     return res;
     }
@@ -57,29 +43,8 @@ vector<int> postorderTraversal1(TreeNode* root) {
 //这道题的难点在于仅利用栈去判断该节点是否为父结点，创新性思路是每次在栈中压入父节点后压入nullptr，之后再依次压入右子节点和左子节点。
 vector<int> postorderTraversal2(TreeNode* root) {
 
-    if (root == nullptr) return {};
-    stack<TreeNode*> stk;
-    stk.push(root);
     vector<int> res;
     
-    while (!stk.empty()) {
-        TreeNode *node = stk.top();
-        if (node == nullptr) {  //stk里的null全是父节点之后自己塞的占位用的,不会是因为节点本身=null而塞进去
-            stk.pop();
-            node = stk.top();
-            stk.pop();
-            res.push_back(node->val);
-            continue;
-        }
-        stk.push(nullptr);
-        if (node->right) {
-            stk.push(node->right);
-        }
-        if (node->left) {
-            stk.push(node->left);
-        }
-        
-    }
     return res;
             
 }
@@ -91,27 +56,8 @@ vector<int> postorderTraversal2(TreeNode* root) {
 //前序-->中左右-->将左右入栈交换下顺序-->中右左-->颠倒一下-->左右中
 
 vector<int> postorderTraversal3(TreeNode* root) {
-    stack<TreeNode*> st;
+    
     vector<int> result;
-    
-    if (root==nullptr) {
-        return result;
-    }
-    
-    st.push(root);
-    while (!st.empty()) {
-        TreeNode *cur = st.top();
-        st.pop();
-        result.push_back(cur->val);
-        if (cur->left) {
-            st.push(cur->left);
-        }
-        if (cur->right) {
-            st.push(cur->right);
-        }
-    }
-    
-    reverse(result.begin(), result.end());
     
     return result;
 }

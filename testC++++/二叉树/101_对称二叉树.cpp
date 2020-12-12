@@ -47,11 +47,7 @@ bool isSymmetric1(TreeNode* root) {
 //迭代
 bool isSymmetric2(TreeNode* root) {
     
-    if (root == nullptr) {
-        return true;
-    }
-    deque<pair<TreeNode *, int>>myqueue;
-    myqueue.push_back({root,1});
+    
     
     return false;
 }

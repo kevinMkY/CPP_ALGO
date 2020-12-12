@@ -35,29 +35,6 @@ int maxDepth1(TreeNode* root) {
     
     int h = 0;
     
-    if (root == nullptr) {
-        return h;
-    }
-    
-    queue<TreeNode *> myqueue;
-    myqueue.push(root);
-    int size = 1;
-    while (!myqueue.empty()) {
-        TreeNode *tmp = myqueue.front();
-        myqueue.pop();
-        size--;
-        if (tmp->left) {
-            myqueue.push(tmp->left);
-        }
-        if (tmp->right) {
-            myqueue.push(tmp->right);
-        }
-        if (size == 0) {
-            size = myqueue.size();
-            h++;
-        }
-    }
-    
     return h;
     }
 
@@ -66,12 +43,6 @@ int maxDepth2(TreeNode* root) {
     
     int h = 0;
     
-    if (root == nullptr) {
-        return h;
-    }else if (root->left == nullptr && root->right == nullptr){
-        return 1;
-    }
-    h = max(maxDepth2(root->left), maxDepth2(root->right))+1;
     return h;
     }
 

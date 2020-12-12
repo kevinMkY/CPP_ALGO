@@ -69,33 +69,7 @@
 
 int widthOfBinaryTree1(TreeNode* root) {
     unsigned long long w = 0;
-    if (root == nullptr) {
-        return w;
-    }
-
-    vector<unsigned long long> levelRes;
-    queue<pair<TreeNode *,unsigned long long>> myqueue;
-    myqueue.push({root,1});
-    unsigned long long size = 1;
-    while (!myqueue.empty()) {
-        TreeNode *node = myqueue.front().first;
-        unsigned long long pos = myqueue.front().second;
-        levelRes.push_back(pos);
-        myqueue.pop();
-        size--;
-        if (node->left) {
-            myqueue.push({node->left,pos * 2});
-        }
-        if (node->right) {
-            myqueue.push({node->right,pos * 2 + 1});
-        }
-        if (size == 0) {
-            size = myqueue.size();
-            unsigned long long curW = levelRes.back() - levelRes.front() + 1;
-            w = max(w, curW);
-            levelRes = {};
-        }
-    }
+    
     
     return w;
     }

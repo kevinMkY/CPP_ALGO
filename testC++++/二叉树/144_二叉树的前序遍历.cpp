@@ -30,19 +30,7 @@
 vector<int> preorderTraversal1(TreeNode* root) {
     
     vector<int> res;
-    if (root == nullptr || root == NULL) {
-        return res;
-    }
-    res.push_back(root->val);
-    vector<int> leftRes = preorderTraversal1(root->left);
-    vector<int> rightRes = preorderTraversal1(root->right);
     
-    for (int i = 0; i<leftRes.size(); i++) {
-        res.push_back(leftRes[i]);
-    }
-    for (int i = 0; i<rightRes.size(); i++) {
-        res.push_back(rightRes[i]);
-    }
     
     return res;
     }
@@ -50,44 +38,15 @@ vector<int> preorderTraversal1(TreeNode* root) {
 //迭代
 vector<int> preorderTraversal2(TreeNode* root) {
     vector<int> res;
-    if (root == nullptr) {
-        return res;
-    }
     
-    //栈
-    stack<TreeNode *> mystack;
-    mystack.push(root);
-    
-    while (!mystack.empty()) {
-        TreeNode *cur = mystack.top();
-        res.push_back(cur->val);
-        mystack.pop();
-        TreeNode *right = cur->right;
-        TreeNode *left = cur->left;
-        
-        if (right) {
-            mystack.push(right);
-        }
-        if (left) {
-            mystack.push(left);
-        }
-    }
     
     return res;
     }
 
 vector<int> preorderTraversal3(TreeNode* root) {
-    if(root == NULL) return {};
-    stack<TreeNode*> s;
+    
     vector<int> ans;
-    s.push(root);
-    while(!s.empty()){
-        TreeNode* node = s.top();
-        ans.push_back(node->val);
-        s.pop();
-        if(node->right) s.push(node->right);
-        if(node->left) s.push(node->left);
-    }
+    
     return ans;
     }
 

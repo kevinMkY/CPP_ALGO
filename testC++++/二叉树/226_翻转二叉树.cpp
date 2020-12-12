@@ -38,75 +38,26 @@
 
 //前序
 TreeNode* invertTree1(TreeNode* root) {
-    if (root == nullptr) {
-        return nullptr;
-    }
     
-    TreeNode *tmpNode = root->left;
-    root->left = root->right;
-    root->right = tmpNode;
-    
-    invertTree1(root->left);
-    invertTree1(root->right);
     return root;
     }
 
 //中序
 TreeNode* invertTree2(TreeNode* root) {
-    if (root == nullptr) {
-        return nullptr;
-    }
     
-    invertTree2(root->left);
-    TreeNode *tmp = root->left;
-    root->left = root->right;
-    root->right = tmp;
-    invertTree2(root->left);
     
     return root;
     }
 
 //后序
 TreeNode* invertTree3(TreeNode* root) {
-    if (root == nullptr) {
-        return nullptr;
-    }
-    
-    invertTree3(root->left);
-    invertTree3(root->right);
-    TreeNode *tmp = root->left;
-    root->left = root->right;
-    root->right = tmp;
     
     return root;
     }
 
 //层序
 TreeNode* invertTree4(TreeNode* root) {
-    if (root == nullptr) {
-        return nullptr;
-    }
-    
-    queue<TreeNode *> myqueue;
-    
-    myqueue.push(root);
-    
-    while (myqueue.size() > 0) {
-        TreeNode *node = myqueue.front();
-        myqueue.pop();
-        
-        TreeNode *tmp = node->left;
-        node->left = node->right;
-        node->right = tmp;
-        
-        if (node->left != nullptr) {
-            myqueue.push(node->left);
-        }
-        
-        if (node->right != nullptr) {
-            myqueue.push(node->right);
-        }
-    }
+   
     
     return root;
     }

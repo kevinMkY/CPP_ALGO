@@ -34,20 +34,6 @@
 vector<int> postorder1(Node* root) {
 
     vector<int>  res;
-    if (root == nullptr) {
-        return res;
-    }
-    
-    
-    vector<Node*> childs = root->children;
-    for (int i = 0; i<childs.size(); i++) {
-        Node*child = childs[i];
-        vector<int> levelRes = postorder1(child);
-        for (int j = 0; j<levelRes.size(); j++) {
-            res.push_back(levelRes[j]);
-        }
-    }
-    res.push_back(root->val);
     
     return res;
     }
@@ -58,24 +44,6 @@ vector<int> postorder1(Node* root) {
 vector<int> postorder2(Node* root) {
 
     vector<int>  res;
-    if (root == nullptr) {
-        return res;
-    }
-    
-    stack<Node *> stk;
-    stk.push(root);
-    
-    vector<Node *>childs;
-    while (!stk.empty()) {
-        Node* node = stk.top();
-        stk.pop();
-        res.push_back(node->val);
-        childs = node->children;
-        for (int i = 0; i<childs.size(); i++) {
-            Node *child = childs[i];
-            stk.push(child);
-        }
-    }
     
     reverse(res.begin(), res.end());
     

@@ -35,19 +35,7 @@
 vector<int> preorder1(Node* root) {
 
     vector<int> res;
-    if (root == nullptr) {
-        return res;
-    }
     
-    vector<Node *>childs = root->children;
-    
-    res.push_back(root->val);
-    for (int i = 0; i<childs.size(); i++) {
-        vector<int> levelres = preorder1(childs[i]);
-        for (int j = 0; j<levelres.size(); j++) {
-            res.push_back(levelres[j]);
-        }
-    }
     
     return res;
     }
@@ -56,27 +44,7 @@ vector<int> preorder1(Node* root) {
 vector<int> preorder2(Node* root) {
 
     vector<int> res;
-    if (root == nullptr) {
-        return res;
-    }
-
     
-    stack<Node *>stk;
-    stk.push(root);
-    
-    vector<Node *>childs;
-    while (!stk.empty()) {
-        Node *node = stk.top();
-        stk.pop();
-        res.push_back(node->val);
-        childs = node->children;
-        printf("");
-        for (int i = childs.size()-1; i>=0; i--) {
-            Node *child = childs[i];
-            stk.push(child);
-        }
-        printf("");
-    }
     
     return res;
 }

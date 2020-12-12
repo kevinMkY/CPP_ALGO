@@ -35,21 +35,7 @@
 vector<int> inorderTraversal1(TreeNode* root) {
 
     vector<int> res;
-    if (root == nullptr) {
-        return res;
-    }
     
-    vector<int> leftres = inorderTraversal1(root->left);
-    
-    vector<int> rightres = inorderTraversal1(root->right);
-    
-    for (int i = 0; i<leftres.size(); i++) {
-        res.push_back(leftres[i]);
-    }
-    res.push_back(root->val);
-    for (int i = 0; i<rightres.size(); i++) {
-        res.push_back(rightres[i]);
-    }
     
     return res;
     }
@@ -59,28 +45,7 @@ vector<int> inorderTraversal1(TreeNode* root) {
 vector<int> inorderTraversal2(TreeNode* root) {
 
     vector<int> res;
-    if (root == nullptr) {
-        return res;
-    }
     
-    stack<TreeNode *> stk;
-    TreeNode * node = root;
-    while (!stk.empty() || node) {
-        if (node) {         //先沿着左子树一直走下去
-            //不断往左子树方向走，每走一次就将当前节点保存到栈中
-                        //这是模拟递归的调用
-            stk.push(node);
-            node = node->left;
-        }else{
-            //当前节点为空，说明左边走到头了，从栈中弹出节点并保存
-                        //然后转向右边节点，继续上面整个过程
-            //当前node = null
-            TreeNode *tmp = stk.top();
-            stk.pop();
-            res.push_back(tmp->val);
-            node = tmp->right;
-        }
-    }
     
     return res;
     }

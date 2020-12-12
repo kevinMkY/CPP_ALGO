@@ -41,53 +41,12 @@
 //递归
 void flatten1(TreeNode* root) {
     
-    if (root) {
-        TreeNode *right = root->right;
-        TreeNode *left = root->left;
-        flatten1(left);
-        flatten1(right);
-        if (left) {
-            root->right = left;
-            root->left = nullptr;
-            TreeNode *cur = root;
-            while (cur->right) {
-                cur=cur->right;
-            }
-            cur->right = right;
-            cur->left = nullptr;
-        }
-    }
+    
 }
 
 //迭代
 void flatten2(TreeNode* root) {
     
-    if (root) {
-        queue<TreeNode *>myqueue;
-        stack<TreeNode *>stk;
-        stk.push(root);
-        
-        while (!stk.empty()) {
-            TreeNode *node = stk.top();
-            stk.pop();
-            myqueue.push(node);
-            if (node->right) {
-                stk.push(node->right);
-            }
-            if (node->left) {
-                stk.push(node->left);
-            }
-        }
-        TreeNode *node = myqueue.front();
-        myqueue.pop();
-        while (!myqueue.empty()) {
-            TreeNode *tmp = myqueue.front();
-            myqueue.pop();
-            node->right = tmp;
-            node->left = nullptr;
-            node = tmp;
-        }
-    }
 }
 void _114_test(){
     vector<int> list1 = {4,2,7,1,3,6,9};
