@@ -31,8 +31,41 @@
 //链接：https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
+//广度优先
 vector<vector<int>> levelOrderBottom1(TreeNode* root) {
     vector<vector<int>> res;
+    
+    if (root == nullptr) {
+        return res;
+    }
+    
+    vector<int> levelRes;
+    
+    queue<TreeNode *> myqueue;
+    myqueue.push(root);
+    int size = myqueue.size();
+    
+    while (!myqueue.empty()) {
+        TreeNode *node = myqueue.front();
+        myqueue.pop();
+        size --;
+        levelRes.push_back(node->val);
+        if (node->left != nullptr) {
+            myqueue.push(node->left);
+        }
+        if (node->right != nullptr) {
+            myqueue.push(node->right);
+        }
+        if (size == 0) {
+            size = myqueue.size();
+            res.push_back(levelRes);
+            while (!levelRes.empty()) {
+                levelRes.pop_back();
+            }
+        }
+    }
+    
+    reverse(res.begin(), res.end());
     
     return res;
     }

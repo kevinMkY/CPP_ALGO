@@ -30,18 +30,50 @@
 //链接：https://leetcode-cn.com/problems/maximum-depth-of-binary-tree
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-//迭代
+//递归
 int maxDepth1(TreeNode* root) {
     
     int h = 0;
+    if (root == nullptr) {
+        return h;
+    }
     
-    return h;
+    int leftH = maxDepth1(root->left);
+    int rightH = maxDepth1(root->right);
+    int finalyH = max(leftH, rightH);
+    return finalyH + 1;
     }
 
-//递归
+//迭代 -- 用层序遍历较好
 int maxDepth2(TreeNode* root) {
     
     int h = 0;
+    if (root == nullptr) {
+        return h;
+    }
+    
+    queue<TreeNode *> myqueue;
+    myqueue.push(root);
+    h = 1;
+    int size = myqueue.size();
+    
+    while (!myqueue.empty()) {
+        TreeNode *node = myqueue.front();
+        myqueue.pop();
+        size--;
+        if (node->left != nullptr) {
+            myqueue.push(node->left);
+        }
+        if (node->right != nullptr) {
+            myqueue.push(node->right);
+        }
+        if (size == 0) {    //代表本层遍历完毕
+            size = myqueue.size();
+            if (size != 0) {
+                h++;
+            }
+        }
+    }
     
     return h;
     }
@@ -55,8 +87,8 @@ void _104_test(){
     TreeNode *node2 = initTreeWithNULLVector(list2);
 //    TreeNode *node1 = initTreeWithVector(list1);
     
-//    int res1 = maxDepth1(node1);
-//    int res2 = maxDepth1(node2);
+    int res1 = maxDepth1(node1);
+    int res2 = maxDepth1(node2);
     
     int res3 = maxDepth2(node1);
     int res4 = maxDepth2(node2);

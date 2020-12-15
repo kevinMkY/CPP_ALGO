@@ -48,7 +48,6 @@ bool isSymmetric1(TreeNode* root) {
 bool isSymmetric2(TreeNode* root) {
     
     
-    
     return false;
 }
 

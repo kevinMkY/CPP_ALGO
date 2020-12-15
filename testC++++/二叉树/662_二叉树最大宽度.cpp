@@ -67,7 +67,44 @@
 //链接：https://leetcode-cn.com/problems/maximum-width-of-binary-tree
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
+
+//给每一个节点标记一个位置pos
+
+//宽度优先
 int widthOfBinaryTree1(TreeNode* root) {
+    unsigned long long w = 0;
+    if (root == nullptr) {
+        return w;
+    }
+    
+    queue<pair<TreeNode *, unsigned long long>> myqueue;
+    myqueue.push({root, 1});
+    vector<unsigned long long> levelres;
+    unsigned long long size = myqueue.size();
+    while (!myqueue.empty()) {
+        TreeNode *node = myqueue.front().first;
+        unsigned long long pos = myqueue.front().second;
+        levelres.push_back(pos);
+        myqueue.pop();
+        size--;
+        if (node->left != nullptr) {
+            myqueue.push({node->left,pos * 2 - 1});
+        }
+        if (node->right != nullptr) {
+            myqueue.push({node->right,pos * 2});
+        }
+        if (size == 0) {
+            size = myqueue.size();
+            unsigned long long curw = levelres.back() - levelres.front() + 1;
+            w = max(curw, w);
+            levelres = {};
+        }
+    }
+    return w;
+    }
+
+//深度优先 dfs 递归
+int widthOfBinaryTree2(TreeNode* root) {
     unsigned long long w = 0;
     
     
@@ -78,12 +115,15 @@ void _662_test(){
     
     vector<int> list1 = {4,2,7,1,3,6,9};
     vector<int> list2 = {1,3,2,5,3,NULL,9};
+    vector<int> list3 = {1,3,2,5};
 //    vector<int> list3 = {0,0,0,NULL,0,0};   //这个地方0与NULL 分不开,与题目不符
-    TreeNode *node1 = initTreeWithVector(list1);
+    TreeNode *node1 = initTreeWithNULLVector(list1);
     TreeNode *node2 = initTreeWithNULLVector(list2);
+    TreeNode *node3 = initTreeWithNULLVector(list3);
     
     int res1 = widthOfBinaryTree1(node1);
-//    int res2 = widthOfBinaryTree1(node2);
+    int res2 = widthOfBinaryTree1(node2);
+    int res3 = widthOfBinaryTree1(node3);
     
 //    int res3 = maxDepth2(node1);
 //    int res4 = maxDepth2(node2);
