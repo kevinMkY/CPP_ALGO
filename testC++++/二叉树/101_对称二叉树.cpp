@@ -38,28 +38,77 @@
 //链接：https://leetcode-cn.com/problems/symmetric-tree
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-//递归
-bool isSymmetric1(TreeNode* root) {
-    
-    return false;
+bool check(TreeNode *left,TreeNode *right){
+    if (left == nullptr) {
+        if (right !=nullptr) {
+            return false;
+        }else{
+            return true;
+        }
+    }else if (right == nullptr){
+        return false;
+    }else{
+        bool res1 = check(left->left, right->right);
+        bool res2 = check(left->right, right->left);
+        bool res3 = left->val == right->val;
+        
+        return res1 && res2 && res3;
     }
+}
 
-//迭代
+//递归-镜像对称-->双指针,分别指向左右
+bool isSymmetric1(TreeNode* root) {
+    return check(root, root);
+}
+
+//迭代-用队列同时入队左右
 bool isSymmetric2(TreeNode* root) {
-    
-    
-    return false;
+    bool res = true;
+    if (!root) {
+        return res;
+    }
+    queue<TreeNode *>myqueue;
+    myqueue.push(root);
+    myqueue.push(root);
+    while (!myqueue.empty()) {
+        TreeNode *left = myqueue.front();
+        myqueue.pop();
+        TreeNode *right = myqueue.front();
+        myqueue.pop();
+        if (!left && !right) {
+            continue;
+        }else if (!left && right){
+            res = false;
+            break;
+        }else if (left && !right){
+            res = false;
+            break;
+        }else{
+            if (left->val != right->val) {
+                res = false;
+                break;
+            }else{
+                myqueue.push(left->left);
+                myqueue.push(right->right);
+                myqueue.push(left->right);
+                myqueue.push(right->left);
+            }
+        }
+    }
+    return res;
 }
 
 void _101_test(){
     
     vector<int> list1 = {1,2,2,3,4,4,3};
     vector<int> list2 = {1,2,2,NULL,3,NULL,3};
-    TreeNode *node1 = initTreeWithVector(list1);
+    TreeNode *node1 = initTreeWithNULLVector(list1);
     TreeNode *node2 = initTreeWithNULLVector(list2);
     
     bool res1 = isSymmetric1(node1);
-    bool res2 = isSymmetric2(node1);
+    bool res2 = isSymmetric1(node2);
+    bool res3 = isSymmetric2(node1);
+    bool res4 = isSymmetric2(node2);
     
 
 }

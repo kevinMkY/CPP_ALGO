@@ -35,7 +35,19 @@
 vector<int> preorder1(Node* root) {
 
     vector<int> res;
+    if (root == nullptr) {
+        return res;
+    }
     
+    res.push_back(root->val);
+    for (int i = 0; i<root->children.size(); i++) {
+        Node* child = root->children[i];
+        vector<int> resChild = preorder1(child);
+        for (int j = 0; j<resChild.size(); j++) {
+            int val = resChild[j];
+            res.push_back(val);
+        }
+    }
     
     return res;
     }
@@ -44,7 +56,25 @@ vector<int> preorder1(Node* root) {
 vector<int> preorder2(Node* root) {
 
     vector<int> res;
+    if (root == nullptr) {
+        return res;
+    }
     
+    stack<Node *> mystack;
+    mystack.push(root);
+    
+    while (!mystack.empty()) {
+        Node *node = mystack.top();
+        res.push_back(node->val);
+        mystack.pop();
+        int size = node->children.size();
+        for (int i = size-1; i>=0; i--) {
+            Node *childNode = node->children[i];
+            if (childNode != nullptr) {
+                mystack.push(childNode);
+            }
+        }
+    }
     
     return res;
 }
@@ -52,12 +82,13 @@ vector<int> preorder2(Node* root) {
 void _589_test(){
     
     
-    vector<int> list1 = {4,2,7,1,3,6,9};
+//    vector<int> list1 = {4,2,7,1,3,6,9};
     vector<int> list2 = {1,NULL,3,2,4,NULL,5,6};
-    Node *node1 = initNXTreeWithVector(list1);
+//    Node *node1 = initNXTreeWithVector(list1);
     Node *node2 = initNXTreeWithVector(list2);
-    
-    vector<int> res3 = preorder2(node2);
+        
+    vector<int> res1 = preorder1(node2);
+    vector<int> res2 = preorder1(node2);
     
 }
 

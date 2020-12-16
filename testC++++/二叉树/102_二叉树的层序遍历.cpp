@@ -36,19 +36,41 @@
 vector<vector<int>> levelOrder1(TreeNode* root) {
 
     vector<vector<int>> res;
+    if (root == nullptr) {
+        return res;
+    }
     
+    queue<TreeNode *> myqueue;
+    myqueue.push(root);
+    int size = 1;
+    vector<int> levelres;
+    while (!myqueue.empty()) {
+        TreeNode *node = myqueue.front();
+        myqueue.pop();
+        size--;
+        levelres.push_back(node->val);
+        if (node->left) {
+            myqueue.push(node->left);
+        }
+        if (node->right) {
+            myqueue.push(node->right);
+        }
+        if (size == 0) {
+            size = myqueue.size();
+            res.push_back(levelres);
+            levelres = {};
+        }
+    }
     
     return res;
     }
 
 void _102_test(){
     
-    
     vector<int> list1 = {4,2,7,1,3,6,9};
     vector<int> list2 = {3,9,20,NULL,NULL,15,7};
     TreeNode *node1 = initTreeWithVector(list1);
     TreeNode *node2 = initTreeWithNULLVector(list2);
-//    TreeNode *node1 = initTreeWithVector(list1);
     
     vector<vector<int>> res1 = levelOrder1(node1);
     vector<vector<int>> res2 = levelOrder1(node2);

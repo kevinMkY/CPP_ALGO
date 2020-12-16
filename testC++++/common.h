@@ -93,38 +93,11 @@
 //    return 0;
 //}
 
-#pragma mark vector
 #include <vector>
-////vector的添加数据
-//2     void push_back(数据) 向vector 尾部添加一个数据data
-//3     v.insert(v.begin(),9); 在v.begin()之前 插入一个数据
-//4     v.insert(v.begin(),10,1);在v.begin()之前 插入10个1 ，第一个参数是iterator ,第二个参数是一个序列list n=10 val=1
-//5     v.insert(v.begin()+5,v.begin()+1,v.begin()+3);在迭代器指向的begin+5位置之前，插入序列 [v.begin()+1,v.begin()+3 )之间的数据
-
-#pragma mark stack
 #include <stack>
-
-//C++的栈
-//栈，是一种存储受限的线性数据结构，在存储和访问数据的时候只能访问栈的一端。栈类似于一摞盘子，只能拿去最上面的盘子，也只能把盘子放到最上面。由于这种特点，栈是一种后进先出（Last in / First out, LIFO）的数据结构。
-//栈的主要操作有以下几种：
-//
-//push
-//向栈顶插入元素（摞上去一个盘子）
-//top
-//获取栈顶元素的值（看看最上面那个盘子上面写了什么东西）
-//pop
-//取出栈顶元素（拿走最上面的盘子）
-//isEmpty
-//判断栈是否为空（这里有没有盘子）
-//clear
-//清空栈（把盘子都拿走）
-
 #include <queue>
-
-
 #include "ListNode.hpp"
 #include "TreeNode.hpp"
-
 
 using namespace std;
 

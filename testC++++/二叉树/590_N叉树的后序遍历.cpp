@@ -31,9 +31,26 @@
 //链接：https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
+//递归
 vector<int> postorder1(Node* root) {
 
     vector<int>  res;
+    if (root == nullptr) {
+        return res;
+    }
+    
+    int size = root->children.size();
+    for (int i = 0; i<size; i++) {
+        Node *child = root->children[i];
+        vector<int> childRes = postorder1(child);
+        int childsize = childRes.size();
+        for (int j = 0; j<childsize; j++) {
+            int val = childRes[j];
+            res.push_back(val);
+        }
+    }
+    
+    res.push_back(root->val);
     
     return res;
     }
@@ -44,7 +61,25 @@ vector<int> postorder1(Node* root) {
 vector<int> postorder2(Node* root) {
 
     vector<int>  res;
+    if (root == nullptr) {
+        return res;
+    }
     
+    stack<Node *> mystakc;
+    mystakc.push(root);
+    
+    while (!mystakc.empty()) {
+        Node *node = mystakc.top();
+        mystakc.pop();
+        res.push_back(node->val);  //中1
+        int size = node->children.size();
+        for (int i = 0 ; i<size; i++) {
+            Node *child = node->children[i];    //左先进后出,所以左3右2
+            mystakc.push(child);
+        }
+    }
+    
+    //此时res中右左,reverse一下就是左右中
     reverse(res.begin(), res.end());
     
     return res;
@@ -52,6 +87,7 @@ vector<int> postorder2(Node* root) {
 
 void _590_test(){
     
+    //多叉树不含null的生成方法是错的
 //    vector<int> list1 = {4,2,7,1,3,6,9};
     vector<int> list2 = {1,NULL,3,2,4,NULL,5,6};
 //    Node *node1 = initNXTreeWithVector(list1);

@@ -36,15 +36,46 @@
 int maxDepth1(Node* root) {
     
     int h = 0;
+    if (root == nullptr) {
+        return h;
+    }
     
-    return h;
+    int size = root->children.size();
+    for (int i = 0; i<size; i++) {
+        Node *child = root->children[i];
+        int childh = maxDepth1(child);
+        h = max(h, childh);
+    }
+    
+    return h + 1;
     }
 
-//迭代
+//迭代-->层序
 int maxDepth2(Node* root) {
     
     int h = 0;
+    if (root == nullptr) {
+        return h;
+    }
     
+    queue<Node *> myqueue;
+    myqueue.push(root);
+    int size = 1;
+    
+    while (!myqueue.empty()) {
+        Node *node = myqueue.front();
+        myqueue.pop();
+        size--;
+        int childsize = node->children.size();
+        for (int i = 0; i<childsize; i++) {
+            Node *child = node->children[i];
+            myqueue.push(child);
+        }
+        if (size == 0) {    //当前层完毕
+            size = myqueue.size();
+            h++;
+        }
+    }
     return h;
     }
 

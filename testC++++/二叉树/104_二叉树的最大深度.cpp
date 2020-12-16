@@ -85,7 +85,6 @@ void _104_test(){
     vector<int> list2 = {3,9,20,NULL,NULL,15,7};    
     TreeNode *node1 = initTreeWithVector(list1);
     TreeNode *node2 = initTreeWithNULLVector(list2);
-//    TreeNode *node1 = initTreeWithVector(list1);
     
     int res1 = maxDepth1(node1);
     int res2 = maxDepth1(node2);

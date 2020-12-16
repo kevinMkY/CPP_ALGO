@@ -30,24 +30,38 @@
 vector<int> preorderTraversal1(TreeNode* root) {
     
     vector<int> res;
-    
-    
+    if (root == nullptr) {
+        return res;
+    }
+    res.push_back(root->val);
+    vector<int> resleft = preorderTraversal1(root->left);
+    vector<int> resright = preorderTraversal1(root->right);
+    res.insert(res.end(), resleft.begin(),resleft.end());
+    res.insert(res.end(), resright.begin(),resright.end());
     return res;
     }
 
 //迭代
 vector<int> preorderTraversal2(TreeNode* root) {
     vector<int> res;
-    
+    if (root == nullptr) {
+        return res;
+    }
+    stack<TreeNode *> mystack;
+    mystack.push(root);
+    while (!mystack.empty()) {
+        TreeNode *node = mystack.top();
+        mystack.pop();
+        res.push_back(node->val);
+        if (node->right) {
+            mystack.push(node->right);
+        }
+        if (node->left) {
+            mystack.push(node->left);
+        }
+    }
     
     return res;
-    }
-
-vector<int> preorderTraversal3(TreeNode* root) {
-    
-    vector<int> ans;
-    
-    return ans;
     }
 
 void _144_test(){
@@ -57,12 +71,10 @@ void _144_test(){
     vector<int> list2 = {1,NULL,2,3};
     TreeNode *node1 = initTreeWithVector(list1);
     TreeNode *node2 = initTreeWithVector(list2);
-//    TreeNode *node1 = initTreeWithVector(list1);
     
-//    vector<int> res1 = preorderTraversal1(node1);
-//    vector<int> res11 = preorderTraversal1(node2);
-//    vector<int> res2 = preorderTraversal2(node1);
-    vector<int> res23 = preorderTraversal3(node2);
-    vector<int> res22 = preorderTraversal2(node2);
+    vector<int> res1 = preorderTraversal1(node1);
+    vector<int> res2 = preorderTraversal2(node1);
+    vector<int> res3 = preorderTraversal1(node2);
+    vector<int> res4 = preorderTraversal2(node2);
     
 }
