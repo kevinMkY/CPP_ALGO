@@ -8,8 +8,6 @@
 #include "106_从中序与后序遍历序列构造二叉树.hpp"
 #include "common.h"
 
-
-
 //根据一棵树的中序遍历与后序遍历构造二叉树。
 //
 //注意:
@@ -32,19 +30,76 @@
 //链接：https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
+
+//vector<int> list1 = {9,3,15,20,7};    左中右
+//vector<int> list2 = {9,15,7,20,3};    左右中
+//vector<int> list1 = {2,3,1
+//vector<int> list2 = {3,2,1
+//递归
+TreeNode* buildTree11(vector<int>& inorder, vector<int>& postorder) {
+    TreeNode *res = nullptr;
+    int size = inorder.size();
+    if (size <= 0) {
+        return res;
+    }
+    int centerVal = postorder[size -1];
+    if (size == 1){
+        res = new TreeNode(centerVal,nullptr,nullptr);
+        return res;
+    }
+    
+    int frontcount = 0;
+    for (int i= 0; i<size; i++) {
+        int inVal = inorder[i];
+        if (inVal == centerVal) {
+            break;
+        }else{
+            frontcount++;
+        }
+    }
+    int backcount = size-frontcount-1;//(1是中)
+    vector<int> inleft,inright,postleft,postright;
+    if (frontcount>0) {
+        vector<int> inleft1(inorder.begin(),inorder.begin()+frontcount);
+        vector<int> postleft1(postorder.begin(),postorder.begin()+frontcount);
+        swap(inleft, inleft1);
+        swap(postleft, postleft1);
+    }
+    if (backcount>0) {
+        vector<int> inright1(inorder.end()-backcount,inorder.end());
+        vector<int> postright1(postorder.end()-backcount-1,postorder.end()-1);
+        swap(inright, inright1);
+        swap(postright, postright1);
+    }
+    
+    TreeNode *left = buildTree11(inleft, postleft);
+    TreeNode *right = buildTree11(inright, postright);
+    
+    res = new TreeNode(centerVal,left,right);
+    
+    return res;
+    }
+
+//迭代
+TreeNode* buildTree12(vector<int>& inorder, vector<int>& postorder) {
+    TreeNode* res = nullptr;
+    int size = inorder.size();
+    if (size == 0) {
+        return res;
+    }
+    
+    return res;
+    }
+
 void _106_test(){
     
+    vector<int> list1 = {9,3,15,20,7};
+    vector<int> list2 = {9,15,7,20,3};
     
-    vector<int> list1 = {4,2,7,1,3,6,9};
-    vector<int> list2 = {3,9,20,NULL,NULL,15,7};
-    TreeNode *node1 = initTreeWithVector(list1);
-    TreeNode *node2 = initTreeWithNULLVector(list2);
-//    TreeNode *node1 = initTreeWithVector(list1);
+    vector<int> list3 = {2,3,1};
+    vector<int> list4 = {3,2,1};
     
-//    int res1 = maxDepth1(node1);
-//    int res2 = maxDepth1(node2);
-    
-//    int res3 = maxDepth2(node1);
-//    int res4 = maxDepth2(node2);
+    TreeNode* res1 = buildTree11(list1, list2);
+    TreeNode* res2 = buildTree11(list3, list4);
     
 }

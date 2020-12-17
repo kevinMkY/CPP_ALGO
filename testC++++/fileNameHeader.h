@@ -41,6 +41,7 @@
 #include "559_N叉树的最大深度.hpp"
 #include "589_N叉树的前序遍历.hpp"
 #include "590_N叉树的后序遍历.hpp"
+#include "617_合并二叉树.hpp"
 #include "662_二叉树最大宽度.hpp"
 #include "682_棒球比赛.hpp"
 #include "844_比较含退格的字符串.hpp"

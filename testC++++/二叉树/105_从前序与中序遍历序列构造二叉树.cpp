@@ -30,19 +30,70 @@
 //链接：https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
+
+//[3,9,20,15,7]
+//递归
+TreeNode* buildTree1(vector<int>& preorder, vector<int>& inorder) {
+    TreeNode* res = nullptr;
+    int size = preorder.size();
+    if (size == 0) {
+        return res;
+    }
+    
+    int preCenter = preorder.front();
+    int frontCount = 0;
+    for (int i = 0; i<size; i++) {
+        int inCenter = inorder[i];
+        if (preCenter == inCenter) {
+            break;
+        }else{
+            frontCount++;
+        }
+    }
+    int backCount = size-1-frontCount;
+    vector<int> leftpre(preorder.begin()+1,preorder.begin()+1+frontCount);
+    vector<int> rightpre(preorder.begin()+1+frontCount,preorder.begin()+1+frontCount+backCount);
+    
+    vector<int> leftin(inorder.begin(),inorder.begin()+frontCount);
+    vector<int> rightin(inorder.begin()+1+frontCount,inorder.begin()+1+frontCount+backCount);
+    
+    TreeNode* leftnode = buildTree1(leftpre, leftin);
+    TreeNode* rightnode = buildTree1(rightpre, rightin);
+    res = new TreeNode(preCenter, leftnode, rightnode);
+    return res;
+    }
+
+//[3,9,20,15,7]
+//迭代
+TreeNode* buildTree2(vector<int>& preorder, vector<int>& inorder) {
+    TreeNode* res = nullptr;
+    int size = preorder.size();
+    if (size == 0) {
+        return res;
+    }
+    int preCenter = preorder.front();
+    int frontCount = 0;
+    for (int i = 0; i<size; i++) {
+        int temp = inorder[i];
+        if (preCenter == temp) {
+            break;
+        }else{
+            frontCount++;
+        }
+    }
+    
+    
+    return res;
+    }
+
 void _105_test(){
+        
+    vector<int> list1 = {3,9,20,15,7};
+    vector<int> list2 = {9,3,15,20,7};
+    vector<int> list3 = {1,2,3};
+    vector<int> list4 = {2,1,3};
     
-    
-    vector<int> list1 = {4,2,7,1,3,6,9};
-    vector<int> list2 = {3,9,20,NULL,NULL,15,7};
-    TreeNode *node1 = initTreeWithVector(list1);
-    TreeNode *node2 = initTreeWithNULLVector(list2);
-//    TreeNode *node1 = initTreeWithVector(list1);
-    
-//    int res1 = maxDepth1(node1);
-//    int res2 = maxDepth1(node2);
-    
-//    int res3 = maxDepth2(node1);
-//    int res4 = maxDepth2(node2);
+    TreeNode* res1 = buildTree1(list1, list2);
+    TreeNode* res2 = buildTree1(list3, list4);
     
 }

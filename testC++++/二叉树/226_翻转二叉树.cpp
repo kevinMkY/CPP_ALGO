@@ -36,30 +36,43 @@
 //链接：https://leetcode-cn.com/problems/invert-binary-tree
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-//前序
+//递归--对节点的操作放在递归的前/中/后,分别算是前序/中序/后序三种
 TreeNode* invertTree1(TreeNode* root) {
+    if (!root) {
+        return root;
+    }
+    
+    TreeNode *left = root->left;
+    TreeNode *right = root->right;
+    root->left = invertTree1(right);
+    root->right = invertTree1(left);
     
     return root;
     }
 
-//中序
+//迭代-dfs
 TreeNode* invertTree2(TreeNode* root) {
-    
-    
-    return root;
+    if (!root) {
+        return root;
     }
-
-//后序
-TreeNode* invertTree3(TreeNode* root) {
     
-    return root;
+    stack<TreeNode *>mystack;
+    TreeNode* temp = root;
+    while (root || !mystack.empty()) {
+        while (root) {
+            mystack.push(root);
+            root = root->left;
+        }
+        root = mystack.top();
+        mystack.pop();
+        TreeNode *left = root->left;
+        TreeNode *right = root->right;
+        root->left = right;
+        root->right = left;
+        root = right;
     }
-
-//层序
-TreeNode* invertTree4(TreeNode* root) {
-   
     
-    return root;
+    return temp;
     }
 
 void _226_test(){
@@ -67,11 +80,7 @@ void _226_test(){
     vector<int> list1 = {4,2,7,1,3,6,9};
     TreeNode *node1 = initTreeWithVector(list1);
     TreeNode *node2 = initTreeWithVector(list1);
-    TreeNode *node3 = initTreeWithVector(list1);
-    TreeNode *node4 = initTreeWithVector(list1);
     TreeNode* res1 = invertTree1(node1);
     TreeNode* res2 = invertTree2(node2);
-    TreeNode* res3 = invertTree3(node3);
-    TreeNode* res4 = invertTree4(node4);
 
 }
