@@ -55,13 +55,63 @@ TreeNode* mergeTrees1(TreeNode* t1, TreeNode* t2) {
     return res;
     }
 
-//迭代
+//迭代---每次将下一批需要连接left-right的点入栈,当前点直接操作连接left,right
 TreeNode* mergeTrees2(TreeNode* t1, TreeNode* t2) {
 
     TreeNode* res;
+    if (!t1) {
+        return t2;
+    }
+    if (!t2) {
+        return t1;
+    }
+    
+    res = new TreeNode(t1->val+t2->val);
+    auto resQueue = queue<TreeNode *>();
+    auto queue1 = queue<TreeNode *>();
+    auto queue2 = queue<TreeNode *>();
+    resQueue.push(res);
+    queue1.push(t1);
+    queue2.push(t2);
+    while (!queue1.empty() || !queue2.empty()) {
+        auto node = resQueue.front();
+        auto node1 = queue1.front();
+        auto node2 = queue2.front();
+        resQueue.pop();
+        queue1.pop();
+        queue2.pop();
+        
+        auto left1 = node1->left;
+        auto left2 = node2->left;
+        if (left1 && left2) {
+            auto nextleft = new TreeNode(left1->val + left2->val);
+            node->left = nextleft;
+            resQueue.push(nextleft);
+            queue1.push(left1);
+            queue2.push(left2);
+        }else if (left1){
+            node->left = left1;
+        }else if (left2){
+            node->left = left2;
+        }
+        
+        auto right1 = node1->right;
+        auto right2 = node2->right;
+        if (right1 && right2) {
+            auto nextright = new TreeNode(right1->val + right2->val);
+            node->right = nextright;
+            resQueue.push(nextright);
+            queue1.push(right1);
+            queue2.push(right2);
+        }else if (right1){
+            node->right = right1;
+        }else if (right2){
+            node->right = right2;
+        }
+    }
     
     return res;
-    }
+}
 
 
 void _617_test(){
