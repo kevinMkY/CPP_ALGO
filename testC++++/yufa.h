@@ -84,6 +84,17 @@
 
 #pragma mark string
 /*
+ 转换
+ string s = to_string(42)
+ 
+ 拼接1
+ string str1 = "Hello ";
+ string str2 = "World!";
+ str1.append(str2);
+ 
+ 拼接2
+ str1 += to_string(1);
+ str1 += str2;
  
  字符串查找
   s.find(s1)         //查找s中第一次出现s1的位置，并返回（包括0）

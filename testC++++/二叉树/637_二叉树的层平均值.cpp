@@ -34,67 +34,89 @@
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
 //递归
-vector<double> averageOfLevels1(TreeNode* root) {
+vector<pair<double, unsigned long long>> sumLevel(TreeNode* root) {
 
-    vector<double> res = {};
+    vector<pair<double, unsigned long long>> res = {};
     if (root == nullptr) {
         return {};
     }
     auto val = root->val;
-    res.push_back(val);
-    
+    res.push_back({val,1});
     auto left = root->left;
     auto right = root->right;
-    auto leftave = averageOfLevels1(left);
-    auto rightave = averageOfLevels1(right);
-    auto leftsize= leftave.size();
-    auto rightsize= rightave.size();
-    auto maxsize = max(leftsize, rightsize);
-    for (auto i = 0; i<maxsize; i++) {
-        if (i<leftsize && i<rightsize) {
-            auto leftval = leftave[i];
-            auto rightval = rightave[i];
-            auto aveval = (leftval + rightval) * 0.5;
-            res.push_back(aveval);
-        }else if (i<leftsize){
-            auto leftval = leftave[i];
-            auto aveval = leftval;
-            res.push_back(aveval);
-        }else if (i<rightsize){
-            auto rightval = rightave[i];
-            auto aveval = rightval;
-            res.push_back(aveval);
+    vector<pair<double, unsigned long long>> leftres = sumLevel(left);
+    vector<pair<double, unsigned long long>> rightres = sumLevel(right);
+    auto leftsize = leftres.size();
+    auto rightsize = rightres.size();
+    auto size = max(leftsize, rightsize);
+    for (int i = 0; i<size; i++) {
+        if (i<leftsize && i < rightsize) {
+            auto leftval = leftres[i].first;
+            auto leftcount = leftres[i].second;
+            auto rightval = rightres[i].first;
+            auto rightcount = rightres[i].second;
+            res.push_back({leftval +rightval,leftcount+rightcount});
+        }else if (i<leftsize) {
+            auto leftval = leftres[i].first;
+            auto leftcount = leftres[i].second;
+            res.push_back({leftval,leftcount});
+        }else if (i<rightsize) {
+            auto rightval = rightres[i].first;
+            auto rightcount = rightres[i].second;
+            res.push_back({rightval,rightcount});
         }
     }
-    
     return res;
+    }
+
+vector<double> averageOfLevels1(TreeNode* root) {
+
+    vector<pair<double, unsigned long long>> res = sumLevel(root);
+    vector<double> finallyres = {};
+    int size = res.size();
+    for (int i = 0; i<size; i++) {
+        auto val = res[i].first;
+        auto count = res[i].second;
+        if (count > 0) {
+            double rst = val/count;
+            finallyres.push_back(rst);
+        }else{
+            finallyres.push_back(val);
+        }
+    }
+    return finallyres;
     }
 
 //迭代
 vector<double> averageOfLevels2(TreeNode* root) {
-
     vector<double> res = {};
     if (root == nullptr) {
         return res;
     }
     queue<TreeNode *>myqueue;
     myqueue.push(root);
-    int size = 1;
-    
+    long long size = 1;
+    long long lastsize = size;
+    double sumtotal = 0;
     while (!myqueue.empty()) {
-        TreeNode *node = myqueue.front();
+        auto node = myqueue.front();
         myqueue.pop();
-        
         size--;
-        if (node->left) {
-            myqueue.push(node->left);
+        sumtotal+=node->val;
+        auto left = node->left;
+        auto right = node->right;
+        if (left) {
+            myqueue.push(left);
         }
-        if (node->right) {
-            myqueue.push(node->right);
+        if (right) {
+            myqueue.push(right);
         }
         if (size == 0) {
+            double rst = sumtotal/lastsize;
+            res.push_back(rst);
             size = myqueue.size();
-            
+            lastsize = size;
+            sumtotal = 0;
         }
     }
     return res;
@@ -110,9 +132,11 @@ void _637_test()
     TreeNode *node2 = initTreeWithNULLVector(list2);
     TreeNode *node3 = initTreeWithNULLVector(list3);
     
-//    vector<double> res1 = averageOfLevels1(node1);
-//    vector<double> res2 = averageOfLevels1(node2);
+    vector<double> res1 = averageOfLevels1(node1);
+    vector<double> res2 = averageOfLevels1(node2);
     vector<double> res3 = averageOfLevels1(node3);
-//    vector<double> res4 = averageOfLevels2(node2);
+    vector<double> res4 = averageOfLevels2(node1);
+    vector<double> res5 = averageOfLevels2(node2);
+    vector<double> res6 = averageOfLevels2(node3);
     
 }

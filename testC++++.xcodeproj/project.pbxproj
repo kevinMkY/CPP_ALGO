@@ -12,6 +12,10 @@
 		3BBC5DE6258E2183004CC98D /* Offer_68_1_二叉搜索树的最近公共祖先.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC5DE4258E2183004CC98D /* Offer_68_1_二叉搜索树的最近公共祖先.cpp */; };
 		3BBC5DEA258E21C7004CC98D /* 637_二叉树的层平均值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC5DE8258E21C7004CC98D /* 637_二叉树的层平均值.cpp */; };
 		3BC55D1F258B8D4B0039D0D1 /* 617_合并二叉树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BC55D1D258B8D4A0039D0D1 /* 617_合并二叉树.cpp */; };
+		3BC7B3672590BE4B002FD4EF /* 965_单值二叉树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BC7B3652590BE4B002FD4EF /* 965_单值二叉树.cpp */; };
+		3BC7B36B2590C1FC002FD4EF /* 1022_从根到叶的二进制数之和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BC7B3692590C1FC002FD4EF /* 1022_从根到叶的二进制数之和.cpp */; };
+		3BC7B36F2590D100002FD4EF /* 669_修剪二叉搜索树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BC7B36D2590D100002FD4EF /* 669_修剪二叉搜索树.cpp */; };
+		3BC7B3732590D997002FD4EF /* 257_二叉树的所有路径.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BC7B3712590D997002FD4EF /* 257_二叉树的所有路径.cpp */; };
 		3BE300FF258DFF9000044E78 /* 938_二叉搜索树的范围和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE300FD258DFF9000044E78 /* 938_二叉搜索树的范围和.cpp */; };
 		3BE30103258E038C00044E78 /* 700_二叉搜索树中的搜索.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE30101258E038C00044E78 /* 700_二叉搜索树中的搜索.cpp */; };
 		3BE30107258E0A1B00044E78 /* 108_将有序数组转换为二叉搜索树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE30105258E0A1B00044E78 /* 108_将有序数组转换为二叉搜索树.cpp */; };
@@ -98,6 +102,14 @@
 		3BBC5DE9258E21C7004CC98D /* 637_二叉树的层平均值.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "637_二叉树的层平均值.hpp"; sourceTree = "<group>"; };
 		3BC55D1D258B8D4A0039D0D1 /* 617_合并二叉树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "617_合并二叉树.cpp"; sourceTree = "<group>"; };
 		3BC55D1E258B8D4A0039D0D1 /* 617_合并二叉树.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "617_合并二叉树.hpp"; sourceTree = "<group>"; };
+		3BC7B3652590BE4B002FD4EF /* 965_单值二叉树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "965_单值二叉树.cpp"; sourceTree = "<group>"; };
+		3BC7B3662590BE4B002FD4EF /* 965_单值二叉树.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "965_单值二叉树.hpp"; sourceTree = "<group>"; };
+		3BC7B3692590C1FC002FD4EF /* 1022_从根到叶的二进制数之和.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1022_从根到叶的二进制数之和.cpp"; sourceTree = "<group>"; };
+		3BC7B36A2590C1FC002FD4EF /* 1022_从根到叶的二进制数之和.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "1022_从根到叶的二进制数之和.hpp"; sourceTree = "<group>"; };
+		3BC7B36D2590D100002FD4EF /* 669_修剪二叉搜索树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "669_修剪二叉搜索树.cpp"; sourceTree = "<group>"; };
+		3BC7B36E2590D100002FD4EF /* 669_修剪二叉搜索树.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "669_修剪二叉搜索树.hpp"; sourceTree = "<group>"; };
+		3BC7B3712590D997002FD4EF /* 257_二叉树的所有路径.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "257_二叉树的所有路径.cpp"; sourceTree = "<group>"; };
+		3BC7B3722590D997002FD4EF /* 257_二叉树的所有路径.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "257_二叉树的所有路径.hpp"; sourceTree = "<group>"; };
 		3BD267D2258A11D000B698E0 /* yufa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yufa.h; sourceTree = "<group>"; };
 		3BE300FD258DFF9000044E78 /* 938_二叉搜索树的范围和.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "938_二叉搜索树的范围和.cpp"; sourceTree = "<group>"; };
 		3BE300FE258DFF9000044E78 /* 938_二叉搜索树的范围和.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "938_二叉搜索树的范围和.hpp"; sourceTree = "<group>"; };
@@ -378,6 +390,8 @@
 				65DF9BD8251A03860055E0BE /* 145_二叉树的后序遍历.hpp */,
 				65C28C682519DA9F00C94E7C /* 226_翻转二叉树.cpp */,
 				65C28C692519DA9F00C94E7C /* 226_翻转二叉树.hpp */,
+				3BC7B3712590D997002FD4EF /* 257_二叉树的所有路径.cpp */,
+				3BC7B3722590D997002FD4EF /* 257_二叉树的所有路径.hpp */,
 				65A9D3F8251B243700244EFF /* 559_N叉树的最大深度.cpp */,
 				65A9D3F9251B243700244EFF /* 559_N叉树的最大深度.hpp */,
 				65A9D3F0251B23E000244EFF /* 589_N叉树的前序遍历.cpp */,
@@ -390,6 +404,8 @@
 				3BBC5DE9258E21C7004CC98D /* 637_二叉树的层平均值.hpp */,
 				65A9D3EC251B239000244EFF /* 662_二叉树最大宽度.cpp */,
 				65A9D3ED251B239000244EFF /* 662_二叉树最大宽度.hpp */,
+				3BC7B36D2590D100002FD4EF /* 669_修剪二叉搜索树.cpp */,
+				3BC7B36E2590D100002FD4EF /* 669_修剪二叉搜索树.hpp */,
 				3BE30101258E038C00044E78 /* 700_二叉搜索树中的搜索.cpp */,
 				3BE30102258E038C00044E78 /* 700_二叉搜索树中的搜索.hpp */,
 				65A9D404251B24CF00244EFF /* 889_根据前序和后序遍历构造二叉树.cpp */,
@@ -398,6 +414,10 @@
 				3BBC5DE1258E1638004CC98D /* 897_递增顺序查找树.hpp */,
 				3BE300FD258DFF9000044E78 /* 938_二叉搜索树的范围和.cpp */,
 				3BE300FE258DFF9000044E78 /* 938_二叉搜索树的范围和.hpp */,
+				3BC7B3652590BE4B002FD4EF /* 965_单值二叉树.cpp */,
+				3BC7B3662590BE4B002FD4EF /* 965_单值二叉树.hpp */,
+				3BC7B3692590C1FC002FD4EF /* 1022_从根到叶的二进制数之和.cpp */,
+				3BC7B36A2590C1FC002FD4EF /* 1022_从根到叶的二进制数之和.hpp */,
 				3BBC5DDB258E1124004CC98D /* Offer_54_二叉搜索树的第k大节点.cpp */,
 				3BBC5DDC258E1124004CC98D /* Offer_54_二叉搜索树的第k大节点.hpp */,
 				3BBC5DE4258E2183004CC98D /* Offer_68_1_二叉搜索树的最近公共祖先.cpp */,
@@ -510,6 +530,7 @@
 				3BC55D1F258B8D4B0039D0D1 /* 617_合并二叉树.cpp in Sources */,
 				65FA4BD92511F73900FB8651 /* offer_09_用两个栈实现队列.cpp in Sources */,
 				3BE30103258E038C00044E78 /* 700_二叉搜索树中的搜索.cpp in Sources */,
+				3BC7B3672590BE4B002FD4EF /* 965_单值二叉树.cpp in Sources */,
 				65A1285E251374BE008E24AF /* 225_用队列实现栈.cpp in Sources */,
 				6546F4642510F0730016F09D /* 150_逆波兰表达式求值.cpp in Sources */,
 				65A1286D2513A84B008E24AF /* 239_滑动窗口最大值.cpp in Sources */,
@@ -518,6 +539,7 @@
 				65118AE72508CFBD004D8F15 /* 509_斐波那契数.cpp in Sources */,
 				65DF9BE7251A33320055E0BE /* 104_二叉树的最大深度.cpp in Sources */,
 				3BBC5DEA258E21C7004CC98D /* 637_二叉树的层平均值.cpp in Sources */,
+				3BC7B36F2590D100002FD4EF /* 669_修剪二叉搜索树.cpp in Sources */,
 				654466B72509111000E5959E /* 83_删除排序链表中的重复元素.cpp in Sources */,
 				65870726250B9C5D005BFEC2 /* 1290_二进制链表转整数.cpp in Sources */,
 				65D2EAB4250F4AE0009DC352 /* 21_合并两个有序链表.cpp in Sources */,
@@ -540,6 +562,7 @@
 				65A9D406251B24CF00244EFF /* 889_根据前序和后序遍历构造二叉树.cpp in Sources */,
 				658295E124ED057E0077E48E /* main.cpp in Sources */,
 				6546F46F2511F2D30016F09D /* 1021_删除最外层的括号.cpp in Sources */,
+				3BC7B36B2590C1FC002FD4EF /* 1022_从根到叶的二进制数之和.cpp in Sources */,
 				6546F4612510DF8E0016F09D /* 856_括号的分数.cpp in Sources */,
 				65A9D3F6251B240D00244EFF /* 590_N叉树的后序遍历.cpp in Sources */,
 				6546F4672510F5650016F09D /* 224_基本计算器.cpp in Sources */,
@@ -558,6 +581,7 @@
 				65C28C6A2519DA9F00C94E7C /* 226_翻转二叉树.cpp in Sources */,
 				65118AEF2508EA58004D8F15 /* 237_删除链表中的节点.cpp in Sources */,
 				65118AE92508D175004D8F15 /* 5_最长回文子串.cpp in Sources */,
+				3BC7B3732590D997002FD4EF /* 257_二叉树的所有路径.cpp in Sources */,
 				65118AF82508F3E4004D8F15 /* 206_反转链表.cpp in Sources */,
 				3BBC5DE6258E2183004CC98D /* Offer_68_1_二叉搜索树的最近公共祖先.cpp in Sources */,
 				65FA4BE5251205FA00FB8651 /* 1441_用栈操作构建数组.cpp in Sources */,
