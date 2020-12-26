@@ -122,21 +122,50 @@ vector<string> binaryTreePaths2(TreeNode* root) {
     return res;
     }
 
-//迭代--广度优先
+//迭代--广度优先---这个方法不正确,输出顺序有问题
 vector<string> binaryTreePaths3(TreeNode* root) {
 
     vector<string> res;
     if (!root) {
         return res;
     }
-    
+    queue<TreeNode *>myqueue;
+    queue<string> stringqueue;
+    myqueue.push(root);
+    stringqueue.push(to_string(root->val));
+    while (!myqueue.empty()) {
+        auto node = myqueue.front();
+        myqueue.pop();
+        auto sval = stringqueue.front();
+        auto temps = sval;
+        stringqueue.pop();
+        auto left = node->left;
+        auto right = node->right;
+        if (left) {
+            myqueue.push(left);
+            temps+="->";
+            temps+=to_string(left->val);
+            stringqueue.push(temps);
+        }
+        temps = sval;
+        if (right) {
+            myqueue.push(right);
+            temps+="->";
+            temps+=to_string(right->val);
+            stringqueue.push(temps);
+        }
+        if (!left && !right) {
+            res.push_back(sval);
+        }
+        
+    }
     return res;
     }
 
 
 void _257_test()
 {
-    vector<int> list1 = {1,2,3,4,5};
+    vector<int> list1 = {1,2,3,4,5,NULL,6};
         
     TreeNode *node1 = initTreeWithNULLVector(list1);
     
