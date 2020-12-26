@@ -9,7 +9,7 @@
 #define Header_h
 
 #pragma mark numonly
-#import "5_最长回文子串.h"
+#import "5_最长回文子串.hpp"
 #import "14_最长公共前缀.hpp"
 #import "20_有效的括号.hpp"
 #import "21_合并两个有序链表.hpp"
@@ -43,7 +43,7 @@
 #import "257_二叉树的所有路径.hpp"
 #import "404_左叶子之和.hpp"
 #import "496_下一个更大元素 I.hpp"
-#import "509_斐波那契数.h"
+#import "509_斐波那契数.hpp"
 #import "530_二叉搜索树的最小绝对差.hpp"
 #import "543_二叉树的直径.hpp"
 #import "559_N叉树的最大深度.hpp"

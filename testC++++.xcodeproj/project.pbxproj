@@ -152,8 +152,8 @@
 		3BE30106258E0A1B00044E78 /* 108_将有序数组转换为二叉搜索树.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "108_将有序数组转换为二叉搜索树.hpp"; sourceTree = "<group>"; };
 		65118AE62508CFBD004D8F15 /* 509_斐波那契数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "509_斐波那契数.cpp"; sourceTree = "<group>"; };
 		65118AE82508D175004D8F15 /* 5_最长回文子串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5_最长回文子串.cpp"; sourceTree = "<group>"; };
-		65118AEA2508D41C004D8F15 /* 509_斐波那契数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "509_斐波那契数.h"; sourceTree = "<group>"; };
-		65118AEB2508D444004D8F15 /* 5_最长回文子串.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5_最长回文子串.h"; sourceTree = "<group>"; };
+		65118AEA2508D41C004D8F15 /* 509_斐波那契数.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "509_斐波那契数.hpp"; sourceTree = "<group>"; };
+		65118AEB2508D444004D8F15 /* 5_最长回文子串.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "5_最长回文子串.hpp"; sourceTree = "<group>"; };
 		65118AED2508EA58004D8F15 /* 237_删除链表中的节点.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "237_删除链表中的节点.cpp"; sourceTree = "<group>"; };
 		65118AEE2508EA58004D8F15 /* 237_删除链表中的节点.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "237_删除链表中的节点.hpp"; sourceTree = "<group>"; };
 		65118AF12508EC4B004D8F15 /* 14_最长公共前缀.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "14_最长公共前缀.cpp"; sourceTree = "<group>"; };
@@ -331,7 +331,7 @@
 			isa = PBXGroup;
 			children = (
 				65118AE82508D175004D8F15 /* 5_最长回文子串.cpp */,
-				65118AEB2508D444004D8F15 /* 5_最长回文子串.h */,
+				65118AEB2508D444004D8F15 /* 5_最长回文子串.hpp */,
 				65118AF12508EC4B004D8F15 /* 14_最长公共前缀.cpp */,
 				65118AF22508EC4B004D8F15 /* 14_最长公共前缀.hpp */,
 			);
@@ -342,7 +342,7 @@
 			isa = PBXGroup;
 			children = (
 				65118AE62508CFBD004D8F15 /* 509_斐波那契数.cpp */,
-				65118AEA2508D41C004D8F15 /* 509_斐波那契数.h */,
+				65118AEA2508D41C004D8F15 /* 509_斐波那契数.hpp */,
 			);
 			path = "数字计算";
 			sourceTree = "<group>";
