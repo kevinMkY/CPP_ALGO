@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/14.
 //
 
-#include "offer_18_删除链表的节点.hpp"
-#include "common.h"
+#import "offer_18_删除链表的节点.hpp"
+#import "common.h"
 
 //
 //给定单向链表的头指针和一个要删除的节点的值，定义一个函数删除该节点。

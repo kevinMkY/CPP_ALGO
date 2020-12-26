@@ -8,6 +8,6 @@
 #ifndef offer_24______hpp
 #define offer_24______hpp
 
-#include <stdio.h>
+
 void _offer_24_test();
 #endif /* offer_24______hpp */

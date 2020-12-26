@@ -5,8 +5,8 @@
 //  Created by yekaihua on 2020/12/21.
 //
 
-#include "965_单值二叉树.hpp"
-#include "common.h"
+#import "965_单值二叉树.hpp"
+#import "common.h"
 
 //如果二叉树每个节点都具有相同的值，那么该二叉树就是单值二叉树。
 //

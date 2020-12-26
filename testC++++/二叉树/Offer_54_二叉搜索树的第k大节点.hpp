@@ -8,6 +8,6 @@
 #ifndef Offer_54________k____hpp
 #define Offer_54________k____hpp
 
-#include <stdio.h>
+
 void _offer_54_test();
 #endif /* Offer_54________k____hpp */

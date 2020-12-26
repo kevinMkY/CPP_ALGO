@@ -8,6 +8,6 @@
 #ifndef _90_N________hpp
 #define _90_N________hpp
 
-#include <stdio.h>
+
 void _590_test();
 #endif /* _90_N________hpp */

@@ -5,8 +5,8 @@
 //  Created by yekaihua on 2020/12/17.
 //
 
-#include "617_合并二叉树.hpp"
-#include "common.h"
+#import "617_合并二叉树.hpp"
+#import "common.h"
 
 //给定两个二叉树，想象当你将它们中的一个覆盖到另一个上时，两个二叉树的一些节点便会重叠。
 //

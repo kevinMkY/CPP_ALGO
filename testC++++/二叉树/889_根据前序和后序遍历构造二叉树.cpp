@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/23.
 //
 
-#include "889_根据前序和后序遍历构造二叉树.hpp"
-#include "common.h"
+#import "889_根据前序和后序遍历构造二叉树.hpp"
+#import "common.h"
 
 //返回与给定的前序和后序遍历匹配的任何二叉树。
 //

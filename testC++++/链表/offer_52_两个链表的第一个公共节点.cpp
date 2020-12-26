@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/14.
 //
 
-#include "offer_52_两个链表的第一个公共节点.hpp"
-#include "common.h"
+#import "offer_52_两个链表的第一个公共节点.hpp"
+#import "common.h"
 
 //
 //输入两个链表，找出它们的第一个公共节点。

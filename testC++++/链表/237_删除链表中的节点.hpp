@@ -8,7 +8,7 @@
 #ifndef _237__________hpp
 #define _237__________hpp
 
-#include <stdio.h>
+
 
 void _237_test();
 

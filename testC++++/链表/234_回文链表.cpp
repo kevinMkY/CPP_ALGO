@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/14.
 //
 
-#include "234_回文链表.hpp"
-#include "common.h"
+#import "234_回文链表.hpp"
+#import "common.h"
 
 //请判断一个链表是否为回文链表。
 //

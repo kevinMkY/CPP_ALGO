@@ -8,7 +8,7 @@
 #ifndef _06______hpp
 #define _06______hpp
 
-#include <stdio.h>
+
 
 void _206_test();
 

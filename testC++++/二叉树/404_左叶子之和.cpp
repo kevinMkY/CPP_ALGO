@@ -5,8 +5,8 @@
 //  Created by yekaihua on 2020/12/24.
 //
 
-#include "404_左叶子之和.hpp"
-#include "common.h"
+#import "404_左叶子之和.hpp"
+#import "common.h"
 
 //计算给定二叉树的所有左叶子之和。
 //

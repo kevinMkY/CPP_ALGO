@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/14.
 //
 
-#include "160_相交链表.hpp"
-#include "common.h"
+#import "160_相交链表.hpp"
+#import "common.h"
 
 //编写一个程序，找到两个单链表相交的起始节点。
 //

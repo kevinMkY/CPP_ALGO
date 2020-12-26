@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/14.
 //
 
-#include "20_有效的括号.hpp"
-#include "common.h"
+#import "20_有效的括号.hpp"
+#import "common.h"
 //
 //给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。
 //

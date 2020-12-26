@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/9.
 //
 
-#include "876_链表的中间节点.hpp"
-#include "common.h"
+#import "876_链表的中间节点.hpp"
+#import "common.h"
 
 //给定一个带有头结点 head 的非空单链表，返回链表的中间结点。
 //

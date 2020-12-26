@@ -5,9 +5,9 @@
 //  Created by ykh on 2020/9/23.
 //
 
-#include "590_N叉树的后序遍历.hpp"
-#include "common.h"
-#include "Node.hpp"
+#import "590_N叉树的后序遍历.hpp"
+#import "common.h"
+#import "Node.hpp"
 
 //给定一个 N 叉树，返回其节点值的后序遍历。
 //

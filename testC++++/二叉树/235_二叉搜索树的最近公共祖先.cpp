@@ -5,8 +5,8 @@
 //  Created by yekaihua on 2020/12/22.
 //
 
-#include "235_二叉搜索树的最近公共祖先.hpp"
-#include "common.h"
+#import "235_二叉搜索树的最近公共祖先.hpp"
+#import "common.h"
 
 //给定一个二叉搜索树, 找到该树中两个指定节点的最近公共祖先。
 //

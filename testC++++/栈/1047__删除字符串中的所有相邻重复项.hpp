@@ -8,6 +8,6 @@
 #ifndef _047_________________hpp
 #define _047_________________hpp
 
-#include <stdio.h>
+
 void _1047_test();
 #endif /* _047_________________hpp */

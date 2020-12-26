@@ -5,8 +5,8 @@
 //  Created by yekaihua on 2020/12/22.
 //
 
-#include "872_叶子相似的树.hpp"
-#include "common.h"
+#import "872_叶子相似的树.hpp"
+#import "common.h"
 
 //请考虑一棵二叉树上所有的叶子，这些叶子的值按从左到右的顺序排列形成一个 叶值序列 。
 //

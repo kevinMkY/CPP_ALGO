@@ -8,6 +8,6 @@
 #ifndef faceTest_0202_______k_____hpp
 #define faceTest_0202_______k_____hpp
 
-#include <stdio.h>
+
 void _face_0202_test();
 #endif /* faceTest_0202_______k_____hpp */

@@ -5,8 +5,8 @@
 //  Created by yekaihua on 2020/12/19.
 //
 
-#include "897_递增顺序查找树.hpp"
-#include "common.h"
+#import "897_递增顺序查找树.hpp"
+#import "common.h"
 
 //给你一个树，请你 按中序遍历 重新排列树，使树中最左边的结点现在是树的根，并且每个结点没有左子结点，只有一个右子结点。
 //

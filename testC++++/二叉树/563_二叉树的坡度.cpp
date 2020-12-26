@@ -5,8 +5,8 @@
 //  Created by yekaihua on 2020/12/24.
 //
 
-#include "563_二叉树的坡度.hpp"
-#include "common.h"
+#import "563_二叉树的坡度.hpp"
+#import "common.h"
 
 //给定一个二叉树，计算 整个树 的坡度 。
 //

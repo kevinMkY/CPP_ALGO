@@ -8,18 +8,15 @@
 #ifndef common_h
 #define common_h
 
-#include <stdio.h>
-#include <cmath>
-
-#pragma mark string
-#include <string>
-#include <vector>
-#include <stack>
-#include <queue>
-#include <map>
-#include <set>
-#include "ListNode.hpp"
-#include "TreeNode.hpp"
+#import <cmath>
+#import <string>
+#import <vector>
+#import <stack>
+#import <queue>
+#import <map>
+#import <set>
+#import "ListNode.hpp"
+#import "TreeNode.hpp"
 
 using namespace std;
 

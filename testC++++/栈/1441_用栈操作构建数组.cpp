@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/16.
 //
 
-#include "1441_用栈操作构建数组.hpp"
-#include "common.h"
+#import "1441_用栈操作构建数组.hpp"
+#import "common.h"
 
 //给你一个目标数组 target 和一个整数 n。每次迭代，需要从  list = {1,2,3..., n} 中依序读取一个数字。
 //

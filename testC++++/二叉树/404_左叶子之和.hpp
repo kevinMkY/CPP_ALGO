@@ -8,6 +8,6 @@
 #ifndef _04_______hpp
 #define _04_______hpp
 
-#include <stdio.h>
+
 void _404_test();
 #endif /* _04_______hpp */

@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/9.
 //
 
-#include "206_反转链表.hpp"
-#include "common.h"
+#import "206_反转链表.hpp"
+#import "common.h"
 
 //反转一个单链表。
 //

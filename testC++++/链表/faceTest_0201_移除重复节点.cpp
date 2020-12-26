@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/11.
 //
 
-#include "faceTest_0201_移除重复节点.hpp"
-#include "common.h"
+#import "faceTest_0201_移除重复节点.hpp"
+#import "common.h"
 //
 //编写代码，移除未排序链表中的重复节点。保留最开始出现的节点。
 //

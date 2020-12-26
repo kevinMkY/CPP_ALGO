@@ -8,6 +8,6 @@
 #ifndef _25________hpp
 #define _25________hpp
 
-#include <stdio.h>
+
 void _225_test();
 #endif /* _25________hpp */

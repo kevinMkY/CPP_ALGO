@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/16.
 //
 
-#include "496_下一个更大元素 I.hpp"
-#include "common.h"
+#import "496_下一个更大元素 I.hpp"
+#import "common.h"
 //
 //给定两个 没有重复元素 的数组 nums1 和 nums2 ，其中nums1 是 nums2 的子集。找到 nums1 中每个元素在 nums2 中的下一个比其大的值。
 //

@@ -5,8 +5,8 @@
 //  Created by yekaihua on 2020/12/26.
 //
 
-#include "783_二叉搜索树节点最小距离.hpp"
-#include "common.h"
+#import "783_二叉搜索树节点最小距离.hpp"
+#import "common.h"
 
 //给定一个二叉搜索树的根节点 root，返回树中任意两节点的差的最小值。
 //

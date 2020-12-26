@@ -8,6 +8,6 @@
 #ifndef offer_22_______k____hpp
 #define offer_22_______k____hpp
 
-#include <stdio.h>
+
 void _offer_22_test();
 #endif /* offer_22_______k____hpp */

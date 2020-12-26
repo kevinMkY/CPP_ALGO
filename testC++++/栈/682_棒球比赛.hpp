@@ -8,6 +8,6 @@
 #ifndef _82______hpp
 #define _82______hpp
 
-#include <stdio.h>
+
 void _682_test();
 #endif /* _82______hpp */

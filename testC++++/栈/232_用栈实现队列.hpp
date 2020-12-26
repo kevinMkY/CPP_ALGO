@@ -8,6 +8,6 @@
 #ifndef _32________hpp
 #define _32________hpp
 
-#include <stdio.h>
+
 void _232_test();
 #endif /* _32________hpp */

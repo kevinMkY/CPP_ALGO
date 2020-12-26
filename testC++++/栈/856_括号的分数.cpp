@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/15.
 //
 
-#include "856_括号的分数.hpp"
-#include "common.h"
+#import "856_括号的分数.hpp"
+#import "common.h"
 //
 //给定一个平衡括号字符串 S，按下述规则计算该字符串的分数：
 //

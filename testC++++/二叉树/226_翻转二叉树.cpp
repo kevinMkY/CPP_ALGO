@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/22.
 //
 
-#include "226_翻转二叉树.hpp"
-#include "common.h"
+#import "226_翻转二叉树.hpp"
+#import "common.h"
 
 //翻转一棵二叉树。
 //

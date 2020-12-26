@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/17.
 //
 
-#include "225_用队列实现栈.hpp"
-#include "common.h"
+#import "225_用队列实现栈.hpp"
+#import "common.h"
 
 //
 //使用队列实现栈的下列操作：

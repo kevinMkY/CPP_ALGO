@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/16.
 //
 
-#include "682_棒球比赛.hpp"
-#include "common.h"
+#import "682_棒球比赛.hpp"
+#import "common.h"
 //你现在是棒球比赛记录员。
 //给定一个字符串列表，每个字符串可以是以下四种类型之一：
 //1.整数（一轮的得分）：直接表示您在本轮中获得的积分数。

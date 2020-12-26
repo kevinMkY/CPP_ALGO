@@ -8,6 +8,6 @@
 #ifndef _97_________hpp
 #define _97_________hpp
 
-#include <stdio.h>
+
 void _897_test();
 #endif /* _97_________hpp */

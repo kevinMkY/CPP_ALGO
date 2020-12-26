@@ -8,6 +8,6 @@
 #ifndef _50__________hpp
 #define _50__________hpp
 
-#include <stdio.h>
+
 void _150_test();
 #endif /* _50__________hpp */

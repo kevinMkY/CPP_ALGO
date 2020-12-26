@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/17.
 //
 
-#include "1544_整理字符串.hpp"
-#include "common.h"
+#import "1544_整理字符串.hpp"
+#import "common.h"
 
 //给你一个由大小写英文字母组成的字符串 s 。
 //

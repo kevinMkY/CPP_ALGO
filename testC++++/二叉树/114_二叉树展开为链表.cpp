@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/23.
 //
 
-#include "114_二叉树展开为链表.hpp"
-#include "common.h"
+#import "114_二叉树展开为链表.hpp"
+#import "common.h"
 
 //给定一个二叉树，原地将它展开为一个单链表。
 //

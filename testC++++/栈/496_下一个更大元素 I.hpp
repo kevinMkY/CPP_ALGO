@@ -8,6 +8,6 @@
 #ifndef _96_________I_hpp
 #define _96_________I_hpp
 
-#include <stdio.h>
+
 void _496_test();
 #endif /* _96_________I_hpp */

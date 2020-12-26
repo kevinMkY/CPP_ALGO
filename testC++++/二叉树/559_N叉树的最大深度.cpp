@@ -5,9 +5,9 @@
 //  Created by ykh on 2020/9/23.
 //
 
-#include "559_N叉树的最大深度.hpp"
-#include "common.h"
-#include "Node.hpp"
+#import "559_N叉树的最大深度.hpp"
+#import "common.h"
+#import "Node.hpp"
 
 //给定一个 N 叉树，找到其最大深度。
 //

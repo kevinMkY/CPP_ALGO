@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/14.
 //
 
-#include "21_合并两个有序链表.hpp"
-#include "common.h"
+#import "21_合并两个有序链表.hpp"
+#import "common.h"
 
 //将两个升序链表合并为一个新的 升序 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
 //

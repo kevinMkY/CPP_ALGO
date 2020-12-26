@@ -5,8 +5,8 @@
 //  Created by yekaihua on 2020/12/23.
 //
 
-#include "100_相同的树.hpp"
-#include "common.h"
+#import "100_相同的树.hpp"
+#import "common.h"
 
 //给定两个二叉树，编写一个函数来检验它们是否相同。
 //

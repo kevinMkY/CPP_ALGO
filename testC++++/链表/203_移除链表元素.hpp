@@ -8,7 +8,7 @@
 #ifndef _03________hpp
 #define _03________hpp
 
-#include <stdio.h>
+
 
 void _203_test();
 

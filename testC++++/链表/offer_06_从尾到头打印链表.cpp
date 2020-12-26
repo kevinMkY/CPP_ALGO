@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/11.
 //
 
-#include "offer_06_从尾到头打印链表.hpp"
-#include "common.h"
+#import "offer_06_从尾到头打印链表.hpp"
+#import "common.h"
 
 
 //输入一个链表的头节点，从尾到头反过来返回每个节点的值（用数组返回）。

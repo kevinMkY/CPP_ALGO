@@ -8,6 +8,6 @@
 #ifndef _89________________hpp
 #define _89________________hpp
 
-#include <stdio.h>
+
 void _889_test();
 #endif /* _89________________hpp */

@@ -5,8 +5,8 @@
 //  Created by ykh on 2020/9/9.
 //
 
-#include "14_最长公共前缀.hpp"
-#include "common.h"
+#import "14_最长公共前缀.hpp"
+#import "common.h"
 
 //编写一个函数来查找字符串数组中的最长公共前缀。
 //

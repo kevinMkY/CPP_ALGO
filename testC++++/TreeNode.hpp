@@ -7,8 +7,6 @@
 
 #ifndef TreeNode_h
 #define TreeNode_h
-#include <stack>
-#include <list>
 
 struct TreeNode {
     int val;
