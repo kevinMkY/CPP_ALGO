@@ -14,6 +14,7 @@
 		3B44FABF25947D9200B29245 /* 563_二叉树的坡度.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B44FABD25947D9200B29245 /* 563_二叉树的坡度.cpp */; };
 		3B44FAC325948F3800B29245 /* 653_两数之和 IV - 输入 BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B44FAC125948F3800B29245 /* 653_两数之和 IV - 输入 BST.cpp */; };
 		3B44FAC725949C0100B29245 /* 404_左叶子之和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B44FAC525949C0100B29245 /* 404_左叶子之和.cpp */; };
+		3B5461C625987E7900BEAE0B /* 993_二叉树的堂兄弟节点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5461C425987E7900BEAE0B /* 993_二叉树的堂兄弟节点.cpp */; };
 		3BBC5DDD258E1124004CC98D /* Offer_54_二叉搜索树的第k大节点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC5DDB258E1124004CC98D /* Offer_54_二叉搜索树的第k大节点.cpp */; };
 		3BBC5DE2258E1638004CC98D /* 897_递增顺序查找树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC5DE0258E1638004CC98D /* 897_递增顺序查找树.cpp */; };
 		3BBC5DE6258E2183004CC98D /* Offer_68_1_二叉搜索树的最近公共祖先.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC5DE4258E2183004CC98D /* Offer_68_1_二叉搜索树的最近公共祖先.cpp */; };
@@ -103,6 +104,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3B349532259793F6007F62A7 /* fileNameHeader1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fileNameHeader1.h; sourceTree = "<group>"; };
 		3B3C8A062591E5F000DEA8D3 /* 235_二叉搜索树的最近公共祖先.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "235_二叉搜索树的最近公共祖先.cpp"; sourceTree = "<group>"; };
 		3B3C8A072591E5F000DEA8D3 /* 235_二叉搜索树的最近公共祖先.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "235_二叉搜索树的最近公共祖先.hpp"; sourceTree = "<group>"; };
 		3B3C8A0A2591FD1800DEA8D3 /* 872_叶子相似的树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "872_叶子相似的树.cpp"; sourceTree = "<group>"; };
@@ -117,6 +119,8 @@
 		3B44FAC225948F3800B29245 /* 653_两数之和 IV - 输入 BST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "653_两数之和 IV - 输入 BST.hpp"; sourceTree = "<group>"; };
 		3B44FAC525949C0100B29245 /* 404_左叶子之和.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "404_左叶子之和.cpp"; sourceTree = "<group>"; };
 		3B44FAC625949C0100B29245 /* 404_左叶子之和.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "404_左叶子之和.hpp"; sourceTree = "<group>"; };
+		3B5461C425987E7900BEAE0B /* 993_二叉树的堂兄弟节点.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "993_二叉树的堂兄弟节点.cpp"; sourceTree = "<group>"; };
+		3B5461C525987E7900BEAE0B /* 993_二叉树的堂兄弟节点.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "993_二叉树的堂兄弟节点.hpp"; sourceTree = "<group>"; };
 		3BBC5DDB258E1124004CC98D /* Offer_54_二叉搜索树的第k大节点.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Offer_54_二叉搜索树的第k大节点.cpp"; sourceTree = "<group>"; };
 		3BBC5DDC258E1124004CC98D /* Offer_54_二叉搜索树的第k大节点.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Offer_54_二叉搜索树的第k大节点.hpp"; sourceTree = "<group>"; };
 		3BBC5DE0258E1638004CC98D /* 897_递增顺序查找树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "897_递增顺序查找树.cpp"; sourceTree = "<group>"; };
@@ -369,10 +373,13 @@
 				658295E024ED057E0077E48E /* main.cpp */,
 				65118AF42508EC7A004D8F15 /* common.h */,
 				65FA4BEC25120DC000FB8651 /* fileNameHeader.h */,
+				3B349532259793F6007F62A7 /* fileNameHeader1.h */,
 				65118AFA2508F836004D8F15 /* ListNode.hpp */,
 				65C28C6D2519DC5A00C94E7C /* TreeNode.hpp */,
 				652FAB73251B400700AB91C6 /* Node.hpp */,
 				3BD267D2258A11D000B698E0 /* yufa.h */,
+				3B5461C425987E7900BEAE0B /* 993_二叉树的堂兄弟节点.cpp */,
+				3B5461C525987E7900BEAE0B /* 993_二叉树的堂兄弟节点.hpp */,
 				65C28C672519DA6F00C94E7C /* 二叉树 */,
 				65A1286025138D9D008E24AF /* 队列 */,
 				65CCFBC3250F75CE00ECC563 /* 栈 */,
@@ -644,6 +651,7 @@
 				65A9D40A251B24FE00244EFF /* 106_从中序与后序遍历序列构造二叉树.cpp in Sources */,
 				65118AFE2508FF79004D8F15 /* 141_环形链表.cpp in Sources */,
 				65C28C6A2519DA9F00C94E7C /* 226_翻转二叉树.cpp in Sources */,
+				3B5461C625987E7900BEAE0B /* 993_二叉树的堂兄弟节点.cpp in Sources */,
 				3BC97F9E25976B32009E9831 /* 543_二叉树的直径.cpp in Sources */,
 				65118AEF2508EA58004D8F15 /* 237_删除链表中的节点.cpp in Sources */,
 				65118AE92508D175004D8F15 /* 5_最长回文子串.cpp in Sources */,
