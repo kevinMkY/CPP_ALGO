@@ -38,6 +38,18 @@
  16.rend          将vector反转构的结束指针返回(其实就是原来的begin-1)
  17.empty        判断vector是否为空
  18.swap         与另一个vector交换数据
+ 
+ 19.sort()      排序
+ sort(begin, end)   默认升序
+ 
+ //自定义排序规则
+ bool cmp(int x, int y) {
+     return x > y;
+ }
+ void main() {
+     int a[5] = {1, 3, 4, 2, 5};
+     sort(a, a + 5, cmp);
+ }
 */
 
 #pragma mark stack
