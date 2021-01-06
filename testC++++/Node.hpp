@@ -12,19 +12,29 @@
 
 class Node {
 public:
+    //v1
     int val;
     vector<Node*> children;
-
-    Node() {}
-
-    Node(int _val) {
-        val = _val;
-    }
-
-    Node(int _val, vector<Node*> _children) {
+    //v1
+//    Node() {}
+//    Node(int _val)
+//    {
+//        val = _val;
+//    }
+    Node(int _val, vector<Node*> _children)
+    {
         val = _val;
         children = _children;
     }
+    //v2
+    Node* left;
+    Node* right;
+    Node* next;
+    //v2
+    Node() : val(0), left(NULL), right(NULL), next(NULL) {}
+    Node(int _val) : val(_val), left(NULL), right(NULL), next(NULL) {}
+    Node(int _val, Node* _left, Node* _right, Node* _next)
+            : val(_val), left(_left), right(_right), next(_next) {}
 };
 
 static Node *parentNode(Node * root){

@@ -45,15 +45,50 @@
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
 TreeNode* insertIntoBST1(TreeNode* root, int val) {
-
-    TreeNode* res;
-    return res;
+    TreeNode* res = nullptr;
+    if (!root) {
+        res =  new TreeNode(val);
+        return res;
+    }
+    auto nodeval = root->val;
+    
+    if (nodeval < val) {
+        root->right = insertIntoBST1(root->right, val);
+    }else if (nodeval > val){
+        root->left = insertIntoBST1(root->left, val);
+    }
+    return root;
     }
 
 TreeNode* insertIntoBST2(TreeNode* root, int val) {
 
-    TreeNode* res;
-    return res;
+    
+    if (!root) {
+        return new TreeNode(val);
+    }
+    queue<TreeNode *>myqueue;
+    myqueue.push(root);
+    while (myqueue.size()) {
+        auto node = myqueue.front();
+        myqueue.pop();
+        auto left = node->left;
+        auto right = node->right;
+        auto nodeval = node->val;
+        if (val < nodeval) {
+            if (left) {
+                myqueue.push(left);
+            }else{
+                node->left = new TreeNode(val);
+            }
+        }else if (val > nodeval){
+            if (right) {
+                myqueue.push(right);
+            }else{
+                node->right = new TreeNode(val);
+            }
+        }
+    }
+    return root;
     }
 
 void _701_test()
@@ -61,8 +96,8 @@ void _701_test()
     vector<int> list1 = {4,2,7,1,3};
     int flag1 = 5;
     TreeNode *node1 = initTreeWithNULLVector(list1);
-    
+    TreeNode *node2 = initTreeWithNULLVector(list1);
     TreeNode* res1 = insertIntoBST1(node1,flag1);
-    TreeNode* res2 = insertIntoBST2(node1,flag1);
+    TreeNode* res2 = insertIntoBST2(node2,flag1);
     
 }
