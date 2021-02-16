@@ -8,6 +8,12 @@
 #ifndef Header_h
 #define Header_h
 
+#pragma mark array
+
+/*
+ 
+*/
+
 #pragma mark vector
 
 /*
@@ -16,8 +22,17 @@
  v.insert(v.begin(),x)
  v.insert(v.end(),e.begin(),e.end())
  
- reverse
+ 反向
  reverse(v.begin(), v.end())
+ 
+ 初始化
+ 1.初始化amount个元素的vector,并且每个值都是-1;
+    vector<int> collectCoins(amount,-1);
+ 2.根据其他vector copt
+    vector<int> tempCoins{coins.begin(),coins.end()};
+ 3.初始化二维
+    vector<int> colv  (length1,0);
+    vector<vector<int>> dp(length2,colv); // colv为上面初始化的v
  
  
  1.push_back   在数组的最后添加一个数据
