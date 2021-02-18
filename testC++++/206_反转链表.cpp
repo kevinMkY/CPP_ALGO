@@ -50,6 +50,44 @@ ListNode* reverseList2(ListNode* head) {
     return newHead;
 }
 
+//递归
+ListNode* reverseList3(ListNode* head) {
+    if (head == nullptr || head->next == nullptr) {
+        return head;
+    }
+    ListNode *next = reverseList3(head->next);
+    head->next->next = head;
+    head->next = nullptr;
+    
+    return next;
+}
+
+//迭代
+ListNode* reverseList4(ListNode* head) {
+    if (head == nullptr || head->next == nullptr) {
+        return head;
+    }
+    
+    ListNode *newhead = nullptr;
+    while (head) {
+        ListNode *next = head->next;
+        head->next = newhead;
+        newhead = head;
+        head = next;
+    }
+    return newhead;
+}
+//递归
+ListNode* reverseList5(ListNode* head) {
+    if (head == nullptr || head->next == nullptr) {
+        return head;
+    }
+    ListNode *next = reverseList5(head->next);
+    head->next->next = head;
+    head->next = nullptr;
+    return next;
+}
+
 void _206_test(){
     
     ListNode node1(1);
@@ -61,6 +99,6 @@ void _206_test(){
     node2.next = &node3;
     node3.next = &node4;
     
-    ListNode *nodeRes = reverseList2(&node1);
+    ListNode *nodeRes = reverseList5(&node1);
     
 }

@@ -59,7 +59,7 @@
 
 
 //让A和B走一样长的路程--->双指针
-ListNode *getIntersectionNode34(ListNode *headA, ListNode *headB) {
+ListNode *_160_testgetIntersectionNode1(ListNode *headA, ListNode *headB) {
     ListNode *t1 = headA;
     ListNode *t2 = headB;
     while (t1 != t2) {
@@ -78,7 +78,7 @@ ListNode *getIntersectionNode34(ListNode *headA, ListNode *headB) {
 }
 
 //尾部对齐
-ListNode *getIntersectionNode35(ListNode *headA, ListNode *headB) {
+ListNode *_160_testgetIntersectionNode2(ListNode *headA, ListNode *headB) {
 
     if (headA == nullptr) {
             return nullptr;
@@ -140,26 +140,77 @@ ListNode *getIntersectionNode35(ListNode *headA, ListNode *headB) {
         return res;
 }
 
+//如果相交,则必然尾巴开始倒数某几个节点是一致的
+//[ A ][ b ][ c ][ d ]
+//[ g ][ c ][ d ]
+//--->假如把b拼到a后面,a也拼到b后面,则,某一时刻,他们必然尾部对齐,如果一直没有,则说明不相交
+//[ A ][ b ][ c ][ d ]      [ g ][ c ][ d ]
+//[ g ][ c ][ d ]      [ A ][ b ][ c ][ d ]
+ListNode *_160_testgetIntersectionNode3(ListNode *headA, ListNode *headB) {
+    if (!headA || !headB) return nullptr;
+    ListNode *curA = headA;
+    ListNode *curB = headB;
+    ListNode *res = nullptr;
+    bool alreadyComA = false;
+    bool alreadyComB = false;
+    while (curA && curB) {
+        if (curA == curB && curA) {
+            if (!res) {
+                res = curA;
+            }
+        }else{
+            res = nullptr;
+        }
+        curA = curA->next;
+        curB = curB->next;
+        
+        if (curA == nullptr) {
+            if (!alreadyComA) {
+                curA = headB;
+                alreadyComA = true;
+            }
+        }
+        if (curB == nullptr) {
+            if (!alreadyComB) {
+                curB = headA;
+                alreadyComB = true;
+            }
+        }
+    }
+    return res;
+}
+
+ListNode *_160_testgetIntersectionNode4(ListNode *headA, ListNode *headB) {
+    if (!headA || !headB) return nullptr;
+    
+    ListNode *cura = headA,*curb = headB;
+    while (cura != curb) {
+        cura = (cura == nullptr)?headB:cura->next;
+        curb = (curb == nullptr)?headA:curb->next;
+    }
+    return cura;
+}
+
 void _160_test(){
-//    ListNode node1(3);
-    ListNode node2(2);
-//    ListNode node3(3);
-//    ListNode node4(4);
+    ListNode node1(2);
+    ListNode node2(6);
+    ListNode node3(4);
+//    ListNode node4();
 //    ListNode node5(5);
     
-    ListNode node6(3);
-//    ListNode node7(6);
+    ListNode node6(1);
+    ListNode node7(5);
 //    ListNode node8(5);
     
     
-//    node1.next = &node2;
-    node2.next = &node6;
+    node1.next = &node2;
+    node2.next = &node3;
 //    node3.next = &node4;
 //    node4.next = &node5;
 
-//    node6.next = &node7;
+    node6.next = &node7;
 //    node7.next = &node2;
     
-    ListNode *res = getIntersectionNode35(&node6,&node2);
+    ListNode *res = _160_testgetIntersectionNode4(&node6,&node2);
     
 }

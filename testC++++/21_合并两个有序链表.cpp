@@ -97,6 +97,48 @@ ListNode* mergeTwoLists2(ListNode* l1, ListNode* l2) {
     return res->next;
 }
 
+//递归
+ListNode* mergeTwoLists3(ListNode* l1, ListNode* l2) {
+    if (l1 == nullptr) return l2;
+    if (l2 == nullptr) return l1;
+    ListNode *next;
+    if (l1->val <= l2->val) {
+        next = mergeTwoLists3(l1->next, l2);
+        l1->next = next;
+        return l1;
+    }else{
+        next = mergeTwoLists3(l1, l2->next);
+        l2->next = next;
+        return l2;
+    }
+    
+    return nullptr;
+}
+//迭代
+ListNode* mergeTwoLists5(ListNode* l1, ListNode* l2) {
+    if (l1 == nullptr) return l2;
+    if (l2 == nullptr) return l1;
+    ListNode *newHead = new ListNode(0);
+    ListNode *pre = newHead;
+    while (l1 || l2) {
+        if (l1) {
+            if (l2 && l2->val < l1->val) {
+                pre->next = l2;
+                l2= l2->next;
+            }else{
+                pre->next = l1;
+                l1= l1->next;
+            }
+        }else{
+            pre->next = l2;
+            l2= l2->next;
+        }
+        pre = pre->next;
+    }
+    
+    return newHead->next;
+}
+
 void _21_test(){
     ListNode node1(1);
     ListNode node2(2);
@@ -113,6 +155,6 @@ void _21_test(){
     node5.next = &node6;
     node6.next = &node7;
     
-    ListNode *nodeRes = mergeTwoLists2(&node1,&node5);
+    ListNode *nodeRes = mergeTwoLists5(&node1,&node5);
     
 }

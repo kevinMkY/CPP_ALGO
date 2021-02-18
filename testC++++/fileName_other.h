@@ -12,7 +12,7 @@
 #import "5_最长回文子串.hpp"
 #import "14_最长公共前缀.hpp"
 #import "20_有效的括号.hpp"
-#import "21_合并两个有序链表.hpp"
+
 #import "83_删除排序链表中的重复元素.hpp"
 #import "94_二叉树的中序遍历.hpp"
 #import "100_相同的树.hpp"
@@ -25,20 +25,18 @@
 #import "108_将有序数组转换为二叉搜索树.hpp"
 #import "110_平衡二叉树.hpp"
 #import "114_二叉树展开为链表.hpp"
-#import "141_环形链表.hpp"
+
 #import "144_二叉树的前序遍历.hpp"
 #import "145_二叉树的后序遍历.hpp"
 #import "150_逆波兰表达式求值.hpp"
-#import "160_相交链表.hpp"
-#import "203_移除链表元素.hpp"
-#import "206_反转链表.hpp"
+
 #import "224_基本计算器.hpp"
 #import "225_用队列实现栈.hpp"
 #import "226_翻转二叉树.hpp"
 #import "232_用栈实现队列.hpp"
-#import "234_回文链表.hpp"
+
 #import "235_二叉搜索树的最近公共祖先.hpp"
-#import "237_删除链表中的节点.hpp"
+
 #import "239_滑动窗口最大值.hpp"
 #import "257_二叉树的所有路径.hpp"
 #import "404_左叶子之和.hpp"
@@ -75,23 +73,5 @@
 #import "1290_二进制链表转整数.hpp"
 #import "1441_用栈操作构建数组.hpp"
 #import "1544_整理字符串.hpp"
-
-#pragma mark offer
-#import "offer_06_从尾到头打印链表.hpp"
-#import "offer_09_用两个栈实现队列.hpp"
-#import "offer_18_删除链表的节点.hpp"
-#import "offer_22_链表中倒数第k个节点.hpp"
-#import "offer_24_反转链表.hpp"
-#import "offer_52_两个链表的第一个公共节点.hpp"
-#import "Offer_54_二叉搜索树的第k大节点.hpp"
-#import "offer_59_滑动窗口的最大值.hpp"
-#import "Offer_68_1_二叉搜索树的最近公共祖先.hpp"
-
-#pragma mark faceTest
-#import "faceTest_0201_移除重复节点.hpp"
-#import "faceTest_0202_返回倒数第 k 个节点.hpp"
-#import "faceTest_0206_回文链表.hpp"
-#import "faceTest_0207_链表相交.hpp"
-#import "faceTest_0302_栈的最小值.hpp"
 
 #endif /* Header_h */

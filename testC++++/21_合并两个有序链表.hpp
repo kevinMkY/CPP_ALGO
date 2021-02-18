@@ -5,9 +5,4 @@
 //  Created by ykh on 2020/9/14.
 //
 
-#ifndef _1__________hpp
-#define _1__________hpp
-
-
 void _21_test();
-#endif /* _1__________hpp */

@@ -75,6 +75,31 @@ bool hasCycle(ListNode *head) {
     return false;
 }
 
+bool hasCycle2(ListNode *head) {
+ 
+    if (head == nullptr) {
+        return false;
+    }
+    ListNode *slow = head;
+    ListNode *fast = head;
+    
+    while (fast) {
+        slow = slow->next;
+        fast = fast->next;
+        if (fast) {
+            fast = fast->next;
+        }else{
+            return false;
+        }
+        if (slow == fast) {
+            return true;
+        }
+    }
+    
+    return false;
+}
+
+
 void _141_test()
 {
     ListNode node1(1);
@@ -86,6 +111,6 @@ void _141_test()
     node2.next = &node3;
     node3.next = &node2;
     
-    bool res = hasCycle(&node1);
+    bool res = hasCycle2(&node1);
     
 }

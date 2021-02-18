@@ -82,38 +82,76 @@ bool isPalindrome(ListNode* head) {
     return true;
     }
 
+ListNode* reserlist3(ListNode *head){
+    if (head == nullptr || head->next == nullptr) {
+        return head;
+    }
+    ListNode *next = reserlist3(head->next);
+    ListNode *cur = next;
+    ListNode *pre = nullptr;
+    while (cur) {
+        pre = cur;
+        cur = cur->next;
+    }
+    pre->next = head;
+    head->next = nullptr;
+    return next;
+}
+
+bool isPalindrome3(ListNode* head){
+    if (head == nullptr || head->next == nullptr) {
+        return true;
+    }
+    
+    ListNode *slow = head;
+    ListNode *fast = head;
+    ListNode *middle = nullptr;
+    //找middle
+    while (fast) {
+        if (fast->next && fast->next->next) {
+            fast = fast->next->next;
+        }else{
+            middle = slow;
+            break;
+        }
+        slow = slow->next;
+    }
+    //将middle之后的翻转
+    ListNode *reslist = reserlist3(middle->next);
+    while (reslist) {
+        if (reslist->val == head->val) {
+            reslist = reslist->next;
+            head = head->next;
+        }else{
+            return false;
+        }
+    }
+    
+    return true;
+}
+
 void _234_test_(){
     ListNode node1(1);
-    ListNode node2(2);
-    ListNode node3(3);
-    ListNode node41(4);
-    ListNode node42(4);
-    ListNode node4(3);
-    ListNode node5(2);
-    ListNode node6(1);
+    ListNode node2(3);
+    ListNode node3(2);
     
+    ListNode node4(4);
+    
+    ListNode node5(3);
+    ListNode node6(2);
     ListNode node7(1);
-    ListNode node8(1);
-    ListNode node81(2);
-    ListNode node82(1);
-//    ListNode node9(1);
-    
+//    ListNode node8(1);
     
     node1.next = &node2;
     node2.next = &node3;
-    node3.next = &node41;
-    node41.next = &node42;
-    node42.next = &node4;
+    node3.next = &node4;
     node4.next = &node5;
     node5.next = &node6;
-    
-    node7.next = &node8;
-    node8.next = &node81;
-    node81.next = &node82;
+    node6.next = &node7;
+//    node7.next = &node8;
+//    node8.next = &node81;
+//    node81.next = &node82;
 //    node82.next = &node9;
-    
-//    bool res1 = isPalindrome(&node1);
-//    bool res2 = isPalindrome(&node1);
-    bool res3 = isPalindrome(&node7);
+    bool res3 = isPalindrome3(&node1);
     
 }

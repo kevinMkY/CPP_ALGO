@@ -53,13 +53,36 @@ void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
     }
 }
 
+void merge2(vector<int>& nums1, int m, vector<int>& nums2, int n) {
+    
+    if (m < 0 || n<= 0) {
+        return;
+    }
+    vector<int> temp{nums1.begin(),nums1.begin()+m};
+    
+    int i1=0;
+    int i2=0;
+    for (int cur = 0; cur < nums1.size(); cur++) {
+        if ((i1<m && i2<n && temp[i1]<nums2[i2]) || i2>=n) {
+            nums1[cur]=temp[i1++];
+        }else{
+            nums1[cur]=nums2[i2++];
+        }
+    }
+    
+}
+
 void _88_test()
 {
     vector<int> list1 = {1,2,3,0,0,0};
     int flag1= 3;
     vector<int> list2 = {2,5,6};
     int flag2= 3;
-    merge(list1,flag1,list2,flag2);
+//    merge2(list1,flag1,list2,flag2);
+    
+    vector<int> list3 = {2,0};
+    vector<int> list4 = {1};
+    merge2(list3,1,list4,1);
     
     
 }
