@@ -152,6 +152,12 @@
 		65FA4BE5251205FA00FB8651 /* 1441_用栈操作构建数组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65FA4BE3251205FA00FB8651 /* 1441_用栈操作构建数组.cpp */; };
 		65FA4BE825120AD000FB8651 /* faceTest_0302_栈的最小值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65FA4BE625120AD000FB8651 /* faceTest_0302_栈的最小值.cpp */; };
 		65FA4BEB25120D8D00FB8651 /* 844_比较含退格的字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65FA4BE925120D8D00FB8651 /* 844_比较含退格的字符串.cpp */; };
+		8D0C411B25E00D0900845117 /* 66_加一.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C411925E00D0900845117 /* 66_加一.cpp */; };
+		8D0C411F25E0111300845117 /* 78_子集.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C411D25E0111300845117 /* 78_子集.cpp */; };
+		8D0C412325E016F500845117 /* 289_生命游戏.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C412125E016F500845117 /* 289_生命游戏.cpp */; };
+		8D0C412725E027D600845117 /* 48_旋转图像.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C412525E027D600845117 /* 48_旋转图像.cpp */; };
+		8D0C412B25E02EAD00845117 /* 238_除自身以外数组的乘积.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C412925E02EAD00845117 /* 238_除自身以外数组的乘积.cpp */; };
+		8D0C412F25E034D400845117 /* 287_寻找重复数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C412D25E034D400845117 /* 287_寻找重复数.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -472,6 +478,18 @@
 		65FA4BE925120D8D00FB8651 /* 844_比较含退格的字符串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "844_比较含退格的字符串.cpp"; sourceTree = "<group>"; };
 		65FA4BEA25120D8D00FB8651 /* 844_比较含退格的字符串.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "844_比较含退格的字符串.hpp"; sourceTree = "<group>"; };
 		65FA4BEC25120DC000FB8651 /* fileName_other.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fileName_other.h; sourceTree = "<group>"; };
+		8D0C411925E00D0900845117 /* 66_加一.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "66_加一.cpp"; sourceTree = "<group>"; };
+		8D0C411A25E00D0900845117 /* 66_加一.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "66_加一.hpp"; sourceTree = "<group>"; };
+		8D0C411D25E0111300845117 /* 78_子集.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "78_子集.cpp"; sourceTree = "<group>"; };
+		8D0C411E25E0111300845117 /* 78_子集.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "78_子集.hpp"; sourceTree = "<group>"; };
+		8D0C412125E016F500845117 /* 289_生命游戏.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "289_生命游戏.cpp"; sourceTree = "<group>"; };
+		8D0C412225E016F500845117 /* 289_生命游戏.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "289_生命游戏.hpp"; sourceTree = "<group>"; };
+		8D0C412525E027D600845117 /* 48_旋转图像.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "48_旋转图像.cpp"; sourceTree = "<group>"; };
+		8D0C412625E027D600845117 /* 48_旋转图像.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "48_旋转图像.hpp"; sourceTree = "<group>"; };
+		8D0C412925E02EAD00845117 /* 238_除自身以外数组的乘积.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "238_除自身以外数组的乘积.cpp"; sourceTree = "<group>"; };
+		8D0C412A25E02EAD00845117 /* 238_除自身以外数组的乘积.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "238_除自身以外数组的乘积.hpp"; sourceTree = "<group>"; };
+		8D0C412D25E034D400845117 /* 287_寻找重复数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "287_寻找重复数.cpp"; sourceTree = "<group>"; };
+		8D0C412E25E034D400845117 /* 287_寻找重复数.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "287_寻找重复数.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -520,8 +538,14 @@
 				3BE3DF8325DFF193008FD20B /* 1_两数之和.hpp */,
 				3BE3DF7E25DFEC3D008FD20B /* 26_删除排序数组中的重复项.cpp */,
 				3BE3DF7F25DFEC3D008FD20B /* 26_删除排序数组中的重复项.hpp */,
+				8D0C412525E027D600845117 /* 48_旋转图像.cpp */,
+				8D0C412625E027D600845117 /* 48_旋转图像.hpp */,
+				8D0C411925E00D0900845117 /* 66_加一.cpp */,
+				8D0C411A25E00D0900845117 /* 66_加一.hpp */,
 				3B90ACC025DBE126008693D3 /* 75_颜色分类.cpp */,
 				3B90ACC125DBE126008693D3 /* 75_颜色分类.hpp */,
+				8D0C411D25E0111300845117 /* 78_子集.cpp */,
+				8D0C411E25E0111300845117 /* 78_子集.hpp */,
 				3B90ACB925DBCBCA008693D3 /* 88_合并两个有序数组.cpp */,
 				3B90ACBA25DBCBCA008693D3 /* 88_合并两个有序数组.hpp */,
 				3B90ACC925DBF459008693D3 /* 164_最大间距.cpp */,
@@ -530,10 +554,16 @@
 				3BE3DF6725DFCB66008FD20B /* 169_多数元素.hpp */,
 				3BE3DF7A25DFE878008FD20B /* 217_存在重复元素.cpp */,
 				3BE3DF7B25DFE878008FD20B /* 217_存在重复元素.hpp */,
+				8D0C412925E02EAD00845117 /* 238_除自身以外数组的乘积.cpp */,
+				8D0C412A25E02EAD00845117 /* 238_除自身以外数组的乘积.hpp */,
 				3BE3DF7525DFDE4D008FD20B /* 268_丢失的数字.cpp */,
 				3BE3DF7625DFDE4D008FD20B /* 268_丢失的数字.hpp */,
 				3BE3DF6A25DFD2D7008FD20B /* 283_移动零.cpp */,
 				3BE3DF6B25DFD2D7008FD20B /* 283_移动零.hpp */,
+				8D0C412D25E034D400845117 /* 287_寻找重复数.cpp */,
+				8D0C412E25E034D400845117 /* 287_寻找重复数.hpp */,
+				8D0C412125E016F500845117 /* 289_生命游戏.cpp */,
+				8D0C412225E016F500845117 /* 289_生命游戏.hpp */,
 				3B90ACCD25DCF733008693D3 /* 977_有序数组的平方.cpp */,
 				3B90ACCE25DCF733008693D3 /* 977_有序数组的平方.hpp */,
 				3B90ACC525DBE980008693D3 /* faceTest_1616_部分排序.cpp */,
@@ -877,8 +907,10 @@
 				3B3C8A1525934E7F00DEA8D3 /* 100_相同的树.cpp in Sources */,
 				3BDBBAC925D7B62E00610886 /* 300_最长递增子序列.cpp in Sources */,
 				3B44FABF25947D9200B29245 /* 563_二叉树的坡度.cpp in Sources */,
+				8D0C412725E027D600845117 /* 48_旋转图像.cpp in Sources */,
 				3BCBE22025D2745D000CFD5E /* 860_柠檬水找零.cpp in Sources */,
 				65118AFB2508F836004D8F15 /* ListNode.hpp in Sources */,
+				8D0C412B25E02EAD00845117 /* 238_除自身以外数组的乘积.cpp in Sources */,
 				65A9D3EA251B234800244EFF /* 107_二叉树的层次遍历 II.cpp in Sources */,
 				3BE3DF5325DE7742008FD20B /* 19_删除链表的倒数第 N 个结点.cpp in Sources */,
 				3BE3DF6825DFCB66008FD20B /* 169_多数元素.cpp in Sources */,
@@ -889,6 +921,7 @@
 				3B846D9025A455670072AAAB /* 1448_统计二叉树中好节点的数目.cpp in Sources */,
 				65B5374C250903DB00FE9807 /* 203_移除链表元素.cpp in Sources */,
 				3BB1949225CFD07E006344FF /* 322_零钱兑换.cpp in Sources */,
+				8D0C411B25E00D0900845117 /* 66_加一.cpp in Sources */,
 				3B846D9825A462C30072AAAB /* 96_不同的二叉搜索树.cpp in Sources */,
 				3BCBE22425D27BAA000CFD5E /* 121_买卖股票的最佳时机.cpp in Sources */,
 				3BE3DF8025DFEC3D008FD20B /* 26_删除排序数组中的重复项.cpp in Sources */,
@@ -897,6 +930,7 @@
 				3B846D9C25A465C70072AAAB /* 1123_最深叶节点的最近公共祖先.cpp in Sources */,
 				3BE30103258E038C00044E78 /* 700_二叉搜索树中的搜索.cpp in Sources */,
 				3BC7B3672590BE4B002FD4EF /* 965_单值二叉树.cpp in Sources */,
+				8D0C412325E016F500845117 /* 289_生命游戏.cpp in Sources */,
 				65A1285E251374BE008E24AF /* 225_用队列实现栈.cpp in Sources */,
 				6546F4642510F0730016F09D /* 150_逆波兰表达式求值.cpp in Sources */,
 				3B3C8A0C2591FD1800DEA8D3 /* 872_叶子相似的树.cpp in Sources */,
@@ -905,6 +939,7 @@
 				3B90ACCF25DCF733008693D3 /* 977_有序数组的平方.cpp in Sources */,
 				3B846D9425A45C170072AAAB /* 979_在二叉树中分配硬币.cpp in Sources */,
 				65DF9BD9251A03860055E0BE /* 145_二叉树的后序遍历.cpp in Sources */,
+				8D0C411F25E0111300845117 /* 78_子集.cpp in Sources */,
 				65118AE72508CFBD004D8F15 /* 509_斐波那契数.cpp in Sources */,
 				65DF9BE7251A33320055E0BE /* 104_二叉树的最大深度.cpp in Sources */,
 				3B44FAC325948F3800B29245 /* 653_两数之和 IV - 输入 BST.cpp in Sources */,
@@ -1001,6 +1036,7 @@
 				3B846DA025A5A2030072AAAB /* 116_填充每个节点的下一个右侧节点指针.cpp in Sources */,
 				3BFC2A5425A3010200F04ED1 /* 513_找树左下角的值.cpp in Sources */,
 				3B59F34925CD2D2100B6317A /* 53_最大子序和.cpp in Sources */,
+				8D0C412F25E034D400845117 /* 287_寻找重复数.cpp in Sources */,
 				65118AF82508F3E4004D8F15 /* 206_反转链表.cpp in Sources */,
 				3BBC5DE6258E2183004CC98D /* Offer_68_1_二叉搜索树的最近公共祖先.cpp in Sources */,
 				3BDBBACD25D7CDE500610886 /* 1143_最长公共子序列.cpp in Sources */,
