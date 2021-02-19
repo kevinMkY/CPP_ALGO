@@ -108,6 +108,10 @@
  //存储
  personnel[size+1] = res;
  
+ //查找
+ 使用count，返回的是被查找元素的个数。如果有，返回1；否则，返回0。注意，map中不存在相同元素，所以返回值只能是1或0。
+ 使用find，返回的是被查找元素的位置，没有则返回map.end()。
+ 
  //取值,注意,如果下标对应的没有值 personnel[1] ,则会创建一个值存进去,所以下标取值永远不会为空
  if(personnel.count(1)>0){res1 = personnel[1];}
  if(personnel.count(0)>0){res2 = personnel[0];}
