@@ -170,6 +170,12 @@
 		8D0C412725E027D600845117 /* 48_旋转图像.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C412525E027D600845117 /* 48_旋转图像.cpp */; };
 		8D0C412B25E02EAD00845117 /* 238_除自身以外数组的乘积.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C412925E02EAD00845117 /* 238_除自身以外数组的乘积.cpp */; };
 		8D0C412F25E034D400845117 /* 287_寻找重复数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C412D25E034D400845117 /* 287_寻找重复数.cpp */; };
+		8D2196C625E7E415003C2270 /* 剑指 Offer 13. 机器人的运动范围.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2196C425E7E415003C2270 /* 剑指 Offer 13. 机器人的运动范围.cpp */; };
+		8D2196CC25E80390003C2270 /* 剑指 Offer 14- I. 剪绳子.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2196CA25E80390003C2270 /* 剑指 Offer 14- I. 剪绳子.cpp */; };
+		8D2196DB25E8162E003C2270 /* 剑指 Offer 15. 二进制中1的个数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2196D925E8162E003C2270 /* 剑指 Offer 15. 二进制中1的个数.cpp */; };
+		8D2196E125E817F7003C2270 /* 剑指 Offer 16. 数值的整数次方.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2196DF25E817F7003C2270 /* 剑指 Offer 16. 数值的整数次方.cpp */; };
+		8D2196E725E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2196E525E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.cpp */; };
+		8D2196ED25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2196EB25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -528,6 +534,18 @@
 		8D0C412A25E02EAD00845117 /* 238_除自身以外数组的乘积.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "238_除自身以外数组的乘积.hpp"; sourceTree = "<group>"; };
 		8D0C412D25E034D400845117 /* 287_寻找重复数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "287_寻找重复数.cpp"; sourceTree = "<group>"; };
 		8D0C412E25E034D400845117 /* 287_寻找重复数.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "287_寻找重复数.hpp"; sourceTree = "<group>"; };
+		8D2196C425E7E415003C2270 /* 剑指 Offer 13. 机器人的运动范围.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 13. 机器人的运动范围.cpp"; sourceTree = "<group>"; };
+		8D2196C525E7E415003C2270 /* 剑指 Offer 13. 机器人的运动范围.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 13. 机器人的运动范围.hpp"; sourceTree = "<group>"; };
+		8D2196CA25E80390003C2270 /* 剑指 Offer 14- I. 剪绳子.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 14- I. 剪绳子.cpp"; sourceTree = "<group>"; };
+		8D2196CB25E80390003C2270 /* 剑指 Offer 14- I. 剪绳子.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 14- I. 剪绳子.hpp"; sourceTree = "<group>"; };
+		8D2196D925E8162E003C2270 /* 剑指 Offer 15. 二进制中1的个数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 15. 二进制中1的个数.cpp"; sourceTree = "<group>"; };
+		8D2196DA25E8162E003C2270 /* 剑指 Offer 15. 二进制中1的个数.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 15. 二进制中1的个数.hpp"; sourceTree = "<group>"; };
+		8D2196DF25E817F7003C2270 /* 剑指 Offer 16. 数值的整数次方.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 16. 数值的整数次方.cpp"; sourceTree = "<group>"; };
+		8D2196E025E817F7003C2270 /* 剑指 Offer 16. 数值的整数次方.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 16. 数值的整数次方.hpp"; sourceTree = "<group>"; };
+		8D2196E525E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 17. 打印从1到最大的n位数.cpp"; sourceTree = "<group>"; };
+		8D2196E625E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 17. 打印从1到最大的n位数.hpp"; sourceTree = "<group>"; };
+		8D2196EB25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 48. 最长不含重复字符的子字符串.cpp"; sourceTree = "<group>"; };
+		8D2196EC25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 48. 最长不含重复字符的子字符串.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -591,8 +609,20 @@
 				3B5A40A725E7CCA10079329D /* 剑指 Offer 11. 旋转数组的最小数字.hpp */,
 				3B5A40AC25E7CF130079329D /* 剑指 Offer 12. 矩阵中的路径.cpp */,
 				3B5A40AD25E7CF130079329D /* 剑指 Offer 12. 矩阵中的路径.hpp */,
+				8D2196C425E7E415003C2270 /* 剑指 Offer 13. 机器人的运动范围.cpp */,
+				8D2196C525E7E415003C2270 /* 剑指 Offer 13. 机器人的运动范围.hpp */,
+				8D2196CA25E80390003C2270 /* 剑指 Offer 14- I. 剪绳子.cpp */,
+				8D2196CB25E80390003C2270 /* 剑指 Offer 14- I. 剪绳子.hpp */,
+				8D2196D925E8162E003C2270 /* 剑指 Offer 15. 二进制中1的个数.cpp */,
+				8D2196DA25E8162E003C2270 /* 剑指 Offer 15. 二进制中1的个数.hpp */,
+				8D2196DF25E817F7003C2270 /* 剑指 Offer 16. 数值的整数次方.cpp */,
+				8D2196E025E817F7003C2270 /* 剑指 Offer 16. 数值的整数次方.hpp */,
+				8D2196E525E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.cpp */,
+				8D2196E625E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.hpp */,
 				3B5A407125E79DE60079329D /* 剑指 Offer 22. 链表中倒数第k个节点.cpp */,
 				3B5A407225E79DE60079329D /* 剑指 Offer 22. 链表中倒数第k个节点.hpp */,
+				8D2196EB25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.cpp */,
+				8D2196EC25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.hpp */,
 				3B5A406825E7955F0079329D /* 剑指 Offer 58 - II. 左旋转字符串.cpp */,
 				3B5A406925E7955F0079329D /* 剑指 Offer 58 - II. 左旋转字符串.hpp */,
 				3B5A408F25E7C30E0079329D /* 105.cpp */,
@@ -1020,12 +1050,14 @@
 				3BC97F922597223A009E9831 /* 783_二叉搜索树节点最小距离.cpp in Sources */,
 				3B5A40AE25E7CF130079329D /* 剑指 Offer 12. 矩阵中的路径.cpp in Sources */,
 				65D2EAB4250F4AE0009DC352 /* 21_合并两个有序链表.cpp in Sources */,
+				8D2196E725E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.cpp in Sources */,
 				3B846D8825A447D20072AAAB /* 814_二叉树剪枝.cpp in Sources */,
 				3BE300FF258DFF9000044E78 /* 938_二叉搜索树的范围和.cpp in Sources */,
 				3BE3DF7C25DFE878008FD20B /* 217_存在重复元素.cpp in Sources */,
 				3BE3DF4225DD244D008FD20B /* 86_分隔链表.cpp in Sources */,
 				3B3C034E2599D89C00EBAA9F /* 1302_层数最深叶子节点的和.cpp in Sources */,
 				3BDBBAD125D9185000610886 /* 9999_01背包.cpp in Sources */,
+				8D2196ED25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.cpp in Sources */,
 				3BE3DF8425DFF193008FD20B /* 1_两数之和.cpp in Sources */,
 				65A1286425138DAE008E24AF /* 933_最近的请求次数.cpp in Sources */,
 				65282CFF250F6DE000CEFC94 /* 234_回文链表.cpp in Sources */,
@@ -1044,6 +1076,7 @@
 				3B44FAC725949C0100B29245 /* 404_左叶子之和.cpp in Sources */,
 				3BFC2A4C25A2EED300F04ED1 /* 230_二叉搜索树中第K小的元素.cpp in Sources */,
 				65D2EAB7250F52D5009DC352 /* offer_52_两个链表的第一个公共节点.cpp in Sources */,
+				8D2196DB25E8162E003C2270 /* 剑指 Offer 15. 二进制中1的个数.cpp in Sources */,
 				65CCFBC6250F75E700ECC563 /* 20_有效的括号.cpp in Sources */,
 				6587072F250BA768005BFEC2 /* offer_06_从尾到头打印链表.cpp in Sources */,
 				65A9D3FE251B246900244EFF /* 114_二叉树展开为链表.cpp in Sources */,
@@ -1068,6 +1101,7 @@
 				3B5461E22599BB1300BEAE0B /* 671_二叉树中第二小的节点.cpp in Sources */,
 				3BC7B36B2590C1FC002FD4EF /* 1022_从根到叶的二进制数之和.cpp in Sources */,
 				3B5A408525E7AC0D0079329D /* 剑指 Offer 06. 从尾到头打印链表.cpp in Sources */,
+				8D2196C625E7E415003C2270 /* 剑指 Offer 13. 机器人的运动范围.cpp in Sources */,
 				3BC97F96259726A7009E9831 /* 606_根据二叉树创建字符串.cpp in Sources */,
 				6546F4612510DF8E0016F09D /* 856_括号的分数.cpp in Sources */,
 				3B846DA825A5B14B0072AAAB /* 95_不同的二叉搜索树 II.cpp in Sources */,
@@ -1123,7 +1157,9 @@
 				3BB1949625CFE7B5006344FF /* 518_零钱兑换II.cpp in Sources */,
 				6546F46C2511ED570016F09D /* 232_用栈实现队列.cpp in Sources */,
 				3BFC2A5025A2F6AB00F04ED1 /* 1008_前序遍历构造二叉搜索树.cpp in Sources */,
+				8D2196E125E817F7003C2270 /* 剑指 Offer 16. 数值的整数次方.cpp in Sources */,
 				3B5A406A25E7955F0079329D /* 剑指 Offer 58 - II. 左旋转字符串.cpp in Sources */,
+				8D2196CC25E80390003C2270 /* 剑指 Offer 14- I. 剪绳子.cpp in Sources */,
 				65A1285A25135967008E24AF /* 1544_整理字符串.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
