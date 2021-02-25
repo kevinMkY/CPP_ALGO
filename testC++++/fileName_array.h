@@ -25,5 +25,5 @@
 #include "289_生命游戏.hpp"
 #include "977_有序数组的平方.hpp"
 #include "faceTest_1616_部分排序.hpp"
-
+#include "_offer_03_数组中重复的数字.hpp"
 #endif /* fileNameHeader2_h */

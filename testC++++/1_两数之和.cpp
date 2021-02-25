@@ -73,11 +73,31 @@ vector<int> twoSum2(vector<int>& nums, int target) {
     return {};
 }
 
+
+vector<int> twoSum3(vector<int>& nums, int target) {
+    
+    int n = (int)nums.size();
+    
+    
+    map<int, int> mymap;
+    for (int i = 0; i<n; i++) {
+        int val = nums[i];
+        int modify = target - val;
+        if (mymap.find(modify) == mymap.end()) {
+            mymap[val] = i;
+        }else{
+            return {mymap[modify],i};
+        }
+    }
+    
+    return {};
+}
+
 void _1_test()
 {
     vector<int> list1 = {2,7,11,15};
     int flag1 = 9;
-    vector<int> sum = twoSum(list1, flag1);
-    vector<int> sum2 = twoSum2(list1, flag1);
+//    vector<int> sum = twoSum(list1, flag1);
+    vector<int> sum2 = twoSum3(list1, flag1);
     
 }

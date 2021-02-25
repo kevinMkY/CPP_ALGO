@@ -102,6 +102,36 @@ ListNode* addTwoNumbers2(ListNode* l1, ListNode* l2) {
     return newhead->next;
 }
 
+
+ListNode* addTwoNumbers3(ListNode* l1, ListNode* l2) {
+    
+    if (!l1) return l2;
+    if (!l2) return l1;
+    
+    ListNode *res = new ListNode(0);
+    ListNode *tail = res;
+    bool needIncrease = false;
+    while (l1 || l2) {
+        int val = 0;
+        if (l1) {
+            val += l1->val;
+            l1 = l1->next;
+        }
+        if (l2) {
+            val += l2->val;
+            l2 = l2->next;
+        }
+        val = (val + (needIncrease ? 1 : 0));
+        tail->next = new ListNode(val%10);
+        tail = tail->next;
+        needIncrease = val/10;
+    }
+    if (needIncrease) {
+        tail->next = new ListNode(1);
+    }
+    return res->next;;
+}
+
 void _2_test()
 {
     ListNode node1(2);
@@ -119,7 +149,7 @@ void _2_test()
     node5.next = &node6;
     node6.next = &node7;
     
-    ListNode *res = addTwoNumbers2(&node1,&node5);
+    ListNode *res = addTwoNumbers3(&node1,&node5);
     
     
 }
