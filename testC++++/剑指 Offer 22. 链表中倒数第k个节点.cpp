@@ -59,6 +59,31 @@ ListNode* _offer_22_repeat_test_getKthFromEnd2(ListNode* head, int k) {
     return pre;
     }
 
+
+ListNode* _offer_22_repeat_test_getKthFromEnd3(ListNode* head, int k) {
+    
+    if (!head) {
+        return head;
+    }
+    
+    ListNode *cur = head;
+    ListNode *slow = head;
+    for (int i = 0; i < k; i++) {
+        cur = cur->next;
+        if (!cur) {
+            return slow;
+        }
+    }
+    
+    while (cur) {
+        slow = slow->next;
+        cur = cur->next;
+    }
+    
+    return slow;
+    
+}
+
 void _offer_22_repeat_test()
 {
     ListNode node1(1);
@@ -75,6 +100,6 @@ void _offer_22_repeat_test()
 //    node5.next = &node6;
 //    node6.next = &node7;
     
-    ListNode *res = _offer_22_repeat_test_getKthFromEnd2(&node1,2);
+    ListNode *res = _offer_22_repeat_test_getKthFromEnd3(&node1,2);
     
 }

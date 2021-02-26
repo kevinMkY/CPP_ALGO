@@ -12,17 +12,18 @@
 int lengthOfLongestSubstring(string s) {
 
     int l = (int)s.length();
-    int left = -1;
+    int left = 0;
     int maxv = 0;
-    map<char, int>mymap;
+//    vector<int>mymap(128,0);
+    map<int, int>mymap;
     for (int i = 0; i<l; i++) {
         char c = s[i];
-        if (mymap.find(c) == mymap.end()) {
-            mymap[c] = i;
-        }else{
-            left = mymap[c];
+        mymap[c]++;
+        while (mymap[c] >= 2) {
+            mymap[s[left]]--;
+            left++;
         }
-        maxv = max(maxv, i-left);
+        maxv = max(maxv, i - left + 1);
     }
     
     return maxv;
@@ -31,7 +32,6 @@ int lengthOfLongestSubstring(string s) {
 
 void _offer_48_repeat_test()
 {
-
     int res1 = lengthOfLongestSubstring("abcabcbb");
     int res2 = lengthOfLongestSubstring("tmmzuxt");
     int res3 = lengthOfLongestSubstring("pwwkew");

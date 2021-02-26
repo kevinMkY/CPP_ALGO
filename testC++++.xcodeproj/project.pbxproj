@@ -18,6 +18,8 @@
 		3B3C8A0C2591FD1800DEA8D3 /* 872_叶子相似的树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C8A0A2591FD1800DEA8D3 /* 872_叶子相似的树.cpp */; };
 		3B3C8A11259340FD00DEA8D3 /* 530_二叉搜索树的最小绝对差.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C8A0F259340FD00DEA8D3 /* 530_二叉搜索树的最小绝对差.cpp */; };
 		3B3C8A1525934E7F00DEA8D3 /* 100_相同的树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C8A1325934E7F00DEA8D3 /* 100_相同的树.cpp */; };
+		3B403C8825E9222A0043E59A /* 剑指 Offer 35. 复杂链表的复制.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B403C8625E9222A0043E59A /* 剑指 Offer 35. 复杂链表的复制.cpp */; };
+		3B403C8D25E92AE40043E59A /* 剑指 Offer 36. 二叉搜索树与双向链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B403C8B25E92AE40043E59A /* 剑指 Offer 36. 二叉搜索树与双向链表.cpp */; };
 		3B44FABF25947D9200B29245 /* 563_二叉树的坡度.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B44FABD25947D9200B29245 /* 563_二叉树的坡度.cpp */; };
 		3B44FAC325948F3800B29245 /* 653_两数之和 IV - 输入 BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B44FAC125948F3800B29245 /* 653_两数之和 IV - 输入 BST.cpp */; };
 		3B44FAC725949C0100B29245 /* 404_左叶子之和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B44FAC525949C0100B29245 /* 404_左叶子之和.cpp */; };
@@ -41,6 +43,19 @@
 		3B5A40A225E7CABF0079329D /* 剑指 Offer 10- II. 青蛙跳台阶问题.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A40A025E7CABF0079329D /* 剑指 Offer 10- II. 青蛙跳台阶问题.cpp */; };
 		3B5A40A825E7CCA10079329D /* 剑指 Offer 11. 旋转数组的最小数字.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A40A625E7CCA10079329D /* 剑指 Offer 11. 旋转数组的最小数字.cpp */; };
 		3B5A40AE25E7CF130079329D /* 剑指 Offer 12. 矩阵中的路径.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A40AC25E7CF130079329D /* 剑指 Offer 12. 矩阵中的路径.cpp */; };
+		3B5A40B525E8A0D10079329D /* 剑指 Offer 18. 删除链表的节点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A40B325E8A0D10079329D /* 剑指 Offer 18. 删除链表的节点.cpp */; };
+		3B5A40BB25E8B6CB0079329D /* 剑指 Offer 19. 正则表达式匹配.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A40B925E8B6CB0079329D /* 剑指 Offer 19. 正则表达式匹配.cpp */; };
+		3B5A40C125E8C3F80079329D /* 剑指 Offer 20. 表示数值的字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A40BF25E8C3F80079329D /* 剑指 Offer 20. 表示数值的字符串.cpp */; };
+		3B5A40C725E8C5260079329D /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A40C525E8C5260079329D /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.cpp */; };
+		3B5A40CD25E8D17C0079329D /* 剑指 Offer 24. 反转链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A40CB25E8D17C0079329D /* 剑指 Offer 24. 反转链表.cpp */; };
+		3B5A40D325E8D5600079329D /* 剑指 Offer 25. 合并两个排序的链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A40D125E8D5600079329D /* 剑指 Offer 25. 合并两个排序的链表.cpp */; };
+		3B5A40DB25E8D8C80079329D /* 剑指 Offer 26. 树的子结构.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A40D925E8D8C80079329D /* 剑指 Offer 26. 树的子结构.cpp */; };
+		3B5A40E125E8E0E60079329D /* 剑指 Offer 27. 二叉树的镜像.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A40DF25E8E0E60079329D /* 剑指 Offer 27. 二叉树的镜像.cpp */; };
+		3B5A40E725E8E2F60079329D /* 剑指 Offer 28. 对称的二叉树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A40E525E8E2F60079329D /* 剑指 Offer 28. 对称的二叉树.cpp */; };
+		3B5A40EF25E8EFD70079329D /* 剑指 Offer 29. 顺时针打印矩阵.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A40ED25E8EFD70079329D /* 剑指 Offer 29. 顺时针打印矩阵.cpp */; };
+		3B5A40F525E8FA150079329D /* 剑指 Offer 30. 包含min函数的栈.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A40F325E8FA150079329D /* 剑指 Offer 30. 包含min函数的栈.cpp */; };
+		3B5A40FB25E8FE2B0079329D /* 剑指 Offer 31. 栈的压入、弹出序列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A40F925E8FE2B0079329D /* 剑指 Offer 31. 栈的压入、弹出序列.cpp */; };
+		3B5A410125E90BE10079329D /* 剑指 Offer 32 - I. 从上到下打印二叉树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A40FF25E90BE10079329D /* 剑指 Offer 32 - I. 从上到下打印二叉树.cpp */; };
 		3B846D8825A447D20072AAAB /* 814_二叉树剪枝.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B846D8625A447D20072AAAB /* 814_二叉树剪枝.cpp */; };
 		3B846D8C25A449E90072AAAB /* 1104_二叉树寻路.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B846D8A25A449E90072AAAB /* 1104_二叉树寻路.cpp */; };
 		3B846D9025A455670072AAAB /* 1448_统计二叉树中好节点的数目.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B846D8E25A455670072AAAB /* 1448_统计二叉树中好节点的数目.cpp */; };
@@ -107,6 +122,8 @@
 		3BFC2A5025A2F6AB00F04ED1 /* 1008_前序遍历构造二叉搜索树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC2A4E25A2F6AB00F04ED1 /* 1008_前序遍历构造二叉搜索树.cpp */; };
 		3BFC2A5425A3010200F04ED1 /* 513_找树左下角的值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC2A5225A3010200F04ED1 /* 513_找树左下角的值.cpp */; };
 		3BFC2A5825A30F9800F04ED1 /* 701_二叉搜索树中的插入操作.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC2A5625A30F9800F04ED1 /* 701_二叉搜索树中的插入操作.cpp */; };
+		3BFC438425E9122600352D36 /* 剑指 Offer 33. 二叉搜索树的后序遍历序列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC438225E9122500352D36 /* 剑指 Offer 33. 二叉搜索树的后序遍历序列.cpp */; };
+		3BFC438A25E916F900352D36 /* 剑指 Offer 34. 二叉树中和为某一值的路径.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC438825E916F900352D36 /* 剑指 Offer 34. 二叉树中和为某一值的路径.cpp */; };
 		65118AE72508CFBD004D8F15 /* 509_斐波那契数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65118AE62508CFBD004D8F15 /* 509_斐波那契数.cpp */; };
 		65118AE92508D175004D8F15 /* 5_最长回文子串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65118AE82508D175004D8F15 /* 5_最长回文子串.cpp */; };
 		65118AEF2508EA58004D8F15 /* 237_删除链表中的节点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65118AED2508EA58004D8F15 /* 237_删除链表中的节点.cpp */; };
@@ -214,6 +231,10 @@
 		3B3C8A10259340FD00DEA8D3 /* 530_二叉搜索树的最小绝对差.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "530_二叉搜索树的最小绝对差.hpp"; sourceTree = "<group>"; };
 		3B3C8A1325934E7F00DEA8D3 /* 100_相同的树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "100_相同的树.cpp"; sourceTree = "<group>"; };
 		3B3C8A1425934E7F00DEA8D3 /* 100_相同的树.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "100_相同的树.hpp"; sourceTree = "<group>"; };
+		3B403C8625E9222A0043E59A /* 剑指 Offer 35. 复杂链表的复制.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 35. 复杂链表的复制.cpp"; sourceTree = "<group>"; };
+		3B403C8725E9222A0043E59A /* 剑指 Offer 35. 复杂链表的复制.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 35. 复杂链表的复制.hpp"; sourceTree = "<group>"; };
+		3B403C8B25E92AE40043E59A /* 剑指 Offer 36. 二叉搜索树与双向链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 36. 二叉搜索树与双向链表.cpp"; sourceTree = "<group>"; };
+		3B403C8C25E92AE40043E59A /* 剑指 Offer 36. 二叉搜索树与双向链表.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 36. 二叉搜索树与双向链表.hpp"; sourceTree = "<group>"; };
 		3B44FABD25947D9200B29245 /* 563_二叉树的坡度.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "563_二叉树的坡度.cpp"; sourceTree = "<group>"; };
 		3B44FABE25947D9200B29245 /* 563_二叉树的坡度.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "563_二叉树的坡度.hpp"; sourceTree = "<group>"; };
 		3B44FAC125948F3800B29245 /* 653_两数之和 IV - 输入 BST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "653_两数之和 IV - 输入 BST.cpp"; sourceTree = "<group>"; };
@@ -262,6 +283,32 @@
 		3B5A40A725E7CCA10079329D /* 剑指 Offer 11. 旋转数组的最小数字.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 11. 旋转数组的最小数字.hpp"; sourceTree = "<group>"; };
 		3B5A40AC25E7CF130079329D /* 剑指 Offer 12. 矩阵中的路径.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 12. 矩阵中的路径.cpp"; sourceTree = "<group>"; };
 		3B5A40AD25E7CF130079329D /* 剑指 Offer 12. 矩阵中的路径.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 12. 矩阵中的路径.hpp"; sourceTree = "<group>"; };
+		3B5A40B325E8A0D10079329D /* 剑指 Offer 18. 删除链表的节点.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 18. 删除链表的节点.cpp"; sourceTree = "<group>"; };
+		3B5A40B425E8A0D10079329D /* 剑指 Offer 18. 删除链表的节点.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 18. 删除链表的节点.hpp"; sourceTree = "<group>"; };
+		3B5A40B925E8B6CB0079329D /* 剑指 Offer 19. 正则表达式匹配.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 19. 正则表达式匹配.cpp"; sourceTree = "<group>"; };
+		3B5A40BA25E8B6CB0079329D /* 剑指 Offer 19. 正则表达式匹配.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 19. 正则表达式匹配.hpp"; sourceTree = "<group>"; };
+		3B5A40BF25E8C3F80079329D /* 剑指 Offer 20. 表示数值的字符串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 20. 表示数值的字符串.cpp"; sourceTree = "<group>"; };
+		3B5A40C025E8C3F80079329D /* 剑指 Offer 20. 表示数值的字符串.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 20. 表示数值的字符串.hpp"; sourceTree = "<group>"; };
+		3B5A40C525E8C5260079329D /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.cpp"; sourceTree = "<group>"; };
+		3B5A40C625E8C5260079329D /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.hpp"; sourceTree = "<group>"; };
+		3B5A40CB25E8D17C0079329D /* 剑指 Offer 24. 反转链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 24. 反转链表.cpp"; sourceTree = "<group>"; };
+		3B5A40CC25E8D17C0079329D /* 剑指 Offer 24. 反转链表.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 24. 反转链表.hpp"; sourceTree = "<group>"; };
+		3B5A40D125E8D5600079329D /* 剑指 Offer 25. 合并两个排序的链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 25. 合并两个排序的链表.cpp"; sourceTree = "<group>"; };
+		3B5A40D225E8D5600079329D /* 剑指 Offer 25. 合并两个排序的链表.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 25. 合并两个排序的链表.hpp"; sourceTree = "<group>"; };
+		3B5A40D925E8D8C80079329D /* 剑指 Offer 26. 树的子结构.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 26. 树的子结构.cpp"; sourceTree = "<group>"; };
+		3B5A40DA25E8D8C80079329D /* 剑指 Offer 26. 树的子结构.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 26. 树的子结构.hpp"; sourceTree = "<group>"; };
+		3B5A40DF25E8E0E60079329D /* 剑指 Offer 27. 二叉树的镜像.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 27. 二叉树的镜像.cpp"; sourceTree = "<group>"; };
+		3B5A40E025E8E0E60079329D /* 剑指 Offer 27. 二叉树的镜像.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 27. 二叉树的镜像.hpp"; sourceTree = "<group>"; };
+		3B5A40E525E8E2F60079329D /* 剑指 Offer 28. 对称的二叉树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 28. 对称的二叉树.cpp"; sourceTree = "<group>"; };
+		3B5A40E625E8E2F60079329D /* 剑指 Offer 28. 对称的二叉树.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 28. 对称的二叉树.hpp"; sourceTree = "<group>"; };
+		3B5A40ED25E8EFD70079329D /* 剑指 Offer 29. 顺时针打印矩阵.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 29. 顺时针打印矩阵.cpp"; sourceTree = "<group>"; };
+		3B5A40EE25E8EFD70079329D /* 剑指 Offer 29. 顺时针打印矩阵.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 29. 顺时针打印矩阵.hpp"; sourceTree = "<group>"; };
+		3B5A40F325E8FA150079329D /* 剑指 Offer 30. 包含min函数的栈.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 30. 包含min函数的栈.cpp"; sourceTree = "<group>"; };
+		3B5A40F425E8FA150079329D /* 剑指 Offer 30. 包含min函数的栈.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 30. 包含min函数的栈.hpp"; sourceTree = "<group>"; };
+		3B5A40F925E8FE2B0079329D /* 剑指 Offer 31. 栈的压入、弹出序列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 31. 栈的压入、弹出序列.cpp"; sourceTree = "<group>"; };
+		3B5A40FA25E8FE2B0079329D /* 剑指 Offer 31. 栈的压入、弹出序列.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 31. 栈的压入、弹出序列.hpp"; sourceTree = "<group>"; };
+		3B5A40FF25E90BE10079329D /* 剑指 Offer 32 - I. 从上到下打印二叉树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 32 - I. 从上到下打印二叉树.cpp"; sourceTree = "<group>"; };
+		3B5A410025E90BE10079329D /* 剑指 Offer 32 - I. 从上到下打印二叉树.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 32 - I. 从上到下打印二叉树.hpp"; sourceTree = "<group>"; };
 		3B846D8625A447D20072AAAB /* 814_二叉树剪枝.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "814_二叉树剪枝.cpp"; sourceTree = "<group>"; };
 		3B846D8725A447D20072AAAB /* 814_二叉树剪枝.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "814_二叉树剪枝.hpp"; sourceTree = "<group>"; };
 		3B846D8A25A449E90072AAAB /* 1104_二叉树寻路.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1104_二叉树寻路.cpp"; sourceTree = "<group>"; };
@@ -405,6 +452,10 @@
 		3BFC2A5325A3010200F04ED1 /* 513_找树左下角的值.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "513_找树左下角的值.hpp"; sourceTree = "<group>"; };
 		3BFC2A5625A30F9800F04ED1 /* 701_二叉搜索树中的插入操作.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "701_二叉搜索树中的插入操作.cpp"; sourceTree = "<group>"; };
 		3BFC2A5725A30F9800F04ED1 /* 701_二叉搜索树中的插入操作.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "701_二叉搜索树中的插入操作.hpp"; sourceTree = "<group>"; };
+		3BFC438225E9122500352D36 /* 剑指 Offer 33. 二叉搜索树的后序遍历序列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 33. 二叉搜索树的后序遍历序列.cpp"; sourceTree = "<group>"; };
+		3BFC438325E9122500352D36 /* 剑指 Offer 33. 二叉搜索树的后序遍历序列.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 33. 二叉搜索树的后序遍历序列.hpp"; sourceTree = "<group>"; };
+		3BFC438825E916F900352D36 /* 剑指 Offer 34. 二叉树中和为某一值的路径.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 34. 二叉树中和为某一值的路径.cpp"; sourceTree = "<group>"; };
+		3BFC438925E916F900352D36 /* 剑指 Offer 34. 二叉树中和为某一值的路径.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 34. 二叉树中和为某一值的路径.hpp"; sourceTree = "<group>"; };
 		65118AE62508CFBD004D8F15 /* 509_斐波那契数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "509_斐波那契数.cpp"; sourceTree = "<group>"; };
 		65118AE82508D175004D8F15 /* 5_最长回文子串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5_最长回文子串.cpp"; sourceTree = "<group>"; };
 		65118AEA2508D41C004D8F15 /* 509_斐波那契数.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "509_斐波那契数.hpp"; sourceTree = "<group>"; };
@@ -619,8 +670,42 @@
 				8D2196E025E817F7003C2270 /* 剑指 Offer 16. 数值的整数次方.hpp */,
 				8D2196E525E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.cpp */,
 				8D2196E625E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.hpp */,
+				3B5A40B325E8A0D10079329D /* 剑指 Offer 18. 删除链表的节点.cpp */,
+				3B5A40B425E8A0D10079329D /* 剑指 Offer 18. 删除链表的节点.hpp */,
+				3B5A40B925E8B6CB0079329D /* 剑指 Offer 19. 正则表达式匹配.cpp */,
+				3B5A40BA25E8B6CB0079329D /* 剑指 Offer 19. 正则表达式匹配.hpp */,
+				3B5A40BF25E8C3F80079329D /* 剑指 Offer 20. 表示数值的字符串.cpp */,
+				3B5A40C025E8C3F80079329D /* 剑指 Offer 20. 表示数值的字符串.hpp */,
+				3B5A40C525E8C5260079329D /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.cpp */,
+				3B5A40C625E8C5260079329D /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.hpp */,
 				3B5A407125E79DE60079329D /* 剑指 Offer 22. 链表中倒数第k个节点.cpp */,
 				3B5A407225E79DE60079329D /* 剑指 Offer 22. 链表中倒数第k个节点.hpp */,
+				3B5A40CB25E8D17C0079329D /* 剑指 Offer 24. 反转链表.cpp */,
+				3B5A40CC25E8D17C0079329D /* 剑指 Offer 24. 反转链表.hpp */,
+				3B5A40D125E8D5600079329D /* 剑指 Offer 25. 合并两个排序的链表.cpp */,
+				3B5A40D225E8D5600079329D /* 剑指 Offer 25. 合并两个排序的链表.hpp */,
+				3B5A40D925E8D8C80079329D /* 剑指 Offer 26. 树的子结构.cpp */,
+				3B5A40DA25E8D8C80079329D /* 剑指 Offer 26. 树的子结构.hpp */,
+				3B5A40DF25E8E0E60079329D /* 剑指 Offer 27. 二叉树的镜像.cpp */,
+				3B5A40E025E8E0E60079329D /* 剑指 Offer 27. 二叉树的镜像.hpp */,
+				3B5A40E525E8E2F60079329D /* 剑指 Offer 28. 对称的二叉树.cpp */,
+				3B5A40E625E8E2F60079329D /* 剑指 Offer 28. 对称的二叉树.hpp */,
+				3B5A40ED25E8EFD70079329D /* 剑指 Offer 29. 顺时针打印矩阵.cpp */,
+				3B5A40EE25E8EFD70079329D /* 剑指 Offer 29. 顺时针打印矩阵.hpp */,
+				3B5A40F325E8FA150079329D /* 剑指 Offer 30. 包含min函数的栈.cpp */,
+				3B5A40F425E8FA150079329D /* 剑指 Offer 30. 包含min函数的栈.hpp */,
+				3B5A40F925E8FE2B0079329D /* 剑指 Offer 31. 栈的压入、弹出序列.cpp */,
+				3B5A40FA25E8FE2B0079329D /* 剑指 Offer 31. 栈的压入、弹出序列.hpp */,
+				3B5A40FF25E90BE10079329D /* 剑指 Offer 32 - I. 从上到下打印二叉树.cpp */,
+				3B5A410025E90BE10079329D /* 剑指 Offer 32 - I. 从上到下打印二叉树.hpp */,
+				3BFC438225E9122500352D36 /* 剑指 Offer 33. 二叉搜索树的后序遍历序列.cpp */,
+				3BFC438325E9122500352D36 /* 剑指 Offer 33. 二叉搜索树的后序遍历序列.hpp */,
+				3BFC438825E916F900352D36 /* 剑指 Offer 34. 二叉树中和为某一值的路径.cpp */,
+				3BFC438925E916F900352D36 /* 剑指 Offer 34. 二叉树中和为某一值的路径.hpp */,
+				3B403C8625E9222A0043E59A /* 剑指 Offer 35. 复杂链表的复制.cpp */,
+				3B403C8725E9222A0043E59A /* 剑指 Offer 35. 复杂链表的复制.hpp */,
+				3B403C8B25E92AE40043E59A /* 剑指 Offer 36. 二叉搜索树与双向链表.cpp */,
+				3B403C8C25E92AE40043E59A /* 剑指 Offer 36. 二叉搜索树与双向链表.hpp */,
 				8D2196EB25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.cpp */,
 				8D2196EC25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.hpp */,
 				3B5A406825E7955F0079329D /* 剑指 Offer 58 - II. 左旋转字符串.cpp */,
@@ -993,6 +1078,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B59F34425CBE58300B6317A /* 51_N皇后.cpp in Sources */,
+				3B5A410125E90BE10079329D /* 剑指 Offer 32 - I. 从上到下打印二叉树.cpp in Sources */,
 				3BE3DF4625DD4622008FD20B /* 138_复制带随机指针的链表.cpp in Sources */,
 				65870729250BA06C005BFEC2 /* offer_22_链表中倒数第k个节点.cpp in Sources */,
 				65A1286925139293008E24AF /* offer_59_滑动窗口的最大值.cpp in Sources */,
@@ -1012,12 +1098,14 @@
 				3B5461D52598873300BEAE0B /* 112_路径总和.cpp in Sources */,
 				3BDBBAD525D91E4300610886 /* 9998_最长公共子串.cpp in Sources */,
 				3B3C03422599D05900EBAA9F /* 1379_找出克隆二叉树中的相同节点.cpp in Sources */,
+				3B5A40E725E8E2F60079329D /* 剑指 Offer 28. 对称的二叉树.cpp in Sources */,
 				65A9D40E251B252600244EFF /* 105_从前序与中序遍历序列构造二叉树.cpp in Sources */,
 				3B846D9025A455670072AAAB /* 1448_统计二叉树中好节点的数目.cpp in Sources */,
 				65B5374C250903DB00FE9807 /* 203_移除链表元素.cpp in Sources */,
 				3BB1949225CFD07E006344FF /* 322_零钱兑换.cpp in Sources */,
 				8D0C411B25E00D0900845117 /* 66_加一.cpp in Sources */,
 				3B846D9825A462C30072AAAB /* 96_不同的二叉搜索树.cpp in Sources */,
+				3BFC438425E9122600352D36 /* 剑指 Offer 33. 二叉搜索树的后序遍历序列.cpp in Sources */,
 				3BCBE22425D27BAA000CFD5E /* 121_买卖股票的最佳时机.cpp in Sources */,
 				3BE3DF8025DFEC3D008FD20B /* 26_删除排序数组中的重复项.cpp in Sources */,
 				3BC55D1F258B8D4B0039D0D1 /* 617_合并二叉树.cpp in Sources */,
@@ -1032,11 +1120,13 @@
 				3B3C8A0C2591FD1800DEA8D3 /* 872_叶子相似的树.cpp in Sources */,
 				65A1286D2513A84B008E24AF /* 239_滑动窗口最大值.cpp in Sources */,
 				65FA4BDC2511F9D000FB8651 /* 1047__删除字符串中的所有相邻重复项.cpp in Sources */,
+				3B5A40EF25E8EFD70079329D /* 剑指 Offer 29. 顺时针打印矩阵.cpp in Sources */,
 				3B90ACCF25DCF733008693D3 /* 977_有序数组的平方.cpp in Sources */,
 				3B846D9425A45C170072AAAB /* 979_在二叉树中分配硬币.cpp in Sources */,
 				65DF9BD9251A03860055E0BE /* 145_二叉树的后序遍历.cpp in Sources */,
 				8D0C411F25E0111300845117 /* 78_子集.cpp in Sources */,
 				65118AE72508CFBD004D8F15 /* 509_斐波那契数.cpp in Sources */,
+				3B5A40C725E8C5260079329D /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.cpp in Sources */,
 				65DF9BE7251A33320055E0BE /* 104_二叉树的最大深度.cpp in Sources */,
 				3B44FAC325948F3800B29245 /* 653_两数之和 IV - 输入 BST.cpp in Sources */,
 				3BBC5DEA258E21C7004CC98D /* 637_二叉树的层平均值.cpp in Sources */,
@@ -1050,10 +1140,12 @@
 				3BC97F922597223A009E9831 /* 783_二叉搜索树节点最小距离.cpp in Sources */,
 				3B5A40AE25E7CF130079329D /* 剑指 Offer 12. 矩阵中的路径.cpp in Sources */,
 				65D2EAB4250F4AE0009DC352 /* 21_合并两个有序链表.cpp in Sources */,
+				3B5A40F525E8FA150079329D /* 剑指 Offer 30. 包含min函数的栈.cpp in Sources */,
 				8D2196E725E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.cpp in Sources */,
 				3B846D8825A447D20072AAAB /* 814_二叉树剪枝.cpp in Sources */,
 				3BE300FF258DFF9000044E78 /* 938_二叉搜索树的范围和.cpp in Sources */,
 				3BE3DF7C25DFE878008FD20B /* 217_存在重复元素.cpp in Sources */,
+				3B5A40D325E8D5600079329D /* 剑指 Offer 25. 合并两个排序的链表.cpp in Sources */,
 				3BE3DF4225DD244D008FD20B /* 86_分隔链表.cpp in Sources */,
 				3B3C034E2599D89C00EBAA9F /* 1302_层数最深叶子节点的和.cpp in Sources */,
 				3BDBBAD125D9185000610886 /* 9999_01背包.cpp in Sources */,
@@ -1066,11 +1158,14 @@
 				3BE61F46259C645800CA2084 /* 1325_删除给定值的叶子节点.cpp in Sources */,
 				3B5A409C25E7C8050079329D /* 剑指 Offer 10- I. 斐波那契数列.cpp in Sources */,
 				3B5A409125E7C30E0079329D /* 105.cpp in Sources */,
+				3B403C8825E9222A0043E59A /* 剑指 Offer 35. 复杂链表的复制.cpp in Sources */,
+				3BFC438A25E916F900352D36 /* 剑指 Offer 34. 二叉树中和为某一值的路径.cpp in Sources */,
 				65282CFC250F5E0C00CEFC94 /* faceTest_0206_回文链表.cpp in Sources */,
 				3B846D8C25A449E90072AAAB /* 1104_二叉树寻路.cpp in Sources */,
 				65A9D3F2251B23E000244EFF /* 589_N叉树的前序遍历.cpp in Sources */,
 				65A9D3EE251B239000244EFF /* 662_二叉树最大宽度.cpp in Sources */,
 				3BE61F4A259C704500CA2084 /* 1261_在受污染的二叉树中查找元素.cpp in Sources */,
+				3B5A40BB25E8B6CB0079329D /* 剑指 Offer 19. 正则表达式匹配.cpp in Sources */,
 				65DF9BD42519F6F70055E0BE /* 144_二叉树的前序遍历.cpp in Sources */,
 				3BE3DF7725DFDE4D008FD20B /* 268_丢失的数字.cpp in Sources */,
 				3B44FAC725949C0100B29245 /* 404_左叶子之和.cpp in Sources */,
@@ -1083,6 +1178,8 @@
 				3B5A409525E7C5ED0079329D /* 剑指 Offer 09. 用两个栈实现队列.cpp in Sources */,
 				3BBC5DDD258E1124004CC98D /* Offer_54_二叉搜索树的第k大节点.cpp in Sources */,
 				3B5A407925E7A2450079329D /* 剑指 Offer 04. 二维数组中的查找.cpp in Sources */,
+				3B5A40C125E8C3F80079329D /* 剑指 Offer 20. 表示数值的字符串.cpp in Sources */,
+				3B5A40CD25E8D17C0079329D /* 剑指 Offer 24. 反转链表.cpp in Sources */,
 				65870735250BB560005BFEC2 /* faceTest_0201_移除重复节点.cpp in Sources */,
 				3B5A40A825E7CCA10079329D /* 剑指 Offer 11. 旋转数组的最小数字.cpp in Sources */,
 				65870732250BB3F1005BFEC2 /* offer_24_反转链表.cpp in Sources */,
@@ -1107,6 +1204,7 @@
 				3B846DA825A5B14B0072AAAB /* 95_不同的二叉搜索树 II.cpp in Sources */,
 				65A9D3F6251B240D00244EFF /* 590_N叉树的后序遍历.cpp in Sources */,
 				3B846DA425A5AC880072AAAB /* 429_N 叉树的层序遍历.cpp in Sources */,
+				3B403C8D25E92AE40043E59A /* 剑指 Offer 36. 二叉搜索树与双向链表.cpp in Sources */,
 				6546F4672510F5650016F09D /* 224_基本计算器.cpp in Sources */,
 				3BE30107258E0A1B00044E78 /* 108_将有序数组转换为二叉搜索树.cpp in Sources */,
 				3B3C8A11259340FD00DEA8D3 /* 530_二叉搜索树的最小绝对差.cpp in Sources */,
@@ -1129,8 +1227,11 @@
 				65118AFE2508FF79004D8F15 /* 141_环形链表.cpp in Sources */,
 				65C28C6A2519DA9F00C94E7C /* 226_翻转二叉树.cpp in Sources */,
 				3BCBE22825D28371000CFD5E /* 746_使用最小花费爬楼梯.cpp in Sources */,
+				3B5A40B525E8A0D10079329D /* 剑指 Offer 18. 删除链表的节点.cpp in Sources */,
 				3B5461C625987E7900BEAE0B /* 993_二叉树的堂兄弟节点.cpp in Sources */,
 				3BC97F9E25976B32009E9831 /* 543_二叉树的直径.cpp in Sources */,
+				3B5A40FB25E8FE2B0079329D /* 剑指 Offer 31. 栈的压入、弹出序列.cpp in Sources */,
+				3B5A40E125E8E0E60079329D /* 剑指 Offer 27. 二叉树的镜像.cpp in Sources */,
 				3BE3DF3E25DD0E92008FD20B /* 2_两数相加.cpp in Sources */,
 				3B3C034A2599D63700EBAA9F /* 1315_祖父节点值为偶数的节点和.cpp in Sources */,
 				3B5461DD25989F3000BEAE0B /* 572_另一个树的子树.cpp in Sources */,
@@ -1148,6 +1249,7 @@
 				8D0C412F25E034D400845117 /* 287_寻找重复数.cpp in Sources */,
 				65118AF82508F3E4004D8F15 /* 206_反转链表.cpp in Sources */,
 				3BBC5DE6258E2183004CC98D /* Offer_68_1_二叉搜索树的最近公共祖先.cpp in Sources */,
+				3B5A40DB25E8D8C80079329D /* 剑指 Offer 26. 树的子结构.cpp in Sources */,
 				3BDBBACD25D7CDE500610886 /* 1143_最长公共子序列.cpp in Sources */,
 				65FA4BE5251205FA00FB8651 /* 1441_用栈操作构建数组.cpp in Sources */,
 				3B3C03462599D25E00EBAA9F /* 654_最大二叉树.cpp in Sources */,
