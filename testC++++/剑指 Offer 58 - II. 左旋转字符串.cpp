@@ -47,13 +47,24 @@ string reverseLeftWords2(string s, int n) {
     return s;
 }
 
-
+string reverseLeftWords3(string s, int n) {
+    
+    if (s.length() < n) {
+        return "";
+    }
+    int l = (int)s.length();
+    string s1 = s.substr(0,n);
+    string s2 = s.substr(n,l);
+    s2.append(s1);
+    
+    return s2;
+}
 
 
 void _offer_58_test()
 {
     string s1 = "abcdefg";
-    string res = reverseLeftWords2(s1,2);
+    string res = reverseLeftWords3(s1,2);
     
     
 }

@@ -29,13 +29,38 @@ int lengthOfLongestSubstring(string s) {
     return maxv;
     }
 
+//滑动窗口
+//
+int lengthOfLongestSubstring2(string s) {
+    
+    int l = (int)s.length();
+    if (l < 2) {
+        return l;
+    }
+    
+    int left = 0;
+    int maxv = 0;
+    map<char, int>mymap;
+    for (int right = 0; right<l; right++) {
+        char c = s[right];
+        mymap[c]++;
+        while (mymap[c] > 1) {
+            mymap[s[left]]--;
+            left++;
+        }
+        maxv = max(maxv, right - left +1);
+    }
+    
+    return maxv;
+}
+
 
 void _offer_48_repeat_test()
 {
-    int res1 = lengthOfLongestSubstring("abcabcbb");
-    int res2 = lengthOfLongestSubstring("tmmzuxt");
-    int res3 = lengthOfLongestSubstring("pwwkew");
-    int res4 = lengthOfLongestSubstring("abba");
+    int res1 = lengthOfLongestSubstring2("abcabcbb");
+    int res2 = lengthOfLongestSubstring2("tmmzuxt");
+    int res3 = lengthOfLongestSubstring2("pwwkew");
+    int res4 = lengthOfLongestSubstring2("abba");
 
 
 

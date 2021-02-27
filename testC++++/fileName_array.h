@@ -10,6 +10,8 @@
 
 #include "1_两数之和.hpp"
 #include "26_删除排序数组中的重复项.hpp"
+#include "46_全排列.hpp"
+#include "47_全排列 II.hpp"
 #include "48_旋转图像.hpp"
 #include "66_加一.hpp"
 #include "75_颜色分类.hpp"
