@@ -5,7 +5,7 @@
 //  Created by yekaihua on 2021/2/25.
 //
 
-#include "_offer_03_数组中重复的数字.hpp"
+#include "剑指 Offer 03. 数组中重复的数字.hpp"
 #include "common.h"
 
 //map
@@ -42,6 +42,31 @@ int findRepeatNumber2(vector<int>& nums) {
         }
     }
     return 0;
+}
+
+
+//空间o1
+//时间一个for循环，每个val最多交换2次，所以也是oN
+int findRepeatNumber3(vector<int>& nums) {
+    int n = nums.size();
+    if (n < 2) {
+        return n;
+    }
+    int res = n;
+    for (int i = 0; i<n; i++) {
+        int val = nums[i];
+        while (val != i) {
+            if (nums[val] == val) {
+                return val;
+            }
+            int tmp = nums[val];
+            nums[val] = nums[i];
+            nums[i]=tmp;
+        }
+    }
+    
+    return 0;
+    
 }
 
 void _offer_03_test()

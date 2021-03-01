@@ -33,7 +33,7 @@
 		3B5461E22599BB1300BEAE0B /* 671_二叉树中第二小的节点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5461E02599BB1300BEAE0B /* 671_二叉树中第二小的节点.cpp */; };
 		3B59F34425CBE58300B6317A /* 51_N皇后.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B59F34225CBE58300B6317A /* 51_N皇后.cpp */; };
 		3B59F34925CD2D2100B6317A /* 53_最大子序和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B59F34725CD2D2100B6317A /* 53_最大子序和.cpp */; };
-		3B5A406525E78A400079329D /* _offer_03_数组中重复的数字.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A406325E78A400079329D /* _offer_03_数组中重复的数字.cpp */; };
+		3B5A406525E78A400079329D /* 剑指 Offer 03. 数组中重复的数字.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A406325E78A400079329D /* 剑指 Offer 03. 数组中重复的数字.cpp */; };
 		3B5A406A25E7955F0079329D /* 剑指 Offer 58 - II. 左旋转字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A406825E7955F0079329D /* 剑指 Offer 58 - II. 左旋转字符串.cpp */; };
 		3B5A407325E79DE60079329D /* 剑指 Offer 22. 链表中倒数第k个节点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A407125E79DE60079329D /* 剑指 Offer 22. 链表中倒数第k个节点.cpp */; };
 		3B5A407925E7A2450079329D /* 剑指 Offer 04. 二维数组中的查找.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A407725E7A2450079329D /* 剑指 Offer 04. 二维数组中的查找.cpp */; };
@@ -299,8 +299,8 @@
 		3B59F34325CBE58300B6317A /* 51_N皇后.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "51_N皇后.hpp"; sourceTree = "<group>"; };
 		3B59F34725CD2D2100B6317A /* 53_最大子序和.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "53_最大子序和.cpp"; sourceTree = "<group>"; };
 		3B59F34825CD2D2100B6317A /* 53_最大子序和.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "53_最大子序和.hpp"; sourceTree = "<group>"; };
-		3B5A406325E78A400079329D /* _offer_03_数组中重复的数字.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_offer_03_数组中重复的数字.cpp"; sourceTree = "<group>"; };
-		3B5A406425E78A400079329D /* _offer_03_数组中重复的数字.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_offer_03_数组中重复的数字.hpp"; sourceTree = "<group>"; };
+		3B5A406325E78A400079329D /* 剑指 Offer 03. 数组中重复的数字.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 03. 数组中重复的数字.cpp"; sourceTree = "<group>"; };
+		3B5A406425E78A400079329D /* 剑指 Offer 03. 数组中重复的数字.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 03. 数组中重复的数字.hpp"; sourceTree = "<group>"; };
 		3B5A406725E794DC0079329D /* --------------重刷--------------.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "--------------重刷--------------.h"; sourceTree = "<group>"; };
 		3B5A406825E7955F0079329D /* 剑指 Offer 58 - II. 左旋转字符串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 58 - II. 左旋转字符串.cpp"; sourceTree = "<group>"; };
 		3B5A406925E7955F0079329D /* 剑指 Offer 58 - II. 左旋转字符串.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 58 - II. 左旋转字符串.hpp"; sourceTree = "<group>"; };
@@ -762,6 +762,22 @@
 		3BBE594E25EAA27A009A3510 /* 动态规划 */ = {
 			isa = PBXGroup;
 			children = (
+				3BFB1C3025EA792100A1C75F /* 剑指 Offer 62. 圆圈中最后剩下的数字.cpp */,
+				3BFB1C3125EA792100A1C75F /* 剑指 Offer 62. 圆圈中最后剩下的数字.hpp */,
+				3BFB1C3625EA7FAC00A1C75F /* 剑指 Offer 63. 股票的最大利润.cpp */,
+				3BFB1C3725EA7FAC00A1C75F /* 剑指 Offer 63. 股票的最大利润.hpp */,
+				3BFB1C2425EA6EAF00A1C75F /* 剑指 Offer 60. n个骰子的点数.cpp */,
+				3BFB1C2525EA6EAF00A1C75F /* 剑指 Offer 60. n个骰子的点数.hpp */,
+				3BFB1C2A25EA767100A1C75F /* 剑指 Offer 61. 扑克牌中的顺子.cpp */,
+				3BFB1C2B25EA767100A1C75F /* 剑指 Offer 61. 扑克牌中的顺子.hpp */,
+				8D2196EB25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.cpp */,
+				8D2196EC25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.hpp */,
+				3BC270B125EA0C16003102DC /* 剑指 Offer 47. 礼物的最大价值.cpp */,
+				3BC270B225EA0C16003102DC /* 剑指 Offer 47. 礼物的最大价值.hpp */,
+				3B5A40ED25E8EFD70079329D /* 剑指 Offer 29. 顺时针打印矩阵.cpp */,
+				3B5A40EE25E8EFD70079329D /* 剑指 Offer 29. 顺时针打印矩阵.hpp */,
+				3B5A40B925E8B6CB0079329D /* 剑指 Offer 19. 正则表达式匹配.cpp */,
+				3B5A40BA25E8B6CB0079329D /* 剑指 Offer 19. 正则表达式匹配.hpp */,
 				3B5A40A625E7CCA10079329D /* 剑指 Offer 11. 旋转数组的最小数字.cpp */,
 				3B5A40A725E7CCA10079329D /* 剑指 Offer 11. 旋转数组的最小数字.hpp */,
 				3B5A409A25E7C8050079329D /* 剑指 Offer 10- I. 斐波那契数列.cpp */,
@@ -802,6 +818,10 @@
 		3BBE595025EAA28F009A3510 /* 字符串 */ = {
 			isa = PBXGroup;
 			children = (
+				3B5A406825E7955F0079329D /* 剑指 Offer 58 - II. 左旋转字符串.cpp */,
+				3B5A406925E7955F0079329D /* 剑指 Offer 58 - II. 左旋转字符串.hpp */,
+				3BBE593825EA8BD9009A3510 /* 剑指 Offer 67. 把字符串转换成整数.cpp */,
+				3BBE593925EA8BD9009A3510 /* 剑指 Offer 67. 把字符串转换成整数.hpp */,
 				3BC270AB25EA02F8003102DC /* 剑指 Offer 46. 把数字翻译成字符串.cpp */,
 				3BC270AC25EA02F8003102DC /* 剑指 Offer 46. 把数字翻译成字符串.hpp */,
 				3BC2707225E93BBB003102DC /* 剑指 Offer 38. 字符串的排列.cpp */,
@@ -817,6 +837,24 @@
 		3BBE595325EAA37B009A3510 /* 数组 */ = {
 			isa = PBXGroup;
 			children = (
+				3BDCB71925EA5095006CE093 /* 剑指 Offer 58 - I. 翻转单词顺序.cpp */,
+				3BDCB71A25EA5095006CE093 /* 剑指 Offer 58 - I. 翻转单词顺序.hpp */,
+				3BFB1C4825EA882C00A1C75F /* 剑指 Offer 66. 构建乘积数组.cpp */,
+				3BFB1C4925EA882C00A1C75F /* 剑指 Offer 66. 构建乘积数组.hpp */,
+				3BC270CF25EA30CD003102DC /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.cpp */,
+				3BC270D025EA30CD003102DC /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.hpp */,
+				3BC270D525EA346C003102DC /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.cpp */,
+				3BC270D625EA346C003102DC /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.hpp */,
+				3BC270BD25EA1EAD003102DC /* 剑指 Offer 50. 第一个只出现一次的字符.cpp */,
+				3BC270BE25EA1EAD003102DC /* 剑指 Offer 50. 第一个只出现一次的字符.hpp */,
+				8D2196E525E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.cpp */,
+				8D2196E625E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.hpp */,
+				3BC2708C25E95D12003102DC /* 剑指 Offer 41. 数据流中的中位数.cpp */,
+				3BC2708D25E95D12003102DC /* 剑指 Offer 41. 数据流中的中位数.hpp */,
+				3BC2709925E9695B003102DC /* 剑指 Offer 43. 1～n 整数中 1 出现的次数.cpp */,
+				3BC2709A25E9695B003102DC /* 剑指 Offer 43. 1～n 整数中 1 出现的次数.hpp */,
+				3B5A406325E78A400079329D /* 剑指 Offer 03. 数组中重复的数字.cpp */,
+				3B5A406425E78A400079329D /* 剑指 Offer 03. 数组中重复的数字.hpp */,
 				3BC2709F25E96FE2003102DC /* 剑指 Offer 44. 数字序列中某一位的数字.cpp */,
 				3BC270A025E96FE2003102DC /* 剑指 Offer 44. 数字序列中某一位的数字.hpp */,
 				3BC270A525E97175003102DC /* 剑指 Offer 45. 把数组排成最小的数.cpp */,
@@ -848,6 +886,8 @@
 		3BBE595425EAA3C9009A3510 /* 队列,栈 */ = {
 			isa = PBXGroup;
 			children = (
+				3BFB1C1E25EA697900A1C75F /* 剑指 Offer 59 - II. 队列的最大值.cpp */,
+				3BFB1C1F25EA697900A1C75F /* 剑指 Offer 59 - II. 队列的最大值.hpp */,
 				3BC2709225E9643B003102DC /* 剑指 Offer 42. 连续子数组的最大和.cpp */,
 				3BC2709325E9643B003102DC /* 剑指 Offer 42. 连续子数组的最大和.hpp */,
 				3B5A40F325E8FA150079329D /* 剑指 Offer 30. 包含min函数的栈.cpp */,
@@ -892,58 +932,13 @@
 				652FAB73251B400700AB91C6 /* Node.hpp */,
 				3BD267D2258A11D000B698E0 /* yufa.h */,
 				3B5A406725E794DC0079329D /* --------------重刷--------------.h */,
+				8D2196FA25ED5447003C2270 /* 位运算 */,
 				3BBE595425EAA3C9009A3510 /* 队列,栈 */,
-				3BBE594D25EAA260009A3510 /* 二叉树 */,
-				3BBE595325EAA37B009A3510 /* 数组 */,
-				3BBE595025EAA28F009A3510 /* 字符串 */,
 				3BBE594F25EAA285009A3510 /* 链表 */,
+				3BBE594D25EAA260009A3510 /* 二叉树 */,
+				3BBE595025EAA28F009A3510 /* 字符串 */,
+				3BBE595325EAA37B009A3510 /* 数组 */,
 				3BBE594E25EAA27A009A3510 /* 动态规划 */,
-				8D2196D925E8162E003C2270 /* 剑指 Offer 15. 二进制中1的个数.cpp */,
-				8D2196DA25E8162E003C2270 /* 剑指 Offer 15. 二进制中1的个数.hpp */,
-				8D2196DF25E817F7003C2270 /* 剑指 Offer 16. 数值的整数次方.cpp */,
-				8D2196E025E817F7003C2270 /* 剑指 Offer 16. 数值的整数次方.hpp */,
-				8D2196E525E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.cpp */,
-				8D2196E625E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.hpp */,
-				3B5A40B925E8B6CB0079329D /* 剑指 Offer 19. 正则表达式匹配.cpp */,
-				3B5A40BA25E8B6CB0079329D /* 剑指 Offer 19. 正则表达式匹配.hpp */,
-				3B5A40ED25E8EFD70079329D /* 剑指 Offer 29. 顺时针打印矩阵.cpp */,
-				3B5A40EE25E8EFD70079329D /* 剑指 Offer 29. 顺时针打印矩阵.hpp */,
-				3BC2708C25E95D12003102DC /* 剑指 Offer 41. 数据流中的中位数.cpp */,
-				3BC2708D25E95D12003102DC /* 剑指 Offer 41. 数据流中的中位数.hpp */,
-				3BC2709925E9695B003102DC /* 剑指 Offer 43. 1～n 整数中 1 出现的次数.cpp */,
-				3BC2709A25E9695B003102DC /* 剑指 Offer 43. 1～n 整数中 1 出现的次数.hpp */,
-				3BC270B125EA0C16003102DC /* 剑指 Offer 47. 礼物的最大价值.cpp */,
-				3BC270B225EA0C16003102DC /* 剑指 Offer 47. 礼物的最大价值.hpp */,
-				8D2196EB25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.cpp */,
-				8D2196EC25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.hpp */,
-				3BC270BD25EA1EAD003102DC /* 剑指 Offer 50. 第一个只出现一次的字符.cpp */,
-				3BC270BE25EA1EAD003102DC /* 剑指 Offer 50. 第一个只出现一次的字符.hpp */,
-				3BC270CF25EA30CD003102DC /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.cpp */,
-				3BC270D025EA30CD003102DC /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.hpp */,
-				3BC270D525EA346C003102DC /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.cpp */,
-				3BC270D625EA346C003102DC /* 剑指 Offer 53 - II. 0～n-1中缺失的数字.hpp */,
-				3BDCB71925EA5095006CE093 /* 剑指 Offer 58 - I. 翻转单词顺序.cpp */,
-				3BDCB71A25EA5095006CE093 /* 剑指 Offer 58 - I. 翻转单词顺序.hpp */,
-				3B5A406825E7955F0079329D /* 剑指 Offer 58 - II. 左旋转字符串.cpp */,
-				3B5A406925E7955F0079329D /* 剑指 Offer 58 - II. 左旋转字符串.hpp */,
-				3BFB1C1E25EA697900A1C75F /* 剑指 Offer 59 - II. 队列的最大值.cpp */,
-				3BFB1C1F25EA697900A1C75F /* 剑指 Offer 59 - II. 队列的最大值.hpp */,
-				3BFB1C2425EA6EAF00A1C75F /* 剑指 Offer 60. n个骰子的点数.cpp */,
-				3BFB1C2525EA6EAF00A1C75F /* 剑指 Offer 60. n个骰子的点数.hpp */,
-				3BFB1C2A25EA767100A1C75F /* 剑指 Offer 61. 扑克牌中的顺子.cpp */,
-				3BFB1C2B25EA767100A1C75F /* 剑指 Offer 61. 扑克牌中的顺子.hpp */,
-				3BFB1C3025EA792100A1C75F /* 剑指 Offer 62. 圆圈中最后剩下的数字.cpp */,
-				3BFB1C3125EA792100A1C75F /* 剑指 Offer 62. 圆圈中最后剩下的数字.hpp */,
-				3BFB1C3625EA7FAC00A1C75F /* 剑指 Offer 63. 股票的最大利润.cpp */,
-				3BFB1C3725EA7FAC00A1C75F /* 剑指 Offer 63. 股票的最大利润.hpp */,
-				3BFB1C3C25EA82BD00A1C75F /* 剑指 Offer 64. 求1+2+…+n.cpp */,
-				3BFB1C3D25EA82BD00A1C75F /* 剑指 Offer 64. 求1+2+…+n.hpp */,
-				3BFB1C4225EA83DA00A1C75F /* 剑指 Offer 65. 不用加减乘除做加法.cpp */,
-				3BFB1C4325EA83DA00A1C75F /* 剑指 Offer 65. 不用加减乘除做加法.hpp */,
-				3BFB1C4825EA882C00A1C75F /* 剑指 Offer 66. 构建乘积数组.cpp */,
-				3BFB1C4925EA882C00A1C75F /* 剑指 Offer 66. 构建乘积数组.hpp */,
-				3BBE593825EA8BD9009A3510 /* 剑指 Offer 67. 把字符串转换成整数.cpp */,
-				3BBE593925EA8BD9009A3510 /* 剑指 Offer 67. 把字符串转换成整数.hpp */,
 				3B5A408F25E7C30E0079329D /* 105.cpp */,
 				3B5A409025E7C30E0079329D /* 105.hpp */,
 				3BED9E7E25DD035100866BE5 /* --------------数组--------------.h */,
@@ -985,8 +980,6 @@
 				3B90ACCE25DCF733008693D3 /* 977_有序数组的平方.hpp */,
 				3B90ACC525DBE980008693D3 /* faceTest_1616_部分排序.cpp */,
 				3B90ACC625DBE980008693D3 /* faceTest_1616_部分排序.hpp */,
-				3B5A406325E78A400079329D /* _offer_03_数组中重复的数字.cpp */,
-				3B5A406425E78A400079329D /* _offer_03_数组中重复的数字.hpp */,
 				3BED9E7D25DD034300866BE5 /* --------------链表--------------.h */,
 				3BE3DF3C25DD0E92008FD20B /* 2_两数相加.cpp */,
 				3BE3DF3D25DD0E92008FD20B /* 2_两数相加.hpp */,
@@ -1259,6 +1252,21 @@
 			path = "testC++++";
 			sourceTree = "<group>";
 		};
+		8D2196FA25ED5447003C2270 /* 位运算 */ = {
+			isa = PBXGroup;
+			children = (
+				8D2196D925E8162E003C2270 /* 剑指 Offer 15. 二进制中1的个数.cpp */,
+				8D2196DA25E8162E003C2270 /* 剑指 Offer 15. 二进制中1的个数.hpp */,
+				8D2196DF25E817F7003C2270 /* 剑指 Offer 16. 数值的整数次方.cpp */,
+				8D2196E025E817F7003C2270 /* 剑指 Offer 16. 数值的整数次方.hpp */,
+				3BFB1C4225EA83DA00A1C75F /* 剑指 Offer 65. 不用加减乘除做加法.cpp */,
+				3BFB1C4325EA83DA00A1C75F /* 剑指 Offer 65. 不用加减乘除做加法.hpp */,
+				3BFB1C3C25EA82BD00A1C75F /* 剑指 Offer 64. 求1+2+…+n.cpp */,
+				3BFB1C3D25EA82BD00A1C75F /* 剑指 Offer 64. 求1+2+…+n.hpp */,
+			);
+			name = "位运算";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1358,7 +1366,7 @@
 				3B5A407325E79DE60079329D /* 剑指 Offer 22. 链表中倒数第k个节点.cpp in Sources */,
 				3BE30103258E038C00044E78 /* 700_二叉搜索树中的搜索.cpp in Sources */,
 				3BDCB70F25EA4970006CE093 /* 剑指 Offer 57. 和为s的两个数字.cpp in Sources */,
-				3B5A406525E78A400079329D /* _offer_03_数组中重复的数字.cpp in Sources */,
+				3B5A406525E78A400079329D /* 剑指 Offer 03. 数组中重复的数字.cpp in Sources */,
 				3BC7B3672590BE4B002FD4EF /* 965_单值二叉树.cpp in Sources */,
 				8D0C412325E016F500845117 /* 289_生命游戏.cpp in Sources */,
 				65A1285E251374BE008E24AF /* 225_用队列实现栈.cpp in Sources */,

@@ -112,10 +112,41 @@ string replaceSpace3(string s) {
     
 }
 
+string replaceSpace4(string s) {
+ 
+    int len = s.length();
+    if (len == 0) {
+        return "";
+    }
+    
+    int newlen = len;
+    for (int i = 0; i<len; i++) {
+        if (s[i] == ' ') {
+            newlen+=2;
+        }
+    }
+    
+    int orgindex = len-1;
+    s.resize(newlen);
+    for (int i = newlen - 1; i>=0; i--) {
+        char c = s[orgindex];
+        if (c == ' ') {
+            s[i--] = '0';
+            s[i--] = '2';
+            s[i] = '%';
+        }else{
+            s[i]=s[orgindex];
+        }
+        orgindex--;
+    }
+    
+    return s;
+}
+
 void _offer_05_repeat_test()
 {
     string s1 = "We are happy.";
     
-    string res = replaceSpace2(s1);
+    string res = replaceSpace4(s1);
     
 }
