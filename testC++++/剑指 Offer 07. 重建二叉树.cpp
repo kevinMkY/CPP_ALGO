@@ -38,6 +38,41 @@ TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
     return res;
     }
 
+TreeNode *buildTree2Dfs(vector<int>& preorder,int prel,int prer,
+                        vector<int>& inorder, int inl,int inr) {
+    if (prel > prer || inl > inr) {
+        return nullptr;
+    }
+    
+    int preroot = preorder[prel];
+    int inrootidx = -1;
+    for (int i = inl; i<=inr; i++) {
+        if (inorder[i] == preroot) {
+            inrootidx = i;
+            break;;
+        }
+    }
+    if (inrootidx == -1) {
+        return nullptr;
+    }
+    
+    int size = inrootidx - inl;
+    TreeNode *root = new TreeNode(preroot);
+    root->left = buildTree2Dfs(preorder, prel+1, prel+size, inorder, inl, inrootidx-1);
+    root->right = buildTree2Dfs(preorder, prel+size+1, prer, inorder, inrootidx+1, inr);
+    
+    return root;
+}
+
+TreeNode* _offer_07_testbuildTree2(vector<int>& preorder, vector<int>& inorder) {
+    if (preorder.size() == 0) {
+        return nullptr;
+    }
+    
+    return buildTree2Dfs(preorder,0,preorder.size()-1,
+                         inorder,0,inorder.size()-1);
+}
+
 void _offer_07_test()
 {
     vector<int> list1 = {1,2};
@@ -48,7 +83,7 @@ void _offer_07_test()
     
     
 //    TreeNode*res =  buildTree(list1,list2);
-    TreeNode*res2 =  buildTree(list3,list4);
+    TreeNode*res2 =  _offer_07_testbuildTree2(list3,list4);
     
     
 }

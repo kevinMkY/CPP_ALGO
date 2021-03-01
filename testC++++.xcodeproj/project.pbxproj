@@ -231,6 +231,7 @@
 		8D2196E125E817F7003C2270 /* 剑指 Offer 16. 数值的整数次方.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2196DF25E817F7003C2270 /* 剑指 Offer 16. 数值的整数次方.cpp */; };
 		8D2196E725E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2196E525E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.cpp */; };
 		8D2196ED25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2196EB25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.cpp */; };
+		8D2196FF25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2196FD25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -711,6 +712,8 @@
 		8D2196E625E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 17. 打印从1到最大的n位数.hpp"; sourceTree = "<group>"; };
 		8D2196EB25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 48. 最长不含重复字符的子字符串.cpp"; sourceTree = "<group>"; };
 		8D2196EC25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 48. 最长不含重复字符的子字符串.hpp"; sourceTree = "<group>"; };
+		8D2196FD25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "面试01，两个排序数组找中位数字.cpp"; sourceTree = "<group>"; };
+		8D2196FE25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "面试01，两个排序数组找中位数字.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -941,6 +944,8 @@
 				3BBE594E25EAA27A009A3510 /* 动态规划 */,
 				3B5A408F25E7C30E0079329D /* 105.cpp */,
 				3B5A409025E7C30E0079329D /* 105.hpp */,
+				8D2196FD25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.cpp */,
+				8D2196FE25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.hpp */,
 				3BED9E7E25DD035100866BE5 /* --------------数组--------------.h */,
 				3BE3DF8225DFF193008FD20B /* 1_两数之和.cpp */,
 				3BE3DF8325DFF193008FD20B /* 1_两数之和.hpp */,
@@ -1324,6 +1329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B59F34425CBE58300B6317A /* 51_N皇后.cpp in Sources */,
+				8D2196FF25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.cpp in Sources */,
 				3B5A410125E90BE10079329D /* 剑指 Offer 32 - I. 从上到下打印二叉树.cpp in Sources */,
 				3BE3DF4625DD4622008FD20B /* 138_复制带随机指针的链表.cpp in Sources */,
 				65870729250BA06C005BFEC2 /* offer_22_链表中倒数第k个节点.cpp in Sources */,

@@ -8,37 +8,66 @@
 #include "剑指 Offer 09. 用两个栈实现队列.hpp"
 #include "common.h"
 
+//class CQueue {
+//public:
+//    stack<int> instack;
+//    stack<int> outstack;
+//    CQueue() {
+//        instack = {};
+//        outstack = {};
+//    }
+//
+//    void appendTail(int value) {
+//        instack.push(value);
+//    }
+//
+//    int deleteHead() {
+//        checkStack();
+//        if (outstack.empty()) {
+//            return -1;
+//        }else{
+//            int res = outstack.top();
+//            outstack.pop();
+//            return res;
+//        }
+//    }
+//
+//    void checkStack(){
+//        if (outstack.empty()) {
+//            while (!instack.empty()) {
+//                int res = instack.top();
+//                instack.pop();
+//                outstack.push(res);
+//            }
+//        }
+//    }
+//};
+
 class CQueue {
 public:
-    stack<int> instack;
-    stack<int> outstack;
+    stack<int>pushstack;
+    stack<int>popstack;
     CQueue() {
-        instack = {};
-        outstack = {};
+        
     }
     
     void appendTail(int value) {
-        instack.push(value);
+        pushstack.push(value);
     }
     
     int deleteHead() {
-        checkStack();
-        if (outstack.empty()) {
-            return -1;
-        }else{
-            int res = outstack.top();
-            outstack.pop();
-            return res;
-        }
-    }
-    
-    void checkStack(){
-        if (outstack.empty()) {
-            while (!instack.empty()) {
-                int res = instack.top();
-                instack.pop();
-                outstack.push(res);
+        if (!popstack.size()) {
+            while (pushstack.size()) {
+                popstack.push(pushstack.top());
+                pushstack.pop();
             }
+        }
+        if (popstack.size()) {
+            int top = popstack.top();
+            popstack.pop();
+            return top;
+        }else{
+            return -1;
         }
     }
 };
