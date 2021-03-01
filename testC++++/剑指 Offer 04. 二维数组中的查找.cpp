@@ -61,14 +61,41 @@ bool findNumberIn2DArray(vector<vector<int>>& matrix, int target) {
     return false;
     }
 
+bool findNumberIn2DArray2(vector<vector<int>>& matrix, int target) {
+    int n = matrix.size();
+    if (n == 0) {
+        return false;
+    }
+    int m = matrix[0].size();
+    
+    int row = 0;
+    int col = m-1;
+    while (row < n && col >=0) {
+        int val = matrix[row][col];
+        if (val == target) {
+            return true;
+        }else if (val < target){
+            row++;
+        }else{
+            col--;
+            
+        }
+    }
+    
+    return false;
+}
 
 
 void _offer_04_repeat_test()
 {
     vector<vector<int>> list1 = {
-        {1,4,7,11,15},{2,5,8,12,19},{3,6,9,16,22},{10,13,14,17,24},{18,21,23,26,30}
+        {1,4,7,11,15},
+        {2,5,8,12,19},
+        {3,6,9,16,22},
+        {10,13,14,17,24},
+        {18,21,23,26,30}
     };
     int flag = 20;
-    bool res =  findNumberIn2DArray(list1,flag);
+    bool res =  findNumberIn2DArray2(list1,flag);
     
 }

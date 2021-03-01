@@ -79,6 +79,39 @@ string replaceSpace2(string s) {
     return s;
 }
 
+
+string replaceSpace3(string s) {
+ 
+    
+    int len = s.length();
+    if (len < 1) {
+        return "";
+    }
+    int orginindex = len-1;
+    for (char c : s) {
+        if (c == ' ') {
+            len+=2;
+        }
+    }
+    
+    s.resize(len);
+    for (int i = len-1; i>=0; i--) {
+        char c = s[orginindex];
+        if (c == ' ') {
+            s[i--]='0';
+            s[i--]='2';
+            s[i]='%';
+        }else{
+            s[i]=c;
+        }
+        orginindex--;
+    }
+    
+    
+    return s;
+    
+}
+
 void _offer_05_repeat_test()
 {
     string s1 = "We are happy.";
