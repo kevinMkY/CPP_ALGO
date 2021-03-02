@@ -232,6 +232,7 @@
 		8D2196E725E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2196E525E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.cpp */; };
 		8D2196ED25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2196EB25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.cpp */; };
 		8D2196FF25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2196FD25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.cpp */; };
+		8D44352325EE958800930339 /* _142_环形链表 II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D44352125EE958800930339 /* _142_环形链表 II.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -714,6 +715,8 @@
 		8D2196EC25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 48. 最长不含重复字符的子字符串.hpp"; sourceTree = "<group>"; };
 		8D2196FD25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "面试01，两个排序数组找中位数字.cpp"; sourceTree = "<group>"; };
 		8D2196FE25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "面试01，两个排序数组找中位数字.hpp"; sourceTree = "<group>"; };
+		8D44352125EE958800930339 /* _142_环形链表 II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_142_环形链表 II.cpp"; sourceTree = "<group>"; };
+		8D44352225EE958800930339 /* _142_环形链表 II.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_142_环形链表 II.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -814,6 +817,8 @@
 				3BC270CA25EA2E2A003102DC /* 剑指 Offer 52. 两个链表的第一个公共节点.hpp */,
 				3B5A407125E79DE60079329D /* 剑指 Offer 22. 链表中倒数第k个节点.cpp */,
 				3B5A407225E79DE60079329D /* 剑指 Offer 22. 链表中倒数第k个节点.hpp */,
+				8D44352125EE958800930339 /* _142_环形链表 II.cpp */,
+				8D44352225EE958800930339 /* _142_环形链表 II.hpp */,
 			);
 			name = "链表";
 			sourceTree = "<group>";
@@ -1345,6 +1350,7 @@
 				3BC2708225E9540B003102DC /* 剑指 Offer 39. 数组中出现次数超过一半的数字.cpp in Sources */,
 				3BCBE22025D2745D000CFD5E /* 860_柠檬水找零.cpp in Sources */,
 				65118AFB2508F836004D8F15 /* ListNode.hpp in Sources */,
+				8D44352325EE958800930339 /* _142_环形链表 II.cpp in Sources */,
 				8D0C412B25E02EAD00845117 /* 238_除自身以外数组的乘积.cpp in Sources */,
 				65A9D3EA251B234800244EFF /* 107_二叉树的层次遍历 II.cpp in Sources */,
 				3BE3DF5325DE7742008FD20B /* 19_删除链表的倒数第 N 个结点.cpp in Sources */,

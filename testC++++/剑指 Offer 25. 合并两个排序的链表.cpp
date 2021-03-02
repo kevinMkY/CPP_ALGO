@@ -55,6 +55,25 @@ ListNode* _offer_25_repeat_testmergeTwoLists2(ListNode* l1, ListNode* l2) {
     return dummy->next;
     }
 
+
+ListNode* _offer_25_repeat_testmergeTwoLists3(ListNode* l1, ListNode* l2) {
+    
+    if (!l1) {
+        return l2;
+    }
+    if (!l2) {
+        return l1;
+    }
+    
+    if (l1->val <= l2->val) {
+        l1->next = _offer_25_repeat_testmergeTwoLists3(l1->next,l2);
+        return l1;
+    }else{
+        l2->next = _offer_25_repeat_testmergeTwoLists3(l1,l2->next);
+        return l2;
+    }
+}
+
 void _offer_25_repeat_test()
 {
     
@@ -74,6 +93,6 @@ void _offer_25_repeat_test()
     node5.next = &node6;
 //    node6.next = &node7;
     
-    ListNode *res = _offer_25_repeat_testmergeTwoLists2(&node1,&node4);
+    ListNode *res = _offer_25_repeat_testmergeTwoLists3(&node1,&node4);
     
 }

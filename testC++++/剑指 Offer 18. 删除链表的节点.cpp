@@ -28,6 +28,24 @@ ListNode* _offer_18_repeat_testdeleteNode(ListNode* head, int val) {
     return dummy->next;
     }
 
+ListNode* _offer_18_repeat_testdeleteNode3(ListNode* head, int val) {
+
+    ListNode *dummy = new ListNode(0);
+    dummy->next = head;
+    ListNode *pre = dummy;
+    ListNode *cur = head;
+    while (cur) {
+        if (cur->val != val) {
+            pre->next = cur;
+            pre = cur;
+        }else{
+            pre->next = nullptr;
+        }
+        cur = cur->next;
+    }
+    return dummy->next;
+    }
+
 void _offer_18_repeat_test()
 {
     ListNode node1(4);
@@ -43,6 +61,6 @@ void _offer_18_repeat_test()
 //    node5.next = &node6;
 //    node6.next = &node7;
     
-    ListNode *res = _offer_18_repeat_testdeleteNode(&node1,5);
+    ListNode *res = _offer_18_repeat_testdeleteNode3(&node1,1);
     
 }

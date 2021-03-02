@@ -58,6 +58,52 @@ vector<int> spiralOrder(vector<vector<int>>& matrix) {
     return res;
     }
 
+vector<int> spiralOrder2(vector<vector<int>>& matrix) {
+    
+    int rows = matrix.size();
+    if (rows == 0) {
+        return {};
+    }
+    int cols = matrix[0].size();
+    int l = 0;
+    int r = cols-1;
+    int t = 0;
+    int b = rows-1;
+    int total= rows * cols;
+    vector<int>res;
+    
+    while (res.size() < total) {
+        for (int x = l; x<=r; x++) {
+            res.push_back(matrix[t][x]);
+        }
+        t++;
+        if (res.size() == total) {
+            return res;
+        }
+        for (int y = t; y<=b; y++) {
+            res.push_back(matrix[y][r]);
+        }
+        r--;
+        if (res.size() == total) {
+            return res;
+        }
+        for (int x = r; x>=l; x--) {
+            res.push_back(matrix[b][x]);
+        }
+        b--;
+        if (res.size() == total) {
+            return res;
+        }
+        for (int y = b; y>=t; y--) {
+            res.push_back(matrix[y][l]);
+        }
+        l++;
+    }
+    
+    
+    return res;
+}
+
 void _offer_29_repeat_test()
 {
     vector<vector<int>> list1 = {
@@ -72,8 +118,15 @@ void _offer_29_repeat_test()
         {9,10,11,12},
     };
     
-    vector<int> res = spiralOrder(list1);
-    vector<int> res2 = spiralOrder(list2);
+    vector<vector<int>> list3 = {
+        {1,2,3,4},
+        {5,6,7,8},
+        {9,10,11,12},
+        {13,14,15,16}
+    };
+    
+//    vector<int> res  = spiralOrder2(list1);
+    vector<int> res2 = spiralOrder2(list3);
     
     
 }

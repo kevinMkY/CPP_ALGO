@@ -8,6 +8,7 @@
 #ifndef filename_offer_h
 #define filename_offer_h
 #include "面试01，两个排序数组找中位数字.hpp"
+#include "_142_环形链表 II.hpp"
 #include "剑指 Offer 03. 数组中重复的数字.hpp"
 #include "剑指 Offer 04. 二维数组中的查找.hpp"
 #include "剑指 Offer 05. 替换空格.hpp"

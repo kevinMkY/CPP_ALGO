@@ -51,6 +51,30 @@ TreeNode* _offer_27_repeat_testmirrorTree2(TreeNode* root) {
     return root;
 }
 
+
+TreeNode* _offer_27_repeat_testmirrorTree3(TreeNode* root) {
+    
+    if (!root) {
+        return root;
+    }
+    
+    queue<TreeNode *>myqueue;
+    myqueue.push(root);
+    while (myqueue.size()) {
+        auto node = myqueue.front();
+        myqueue.pop();
+        swap(node->left, node->right);
+        if (node->left) {
+            myqueue.push(node->left);
+        }
+        if (node->right) {
+            myqueue.push(node->right);
+        }
+    }
+    
+    return root;
+}
+
 void _offer_27_repeat_test()
 {
     vector<int> list3 = {1,2,3,4};
@@ -58,6 +82,6 @@ void _offer_27_repeat_test()
     
     TreeNode *node3 = initTreeWithNULLVector(list3);
     TreeNode *node4 = initTreeWithNULLVector(list4);
-    TreeNode* res = _offer_27_repeat_testmirrorTree2(node3);
+    TreeNode* res = _offer_27_repeat_testmirrorTree3(node3);
     
 }

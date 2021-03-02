@@ -31,6 +31,39 @@ bool _offer_26_repeat_testisSubStructure(TreeNode* A, TreeNode* B) {
     return res1 || res2 || res3;
     }
 
+bool _offer_26_repeat_test_havetree(TreeNode* A, TreeNode* B) {
+    if (!B) {
+        return true ;
+    }
+    if (!A) {
+        return false;
+    }
+    
+    if (A->val != B->val) {
+        return false;
+    }
+    
+    return _offer_26_repeat_test_havetree(A->left,B->left) && _offer_26_repeat_test_havetree(A->right,B->right);
+}
+
+bool _offer_26_repeat_testisSubStructure3(TreeNode* A, TreeNode* B) {
+    
+    if (!A || !B) {
+        return false;
+    }
+    
+    bool res1 = false;
+    if (A->val == B->val) {
+        res1 = _offer_26_repeat_test_havetree(A,B);
+    }
+    
+    bool res2 = _offer_26_repeat_testisSubStructure3(A->left,B);
+    bool res3 = _offer_26_repeat_testisSubStructure3(A->right,B);
+    
+    return res1 || res2 || res3;
+}
+
+
 void _offer_26_repeat_test()
 {
     vector<int> list3 = {1,2,3,4};
@@ -39,6 +72,6 @@ void _offer_26_repeat_test()
     TreeNode *node3 = initTreeWithNULLVector(list3);
     TreeNode *node4 = initTreeWithNULLVector(list4);
     
-    bool res = _offer_26_repeat_testisSubStructure(node3,node4);
+    bool res = _offer_26_repeat_testisSubStructure3(node3,node4);
     
 }

@@ -50,8 +50,41 @@ bool _offer_19_testisMatch(string s, string p) {
     return dp[l1][l2];
 }
 
-void _offer_19_test()
+
+bool _offer_19_testisMatch3(string s, string p) {
+
+    int len1 = s.length();
+    int len2 = p.length();
+    vector<vector<int>>dp(len1+1,vector<int>(len2+1,0));
+    dp[0][0]=1;
+    for (int i =1; i<=len2; i++) {
+        char c = p[i-1];
+        if (c == '*' && i > 1) {
+            dp[0][i] = dp[0][i-2];
+        }
+    }
+    for (int y = 1; y<=len1; y++) {
+        for (int x = 1; x<=len2; x++) {
+            char s1 = s[y-1];
+            char p1 = p[x-1];
+            if (s1 == p1 || p1 == '.') {
+                dp[y][x] = dp[y-1][x-1];
+            }else if(p1 == '*'){
+                if (x > 1 && dp[y][x-2]) {
+                    dp[y][x] = dp[y][x-2];
+                }else if(x > 1 && (p[x-1-1] == s1 || p[x-1-1] == '.')){
+                    dp[y][x] = dp[y-1][x];
+                }
+            }
+        }
+    }
+    
+    return dp[len1][len2];
+    }
+
+void _offer_19_repeat_test()
 {
-    bool res = _offer_19_testisMatch("aaabcaab", "a*b.a*b");
+    bool res1 = _offer_19_testisMatch3("aaabcaab", "a*b.a*b");
+    bool res2 = _offer_19_testisMatch3("ab" , ".*");
     
 }

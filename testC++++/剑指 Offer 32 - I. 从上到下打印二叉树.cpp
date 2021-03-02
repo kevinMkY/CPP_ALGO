@@ -112,6 +112,28 @@ vector<vector<int>> _offer_32_repeat_testlevelOrder3(TreeNode* root) {
     return res;
 }
 
+vector<vector<int>> _offer_32_repeat_testlevelOrder4(TreeNode* root) {
+    vector<vector<int>>res;
+    if (!root) {
+        return res;
+    }
+    
+    deque<TreeNode *>myqueue;
+    myqueue.push_back(root);
+    bool isdouble = false;
+    int size = 1;
+    while (myqueue.size()) {
+        if (isdouble) {
+            auto node = myqueue.back();
+        }else{
+            auto node = myqueue.front();
+        }
+        
+    }
+    
+    return res;
+}
+
 void _offer_32_repeat_test()
 {
     vector<int> list3 = {3,9,20,NULL,NULL,15,7};
@@ -123,6 +145,6 @@ void _offer_32_repeat_test()
 //    TreeNode *node5 = initTreeWithNULLVector(list5);
     
     
-    vector<vector<int>>res = _offer_32_repeat_testlevelOrder3(node3);
+    vector<vector<int>>res = _offer_32_repeat_testlevelOrder4(node3);
     
 }
