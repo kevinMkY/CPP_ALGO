@@ -20,11 +20,27 @@ int hammingWeight(uint32_t n) {
     }
 
 
+
+
+
+
+
+int hammingWeight2(uint32_t n) {
+    
+    int res = 0;
+    while (n > 0) {
+        res++;
+        n=n&(n-1);
+    }
+    return res;
+   }
+
+
 void _offer_15_repeat_test()
 {
 
     
-    int res = hammingWeight(9);
+    int res = hammingWeight2(9);
 
 
 }

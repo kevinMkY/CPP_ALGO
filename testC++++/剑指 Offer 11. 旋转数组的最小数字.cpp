@@ -27,35 +27,32 @@ int minArray(vector<int>& numbers) {
 int _offer_11_repeat_testminArray2(vector<int>& numbers) {
     
     int n = numbers.size();
-    if (n == 0) {
+    if ( n  == 0) {
         return 0;
     }
-    if (n == 1) {
-        return numbers[0];
-    }
     
-    int l = 0;
-    int r = n-1;
-    int mid = l;
-    while (numbers[l]>=numbers[r]) {
-        if (r-l==1) {
-            mid = r;
-            break;
-        }
-        mid = (l+r)>>1;
-        if (numbers[mid]<=numbers[r]) {
-            r=mid;
-        }else if (numbers[mid]>=numbers[l]) {
-            l=mid;
+    int l = 0,r = numbers.size()-1;
+    //{3,3,1,3};
+    while (l<r) {
+        int mid = (l+r)>>1;
+        //
+        if (numbers[mid] < numbers[r]) {
+            r = mid;
+        //
+        }else if(numbers[mid] > numbers[r]){
+            l = mid+1;
+        //
+        }else{  //==
+            r--;
         }
     }
     
-    return numbers[mid];
+    return numbers[l];
 }
 
 void _offer_11_repeat_test()
 {
-    vector<int> list1 = {1,2,3};
+    vector<int> list1 = {3,3,1,3};
     
     int res = _offer_11_repeat_testminArray2(list1);
     

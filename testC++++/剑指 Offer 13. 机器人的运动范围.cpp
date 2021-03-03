@@ -69,12 +69,52 @@ int movingCount(int m, int n, int k) {
     return maxv;
 }
 
+int biteSum(int num){
+    
+    int res = 0;
+    while (num > 0) {
+        res+=num%10;
+        num/=10;
+    }
+    
+    return res;
+}
+
+int movingCount3(int m, int n, int k) {
+    if (m == 0 || n == 0) {
+        return 0;
+    }
+    int sum = 0;
+    vector<vector<bool>>dp(m+1,vector<bool>(n+1));
+    for (int y = 0; y<m; y++) {
+        for (int x = 0; x<n; x++) {
+            int sumbiteres = biteSum(x)+biteSum(y);
+            if (sumbiteres <= k) {
+                if (x>0 && y>0) {
+                    dp[y][x]=dp[y][x-1] || dp[y-1][x];
+                }else if (x>0){
+                    dp[y][x]=dp[y][x-1];
+                }else if (y>0){
+                    dp[y][x]=dp[y-1][x];
+                }else{
+                    dp[y][x]=true;
+                }
+                sum+=dp[y][x];
+            }
+        }
+    }
+ 
+    return sum;
+}
+
+
 void _offer_13_repeat_test()
 {
 //    int res1 = movingCount(16,8,4);
 //    int res2 = movingCount(3,2,17);
 //    int res3 = movingCount(2,3,1);
 //    int res4 = movingCount(3,1,0);
-    int res5 = movingCount(38,15,9);
+    int res4 = movingCount(38,15,9);
+    int res5 = movingCount3(38,15,9);
     
 }

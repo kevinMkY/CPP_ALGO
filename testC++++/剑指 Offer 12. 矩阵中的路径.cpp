@@ -50,6 +50,50 @@ bool exist(vector<vector<char>>& board, string word) {
     return false;
     }
 
+//------------------------------------------------------------------------------------
+
+bool _offer_12_repeat_test_dfs_3(vector<vector<char>>& board,
+                                 string word,string &path,
+                                 int x,int y,int k){
+    int n = board.size();
+    int m = board[0].size();
+    if (k == word.length()) {
+        return true;
+    }
+    if (x < m && x >= 0 && y < n && y >= 0 && board[y][x] == word[k]) {
+        path.push_back(board[y][x]);
+        board[y][x] = ' ';
+        bool res = _offer_12_repeat_test_dfs_3(board, word, path, x+1, y, k+1) ||
+                   _offer_12_repeat_test_dfs_3(board, word, path, x-1, y, k+1) ||
+                   _offer_12_repeat_test_dfs_3(board, word, path, x, y+1, k+1) ||
+                   _offer_12_repeat_test_dfs_3(board, word, path, x, y-1, k+1);
+        board[y][x] = word[k];
+        path.pop_back();
+        return res;
+    }
+    
+    return false;
+}
+
+bool exist3(vector<vector<char>>& board, string word) {
+    
+    int n = board.size();
+    if (n == 0) {
+        return false;
+    }
+    int m = board[0].size();
+    string path;
+    for (int y = 0; y<n; y++) {
+        for (int x = 0; x<m; x++) {
+            if (_offer_12_repeat_test_dfs_3(board,word,path,x,y,0)) {
+                return true;
+            }
+        }
+    }
+    
+    return false;
+    }
+
 void _offer_12_repeat_test()
 {
     vector<vector<char>> list1 = {
@@ -59,6 +103,6 @@ void _offer_12_repeat_test()
     };
     
     string s1 = "ABCCED";
-    bool res = exist(list1,s1);
+    bool res = exist3(list1,s1);
     
 }

@@ -32,6 +32,29 @@ double myPow(double x, int n) {
 }
 
 
+double myPow3(double x, int n) {
+ 
+    double res = 1.0f;
+    bool isunderzero = n < 0;
+    n = abs(n);
+    while (n>0) {
+        if (n%2==1) {
+            res = (res * x);
+            n-=1;
+        }
+        x *=x;
+        n/=2;
+    }
+    
+    if (isunderzero) {
+        return 1.0f/res;
+    }else{
+        return res;
+    }
+    
+    
+}
+
 void _offer_16_repeat_test()
 {
 
