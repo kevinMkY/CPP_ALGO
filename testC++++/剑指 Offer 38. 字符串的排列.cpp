@@ -38,9 +38,36 @@ vector<string> permutation(string s) {
     return res;
 }
 
+
+vector<string> _offer_38_repeat_test_dfs3_res;
+void _offer_38_repeat_test_dfs3(
+                                string s,
+                                int x
+                                ){
+    if (x == s.length() -1) {
+        _offer_38_repeat_test_dfs3_res.push_back(s);
+        return;
+    }
+    map<int, int>mymap;
+    for (int i = x; i<s.length(); i++) {
+        if (mymap.find(s[i]) != mymap.end()) {
+            continue;
+        }
+        mymap[s[i]]=1;
+        swap(s[i],s[x]);
+        _offer_38_repeat_test_dfs3(s, x+1);
+        swap(s[i],s[x]);
+    }
+}
+
+vector<string> permutation3(string s) {
+    _offer_38_repeat_test_dfs3(s,0);
+    return _offer_38_repeat_test_dfs3_res;
+}
+
 void _offer_38_repeat_test()
 {
 //    vector<string>res =  permutation("abc");
-    vector<string>res2 =  permutation("bab");
+    vector<string>res2 =  permutation3("aab");
     
 }
