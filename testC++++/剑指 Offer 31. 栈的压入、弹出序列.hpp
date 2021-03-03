@@ -8,6 +8,6 @@
 #ifndef ___Offer_31_hpp
 #define ___Offer_31_hpp
 
-void _offer_31_repeate_test();
+void _offer_31_repeat_test();
 
 #endif /* ___Offer_31_hpp */

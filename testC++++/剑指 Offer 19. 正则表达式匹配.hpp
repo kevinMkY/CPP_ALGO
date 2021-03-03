@@ -8,6 +8,6 @@
 #ifndef ___Offer_19_hpp
 #define ___Offer_19_hpp
 
-void _offer_19_test();
+void _offer_19_repeat_test();
 
 #endif /* ___Offer_19_hpp */

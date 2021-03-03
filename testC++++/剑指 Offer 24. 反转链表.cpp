@@ -47,6 +47,22 @@ ListNode* _offer_24_repeat_testreverseList2(ListNode* head) {
     return next;
    }
 
+ListNode* _offer_24_repeat_testreverseList4(ListNode* head) {
+    
+    if (!head || !head->next) {
+        return head;
+    }
+    
+    ListNode *newhead = nullptr;
+    while (head) {
+        ListNode *next = head->next;
+        head->next = newhead;
+        newhead = head;
+        head = next;
+    }
+    
+    return newhead;
+}
 
 void _offer_24_repeat_test()
 {
@@ -64,6 +80,6 @@ void _offer_24_repeat_test()
 //    node5.next = &node6;
 //    node6.next = &node7;
     
-    ListNode *res = _offer_24_repeat_testreverseList2(&node1);
+    ListNode *res = _offer_24_repeat_testreverseList4(&node1);
     
 }

@@ -33,13 +33,31 @@ vector<int> exchange(vector<int>& nums) {
         }
     }
     return nums;
-    }
+}
 
+
+vector<int> exchange2(vector<int>& nums) {
+    int n = nums.size();
+    int l = 0;
+    int r = n-1;
+    while (l<r) {
+        if ((nums[l] & 1) == 1) {
+            l++;
+            continue;
+        }
+        if ((nums[r] & 1) == 0) {
+            r--;
+            continue;
+        }
+        swap(nums[l], nums[r]);
+    }
+    return nums;
+    }
 
 void _offer_21_repeat_test()
 {
     vector<int> list1 = {1,2,3,4};
     
-    vector<int> res = exchange(list1);
+    vector<int> res = exchange2(list1);
     
 }
