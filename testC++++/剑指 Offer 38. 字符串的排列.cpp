@@ -65,9 +65,37 @@ vector<string> permutation3(string s) {
     return _offer_38_repeat_test_dfs3_res;
 }
 
+void permutation3Dfs(vector<string>&res,
+                     string &s,
+                     int k){
+    if (k == s.length()-1) {
+        res.push_back(s);
+        return;
+    }
+    
+    map<int, int>mymap;
+    for (int i = k; i<s.length(); i++) {
+        if (mymap.find(s[i])!=mymap.end()) {
+            continue;
+        }
+        mymap[s[i]]++;
+        swap(s[i], s[k]);
+        permutation3Dfs(res, s, k+1);
+        swap(s[i], s[k]);
+    }
+}
+
+vector<string> permutation4(string s) {
+    
+    vector<string> res;
+    string path;
+    permutation3Dfs(res,s,0);
+    return res;
+}
+
 void _offer_38_repeat_test()
 {
 //    vector<string>res =  permutation("abc");
-    vector<string>res2 =  permutation3("aab");
+    vector<string>res2 =  permutation4("aab");
     
 }

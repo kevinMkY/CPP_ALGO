@@ -46,10 +46,31 @@ int _offer_39_repeat_testmajorityElement2(vector<int>& nums) {
     return votenum;
 }
 
+int _offer_39_repeat_testmajorityElement3(vector<int> list1){
+    
+    int n = list1.size();
+    if ( n < 1) {
+        return 0;
+    }
+    int voteNum = list1[0];
+    int voteCount = 1;
+    for (int i = 1; i<n; i++) {
+        if (voteCount == 0) {
+            voteCount++;
+            voteNum=list1[i];
+        }else if (list1[i] != voteNum) {
+            voteCount--;
+        }else{
+            voteCount++;
+        }
+    }
+    
+    return voteNum;
+}
 
 void _offer_39_repeat_test()
 {
     vector<int> list1 = {1,2,3,2,2,2,5,4,2};
-    int res = _offer_39_repeat_testmajorityElement2(list1);
+    int res = _offer_39_repeat_testmajorityElement3(list1);
     
 }
