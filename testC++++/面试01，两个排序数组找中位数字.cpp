@@ -51,7 +51,7 @@ double getMiddleVal(vector<int> nums1,vector<int> nums2){
 }
 
 
-void _facetest_01_test()
+void _facetest_00_test()
 {
     double res = getMiddleVal({1,3},{2,4});
 

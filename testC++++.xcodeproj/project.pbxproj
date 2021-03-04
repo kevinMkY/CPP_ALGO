@@ -118,6 +118,9 @@
 		3BCBE22C25D28D6E000CFD5E /* faceTest_1716_按摩师.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCBE22A25D28D6E000CFD5E /* faceTest_1716_按摩师.cpp */; };
 		3BCBE23025D29368000CFD5E /* 198_打家劫舍.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCBE22E25D29368000CFD5E /* 198_打家劫舍.cpp */; };
 		3BCF59E525EE27D5004B6A18 /* _4_寻找两个正序数组的中位数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF59E325EE27D5004B6A18 /* _4_寻找两个正序数组的中位数.cpp */; };
+		3BCF59F025F0A971004B6A18 /* 快速排序01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF59EE25F0A971004B6A18 /* 快速排序01.cpp */; };
+		3BCF59F425F0DDC7004B6A18 /* 归并排序02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF59F225F0DDC7004B6A18 /* 归并排序02.cpp */; };
+		3BCF59F825F11144004B6A18 /* 二分查找03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF59F625F11144004B6A18 /* 二分查找03.cpp */; };
 		3BDBBAC925D7B62E00610886 /* 300_最长递增子序列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BDBBAC725D7B62E00610886 /* 300_最长递增子序列.cpp */; };
 		3BDBBACD25D7CDE500610886 /* 1143_最长公共子序列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BDBBACB25D7CDE500610886 /* 1143_最长公共子序列.cpp */; };
 		3BDBBAD125D9185000610886 /* 9999_01背包.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BDBBACF25D9185000610886 /* 9999_01背包.cpp */; };
@@ -476,6 +479,12 @@
 		3BCF59E225EE27C2004B6A18 /* --------------常规--------------.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "--------------常规--------------.h"; sourceTree = "<group>"; };
 		3BCF59E325EE27D5004B6A18 /* _4_寻找两个正序数组的中位数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_4_寻找两个正序数组的中位数.cpp"; sourceTree = "<group>"; };
 		3BCF59E425EE27D5004B6A18 /* _4_寻找两个正序数组的中位数.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_4_寻找两个正序数组的中位数.hpp"; sourceTree = "<group>"; };
+		3BCF59EE25F0A971004B6A18 /* 快速排序01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "快速排序01.cpp"; sourceTree = "<group>"; };
+		3BCF59EF25F0A971004B6A18 /* 快速排序01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "快速排序01.hpp"; sourceTree = "<group>"; };
+		3BCF59F225F0DDC7004B6A18 /* 归并排序02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "归并排序02.cpp"; sourceTree = "<group>"; };
+		3BCF59F325F0DDC7004B6A18 /* 归并排序02.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "归并排序02.hpp"; sourceTree = "<group>"; };
+		3BCF59F625F11144004B6A18 /* 二分查找03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "二分查找03.cpp"; sourceTree = "<group>"; };
+		3BCF59F725F11144004B6A18 /* 二分查找03.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "二分查找03.hpp"; sourceTree = "<group>"; };
 		3BD267D2258A11D000B698E0 /* yufa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yufa.h; sourceTree = "<group>"; };
 		3BDBBAC725D7B62E00610886 /* 300_最长递增子序列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "300_最长递增子序列.cpp"; sourceTree = "<group>"; };
 		3BDBBAC825D7B62E00610886 /* 300_最长递增子序列.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "300_最长递增子序列.hpp"; sourceTree = "<group>"; };
@@ -955,6 +964,12 @@
 				3B5A409025E7C30E0079329D /* 105.hpp */,
 				8D2196FD25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.cpp */,
 				8D2196FE25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.hpp */,
+				3BCF59EE25F0A971004B6A18 /* 快速排序01.cpp */,
+				3BCF59EF25F0A971004B6A18 /* 快速排序01.hpp */,
+				3BCF59F225F0DDC7004B6A18 /* 归并排序02.cpp */,
+				3BCF59F325F0DDC7004B6A18 /* 归并排序02.hpp */,
+				3BCF59F625F11144004B6A18 /* 二分查找03.cpp */,
+				3BCF59F725F11144004B6A18 /* 二分查找03.hpp */,
 				3BCF59E225EE27C2004B6A18 /* --------------常规--------------.h */,
 				3BCF59E325EE27D5004B6A18 /* _4_寻找两个正序数组的中位数.cpp */,
 				3BCF59E425EE27D5004B6A18 /* _4_寻找两个正序数组的中位数.hpp */,
@@ -1423,6 +1438,7 @@
 				3BC2707E25E95043003102DC /* 47_全排列 II.cpp in Sources */,
 				65D2EAB4250F4AE0009DC352 /* 21_合并两个有序链表.cpp in Sources */,
 				3B5A40F525E8FA150079329D /* 剑指 Offer 30. 包含min函数的栈.cpp in Sources */,
+				3BCF59F425F0DDC7004B6A18 /* 归并排序02.cpp in Sources */,
 				8D2196E725E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.cpp in Sources */,
 				3BC2708E25E95D12003102DC /* 剑指 Offer 41. 数据流中的中位数.cpp in Sources */,
 				3B846D8825A447D20072AAAB /* 814_二叉树剪枝.cpp in Sources */,
@@ -1454,6 +1470,7 @@
 				3BC270BF25EA1EAD003102DC /* 剑指 Offer 50. 第一个只出现一次的字符.cpp in Sources */,
 				65A9D3EE251B239000244EFF /* 662_二叉树最大宽度.cpp in Sources */,
 				3BE61F4A259C704500CA2084 /* 1261_在受污染的二叉树中查找元素.cpp in Sources */,
+				3BCF59F825F11144004B6A18 /* 二分查找03.cpp in Sources */,
 				3B5A40BB25E8B6CB0079329D /* 剑指 Offer 19. 正则表达式匹配.cpp in Sources */,
 				3BC2709425E9643B003102DC /* 剑指 Offer 42. 连续子数组的最大和.cpp in Sources */,
 				65DF9BD42519F6F70055E0BE /* 144_二叉树的前序遍历.cpp in Sources */,
@@ -1519,6 +1536,7 @@
 				6587072C250BA320005BFEC2 /* faceTest_0202_返回倒数第 k 个节点.cpp in Sources */,
 				65DF9BDE251A27610055E0BE /* 94_二叉树的中序遍历.cpp in Sources */,
 				3BC2709B25E9695B003102DC /* 剑指 Offer 43. 1～n 整数中 1 出现的次数.cpp in Sources */,
+				3BCF59F025F0A971004B6A18 /* 快速排序01.cpp in Sources */,
 				3BE3DF6425DFC0F6008FD20B /* 122_买卖股票的最佳时机 II.cpp in Sources */,
 				3BBC5DE2258E1638004CC98D /* 897_递增顺序查找树.cpp in Sources */,
 				3B90ACC725DBE980008693D3 /* faceTest_1616_部分排序.cpp in Sources */,
