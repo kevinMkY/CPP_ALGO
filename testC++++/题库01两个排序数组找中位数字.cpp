@@ -5,7 +5,7 @@
 //  Created by mm on 2021/3/2.
 //
 
-#include "面试01，两个排序数组找中位数字.hpp"
+#include "题库01两个排序数组找中位数字.hpp"
 #include "common.h"
 
 
@@ -51,7 +51,8 @@ double getMiddleVal(vector<int> nums1,vector<int> nums2){
 }
 
 
-void _facetest_00_test()
+
+void _tk_01_test()
 {
     double res = getMiddleVal({1,3},{2,4});
 

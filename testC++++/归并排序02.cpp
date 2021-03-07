@@ -51,6 +51,18 @@ vector<int> mergesort(vector<int> &list1){
     return list1;
 }
 
+
+vector<int> mergesort_index_3(vector<int> &list1,int l,int r){
+    
+    return list1;
+}
+
+vector<int> mergesort3(vector<int> &list1){
+    
+    
+    return list1;
+}
+
 void _facetest_02_test()
 {
     vector<int> list1 = {1,5,2,3,4};

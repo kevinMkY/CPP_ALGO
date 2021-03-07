@@ -87,6 +87,15 @@
  
  */
 
+#pragma mark priority_queue
+/*
+ //大顶堆,默认,降序队列
+ priority_queue <int,vector<int>,less<int>    > q2;
+ //小顶堆,升序队列
+ priority_queue <int,vector<int>,greater<int> > q1;
+ 
+ */
+
 #pragma mark set
 
 /*

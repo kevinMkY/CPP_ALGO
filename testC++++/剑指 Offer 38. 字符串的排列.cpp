@@ -93,9 +93,33 @@ vector<string> permutation4(string s) {
     return res;
 }
 
+vector<string> _offer_38_repeat_testans;
+     
+    void dfs(string& str, int depth) {
+        if (depth == str.size()) {
+            _offer_38_repeat_testans.push_back(str);
+            return;
+        }
+        set<char> st;
+         
+        for (int i = depth; i < str.size(); i ++ ){
+            if (st.find(str[i]) != st.end()) continue;
+            st.insert(str[i]);
+            swap(str[i], str[depth]);
+            dfs(str, depth + 1);
+            swap(str[i], str[depth]);
+        }
+         
+    }
+    vector<string> Permutation5(string str) {
+        dfs(str,0);
+        sort(_offer_38_repeat_testans.begin(), _offer_38_repeat_testans.end());
+        return _offer_38_repeat_testans;
+    }
+
 void _offer_38_repeat_test()
 {
-//    vector<string>res =  permutation("abc");
-    vector<string>res2 =  permutation4("aab");
+    vector<string>res =  Permutation5("abc");
+//    vector<string>res2 =  permutation4("aab");
     
 }

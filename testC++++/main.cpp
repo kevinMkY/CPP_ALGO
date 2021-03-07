@@ -9,8 +9,8 @@
 
 int main(int argc, const char * argv[]) {
     
-//    _142_test();
-//    _offer_40_repeat_test();
-    _facetest_01_test();
+//    _9998_test();
+//    _offer_38_repeat_test();
+    _tk_16_test();
     return 0;
 }

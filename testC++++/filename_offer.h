@@ -7,12 +7,29 @@
 
 #ifndef filename_offer_h
 #define filename_offer_h
-#include "面试01，两个排序数组找中位数字.hpp"
-#include "_4_寻找两个正序数组的中位数.hpp"
-#include "_142_环形链表 II.hpp"
+
+#include "题库01两个排序数组找中位数字.hpp"
+#include "题库02数组排序.hpp"
+#include "题库03设计LRU缓存结构.hpp"
+#include "题库04有重复数字的升序数组的二分查找.hpp"
+#include "题库05最小的k个数.hpp"
+#include "题库06寻找第k大.hpp"
+#include "题库07每k个一组翻转.hpp"
+#include "题库08连表中环的入口.hpp"
+#include "题库09删除倒数第k个节点.hpp"
+#include "题库10最长公共子串.hpp"
+#include "题库11大数加法.hpp"
+#include "题库12求平方根.hpp"
+#include "题库13前序和中序构建二叉树.hpp"
+#include "题库14合并k个已升序链表.hpp"
+#include "题库15最长递增子序列.hpp"
+#include "题库16在左旋转的数组里寻找目标值.hpp"
+
 #include "快速排序01.hpp"
 #include "归并排序02.hpp"
 #include "二分查找03.hpp"
+#include "9998_最长公共子串.hpp"
+
 #include "剑指 Offer 03. 数组中重复的数字.hpp"
 #include "剑指 Offer 04. 二维数组中的查找.hpp"
 #include "剑指 Offer 05. 替换空格.hpp"

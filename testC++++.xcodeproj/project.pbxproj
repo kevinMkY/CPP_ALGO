@@ -74,6 +74,12 @@
 		3B90ACCB25DBF459008693D3 /* 164_最大间距.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B90ACC925DBF459008693D3 /* 164_最大间距.cpp */; };
 		3B90ACCF25DCF733008693D3 /* 977_有序数组的平方.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B90ACCD25DCF733008693D3 /* 977_有序数组的平方.cpp */; };
 		3BAB0A5C259C57070078AD65 /* 173_二叉搜索树迭代器.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB0A5A259C57070078AD65 /* 173_二叉搜索树迭代器.cpp */; };
+		3BAE39D225F200A800D9BEE7 /* 题库02数组排序.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE39D025F200A800D9BEE7 /* 题库02数组排序.cpp */; };
+		3BAE39D925F22A9E00D9BEE7 /* 题库01两个排序数组找中位数字.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE39D825F22A9E00D9BEE7 /* 题库01两个排序数组找中位数字.cpp */; };
+		3BAE39DF25F22AEC00D9BEE7 /* 题库03设计LRU缓存结构.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE39DD25F22AEC00D9BEE7 /* 题库03设计LRU缓存结构.cpp */; };
+		3BAE39E725F23CCF00D9BEE7 /* 题库04有重复数字的升序数组的二分查找.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE39E525F23CCF00D9BEE7 /* 题库04有重复数字的升序数组的二分查找.cpp */; };
+		3BAE39F125F24D8E00D9BEE7 /* 题库05最小的k个数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE39EF25F24D8E00D9BEE7 /* 题库05最小的k个数.cpp */; };
+		3BAE39F625F25B6600D9BEE7 /* 题库06寻找第k大.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE39F425F25B6600D9BEE7 /* 题库06寻找第k大.cpp */; };
 		3BB1949225CFD07E006344FF /* 322_零钱兑换.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1949025CFD07E006344FF /* 322_零钱兑换.cpp */; };
 		3BB1949625CFE7B5006344FF /* 518_零钱兑换II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1949425CFE7B5006344FF /* 518_零钱兑换II.cpp */; };
 		3BBC5DDD258E1124004CC98D /* Offer_54_二叉搜索树的第k大节点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC5DDB258E1124004CC98D /* Offer_54_二叉搜索树的第k大节点.cpp */; };
@@ -117,7 +123,6 @@
 		3BCBE22825D28371000CFD5E /* 746_使用最小花费爬楼梯.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCBE22625D28371000CFD5E /* 746_使用最小花费爬楼梯.cpp */; };
 		3BCBE22C25D28D6E000CFD5E /* faceTest_1716_按摩师.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCBE22A25D28D6E000CFD5E /* faceTest_1716_按摩师.cpp */; };
 		3BCBE23025D29368000CFD5E /* 198_打家劫舍.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCBE22E25D29368000CFD5E /* 198_打家劫舍.cpp */; };
-		3BCF59E525EE27D5004B6A18 /* _4_寻找两个正序数组的中位数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF59E325EE27D5004B6A18 /* _4_寻找两个正序数组的中位数.cpp */; };
 		3BCF59F025F0A971004B6A18 /* 快速排序01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF59EE25F0A971004B6A18 /* 快速排序01.cpp */; };
 		3BCF59F425F0DDC7004B6A18 /* 归并排序02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF59F225F0DDC7004B6A18 /* 归并排序02.cpp */; };
 		3BCF59F825F11144004B6A18 /* 二分查找03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF59F625F11144004B6A18 /* 二分查找03.cpp */; };
@@ -151,6 +156,16 @@
 		3BE61F42259C5C9500CA2084 /* 1305_两棵二叉搜索树中的所有元素.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE61F40259C5C9500CA2084 /* 1305_两棵二叉搜索树中的所有元素.cpp */; };
 		3BE61F46259C645800CA2084 /* 1325_删除给定值的叶子节点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE61F44259C645800CA2084 /* 1325_删除给定值的叶子节点.cpp */; };
 		3BE61F4A259C704500CA2084 /* 1261_在受污染的二叉树中查找元素.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE61F48259C704500CA2084 /* 1261_在受污染的二叉树中查找元素.cpp */; };
+		3BF0395725F29EAF00341CC5 /* 题库07每k个一组翻转.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BF0395525F29EAF00341CC5 /* 题库07每k个一组翻转.cpp */; };
+		3BF0395B25F371D600341CC5 /* 题库08连表中环的入口.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BF0395925F371D600341CC5 /* 题库08连表中环的入口.cpp */; };
+		3BF0395F25F379C000341CC5 /* 题库09删除倒数第k个节点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BF0395D25F379C000341CC5 /* 题库09删除倒数第k个节点.cpp */; };
+		3BF0396325F37F4B00341CC5 /* 题库10最长公共子串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BF0396125F37F4B00341CC5 /* 题库10最长公共子串.cpp */; };
+		3BF0396825F5073400341CC5 /* 题库11大数加法.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BF0396625F5073400341CC5 /* 题库11大数加法.cpp */; };
+		3BF0396C25F5189700341CC5 /* 题库12求平方根.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BF0396A25F5189700341CC5 /* 题库12求平方根.cpp */; };
+		3BF0397025F51C4600341CC5 /* 题库13前序和中序构建二叉树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BF0396E25F51C4600341CC5 /* 题库13前序和中序构建二叉树.cpp */; };
+		3BF0397425F5247300341CC5 /* 题库14合并k个已升序链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BF0397225F5247300341CC5 /* 题库14合并k个已升序链表.cpp */; };
+		3BF0397825F53C5900341CC5 /* 题库15最长递增子序列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BF0397625F53C5900341CC5 /* 题库15最长递增子序列.cpp */; };
+		3BF0397C25F5484000341CC5 /* 题库16在左旋转的数组里寻找目标值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BF0397A25F5484000341CC5 /* 题库16在左旋转的数组里寻找目标值.cpp */; };
 		3BF23B7725EA371D0093162C /* 剑指 Offer 54. 二叉搜索树的第k大节点.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BF23B7525EA371D0093162C /* 剑指 Offer 54. 二叉搜索树的第k大节点.cpp */; };
 		3BFB1C2025EA697900A1C75F /* 剑指 Offer 59 - II. 队列的最大值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BFB1C1E25EA697900A1C75F /* 剑指 Offer 59 - II. 队列的最大值.cpp */; };
 		3BFB1C2625EA6EAF00A1C75F /* 剑指 Offer 60. n个骰子的点数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BFB1C2425EA6EAF00A1C75F /* 剑指 Offer 60. n个骰子的点数.cpp */; };
@@ -235,7 +250,6 @@
 		8D2196E125E817F7003C2270 /* 剑指 Offer 16. 数值的整数次方.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2196DF25E817F7003C2270 /* 剑指 Offer 16. 数值的整数次方.cpp */; };
 		8D2196E725E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2196E525E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.cpp */; };
 		8D2196ED25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2196EB25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.cpp */; };
-		8D2196FF25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2196FD25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.cpp */; };
 		8D44352325EE958800930339 /* _142_环形链表 II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D44352125EE958800930339 /* _142_环形链表 II.cpp */; };
 /* End PBXBuildFile section */
 
@@ -390,6 +404,19 @@
 		3B90ACCE25DCF733008693D3 /* 977_有序数组的平方.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "977_有序数组的平方.hpp"; sourceTree = "<group>"; };
 		3BAB0A5A259C57070078AD65 /* 173_二叉搜索树迭代器.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "173_二叉搜索树迭代器.cpp"; sourceTree = "<group>"; };
 		3BAB0A5B259C57070078AD65 /* 173_二叉搜索树迭代器.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "173_二叉搜索树迭代器.hpp"; sourceTree = "<group>"; };
+		3BAE39D025F200A800D9BEE7 /* 题库02数组排序.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "题库02数组排序.cpp"; sourceTree = "<group>"; };
+		3BAE39D125F200A800D9BEE7 /* 题库02数组排序.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "题库02数组排序.hpp"; sourceTree = "<group>"; };
+		3BAE39D725F22A9E00D9BEE7 /* 题库01两个排序数组找中位数字.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "题库01两个排序数组找中位数字.hpp"; sourceTree = "<group>"; };
+		3BAE39D825F22A9E00D9BEE7 /* 题库01两个排序数组找中位数字.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "题库01两个排序数组找中位数字.cpp"; sourceTree = "<group>"; };
+		3BAE39DD25F22AEC00D9BEE7 /* 题库03设计LRU缓存结构.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "题库03设计LRU缓存结构.cpp"; sourceTree = "<group>"; };
+		3BAE39DE25F22AEC00D9BEE7 /* 题库03设计LRU缓存结构.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "题库03设计LRU缓存结构.hpp"; sourceTree = "<group>"; };
+		3BAE39E425F22FA600D9BEE7 /* --------------题库--------------.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "--------------题库--------------.h"; sourceTree = "<group>"; };
+		3BAE39E525F23CCF00D9BEE7 /* 题库04有重复数字的升序数组的二分查找.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "题库04有重复数字的升序数组的二分查找.cpp"; sourceTree = "<group>"; };
+		3BAE39E625F23CCF00D9BEE7 /* 题库04有重复数字的升序数组的二分查找.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "题库04有重复数字的升序数组的二分查找.hpp"; sourceTree = "<group>"; };
+		3BAE39EF25F24D8E00D9BEE7 /* 题库05最小的k个数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "题库05最小的k个数.cpp"; sourceTree = "<group>"; };
+		3BAE39F025F24D8E00D9BEE7 /* 题库05最小的k个数.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "题库05最小的k个数.hpp"; sourceTree = "<group>"; };
+		3BAE39F425F25B6600D9BEE7 /* 题库06寻找第k大.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "题库06寻找第k大.cpp"; sourceTree = "<group>"; };
+		3BAE39F525F25B6600D9BEE7 /* 题库06寻找第k大.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "题库06寻找第k大.hpp"; sourceTree = "<group>"; };
 		3BB1949025CFD07E006344FF /* 322_零钱兑换.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "322_零钱兑换.cpp"; sourceTree = "<group>"; };
 		3BB1949125CFD07E006344FF /* 322_零钱兑换.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "322_零钱兑换.hpp"; sourceTree = "<group>"; };
 		3BB1949425CFE7B5006344FF /* 518_零钱兑换II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "518_零钱兑换II.cpp"; sourceTree = "<group>"; };
@@ -477,8 +504,6 @@
 		3BCBE22E25D29368000CFD5E /* 198_打家劫舍.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "198_打家劫舍.cpp"; sourceTree = "<group>"; };
 		3BCBE22F25D29368000CFD5E /* 198_打家劫舍.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "198_打家劫舍.hpp"; sourceTree = "<group>"; };
 		3BCF59E225EE27C2004B6A18 /* --------------常规--------------.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "--------------常规--------------.h"; sourceTree = "<group>"; };
-		3BCF59E325EE27D5004B6A18 /* _4_寻找两个正序数组的中位数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_4_寻找两个正序数组的中位数.cpp"; sourceTree = "<group>"; };
-		3BCF59E425EE27D5004B6A18 /* _4_寻找两个正序数组的中位数.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_4_寻找两个正序数组的中位数.hpp"; sourceTree = "<group>"; };
 		3BCF59EE25F0A971004B6A18 /* 快速排序01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "快速排序01.cpp"; sourceTree = "<group>"; };
 		3BCF59EF25F0A971004B6A18 /* 快速排序01.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "快速排序01.hpp"; sourceTree = "<group>"; };
 		3BCF59F225F0DDC7004B6A18 /* 归并排序02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "归并排序02.cpp"; sourceTree = "<group>"; };
@@ -555,6 +580,26 @@
 		3BED9E8225DD038200866BE5 /* --------------栈--------------.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "--------------栈--------------.h"; sourceTree = "<group>"; };
 		3BED9E8325DD039F00866BE5 /* --------------二叉树--------------.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "--------------二叉树--------------.h"; sourceTree = "<group>"; };
 		3BED9E8425DD052B00866BE5 /* filename_dp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = filename_dp.h; sourceTree = "<group>"; };
+		3BF0395525F29EAF00341CC5 /* 题库07每k个一组翻转.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "题库07每k个一组翻转.cpp"; sourceTree = "<group>"; };
+		3BF0395625F29EAF00341CC5 /* 题库07每k个一组翻转.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "题库07每k个一组翻转.hpp"; sourceTree = "<group>"; };
+		3BF0395925F371D600341CC5 /* 题库08连表中环的入口.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "题库08连表中环的入口.cpp"; sourceTree = "<group>"; };
+		3BF0395A25F371D600341CC5 /* 题库08连表中环的入口.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "题库08连表中环的入口.hpp"; sourceTree = "<group>"; };
+		3BF0395D25F379C000341CC5 /* 题库09删除倒数第k个节点.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "题库09删除倒数第k个节点.cpp"; sourceTree = "<group>"; };
+		3BF0395E25F379C000341CC5 /* 题库09删除倒数第k个节点.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "题库09删除倒数第k个节点.hpp"; sourceTree = "<group>"; };
+		3BF0396125F37F4B00341CC5 /* 题库10最长公共子串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "题库10最长公共子串.cpp"; sourceTree = "<group>"; };
+		3BF0396225F37F4B00341CC5 /* 题库10最长公共子串.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "题库10最长公共子串.hpp"; sourceTree = "<group>"; };
+		3BF0396625F5073400341CC5 /* 题库11大数加法.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "题库11大数加法.cpp"; sourceTree = "<group>"; };
+		3BF0396725F5073400341CC5 /* 题库11大数加法.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "题库11大数加法.hpp"; sourceTree = "<group>"; };
+		3BF0396A25F5189700341CC5 /* 题库12求平方根.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "题库12求平方根.cpp"; sourceTree = "<group>"; };
+		3BF0396B25F5189700341CC5 /* 题库12求平方根.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "题库12求平方根.hpp"; sourceTree = "<group>"; };
+		3BF0396E25F51C4600341CC5 /* 题库13前序和中序构建二叉树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "题库13前序和中序构建二叉树.cpp"; sourceTree = "<group>"; };
+		3BF0396F25F51C4600341CC5 /* 题库13前序和中序构建二叉树.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "题库13前序和中序构建二叉树.hpp"; sourceTree = "<group>"; };
+		3BF0397225F5247300341CC5 /* 题库14合并k个已升序链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "题库14合并k个已升序链表.cpp"; sourceTree = "<group>"; };
+		3BF0397325F5247300341CC5 /* 题库14合并k个已升序链表.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "题库14合并k个已升序链表.hpp"; sourceTree = "<group>"; };
+		3BF0397625F53C5900341CC5 /* 题库15最长递增子序列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "题库15最长递增子序列.cpp"; sourceTree = "<group>"; };
+		3BF0397725F53C5900341CC5 /* 题库15最长递增子序列.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "题库15最长递增子序列.hpp"; sourceTree = "<group>"; };
+		3BF0397A25F5484000341CC5 /* 题库16在左旋转的数组里寻找目标值.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "题库16在左旋转的数组里寻找目标值.cpp"; sourceTree = "<group>"; };
+		3BF0397B25F5484000341CC5 /* 题库16在左旋转的数组里寻找目标值.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "题库16在左旋转的数组里寻找目标值.hpp"; sourceTree = "<group>"; };
 		3BF23B7525EA371D0093162C /* 剑指 Offer 54. 二叉搜索树的第k大节点.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 54. 二叉搜索树的第k大节点.cpp"; sourceTree = "<group>"; };
 		3BF23B7625EA371D0093162C /* 剑指 Offer 54. 二叉搜索树的第k大节点.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 54. 二叉搜索树的第k大节点.hpp"; sourceTree = "<group>"; };
 		3BFB1C1E25EA697900A1C75F /* 剑指 Offer 59 - II. 队列的最大值.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 59 - II. 队列的最大值.cpp"; sourceTree = "<group>"; };
@@ -726,8 +771,6 @@
 		8D2196E625E81D80003C2270 /* 剑指 Offer 17. 打印从1到最大的n位数.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 17. 打印从1到最大的n位数.hpp"; sourceTree = "<group>"; };
 		8D2196EB25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 48. 最长不含重复字符的子字符串.cpp"; sourceTree = "<group>"; };
 		8D2196EC25E823DB003C2270 /* 剑指 Offer 48. 最长不含重复字符的子字符串.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "剑指 Offer 48. 最长不含重复字符的子字符串.hpp"; sourceTree = "<group>"; };
-		8D2196FD25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "面试01，两个排序数组找中位数字.cpp"; sourceTree = "<group>"; };
-		8D2196FE25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "面试01，两个排序数组找中位数字.hpp"; sourceTree = "<group>"; };
 		8D44352125EE958800930339 /* _142_环形链表 II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_142_环形链表 II.cpp"; sourceTree = "<group>"; };
 		8D44352225EE958800930339 /* _142_环形链表 II.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "_142_环形链表 II.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -953,6 +996,12 @@
 				652FAB73251B400700AB91C6 /* Node.hpp */,
 				3BD267D2258A11D000B698E0 /* yufa.h */,
 				3B5A406725E794DC0079329D /* --------------offer剑2--------------.h */,
+				3BCF59EE25F0A971004B6A18 /* 快速排序01.cpp */,
+				3BCF59EF25F0A971004B6A18 /* 快速排序01.hpp */,
+				3BCF59F225F0DDC7004B6A18 /* 归并排序02.cpp */,
+				3BCF59F325F0DDC7004B6A18 /* 归并排序02.hpp */,
+				3BCF59F625F11144004B6A18 /* 二分查找03.cpp */,
+				3BCF59F725F11144004B6A18 /* 二分查找03.hpp */,
 				8D2196FA25ED5447003C2270 /* 位运算 */,
 				3BBE595425EAA3C9009A3510 /* 队列,栈 */,
 				3BBE594F25EAA285009A3510 /* 链表 */,
@@ -960,19 +1009,42 @@
 				3BBE595025EAA28F009A3510 /* 字符串 */,
 				3BBE595325EAA37B009A3510 /* 数组 */,
 				3BBE594E25EAA27A009A3510 /* 动态规划 */,
+				3BAE39E425F22FA600D9BEE7 /* --------------题库--------------.h */,
+				3BAE39D825F22A9E00D9BEE7 /* 题库01两个排序数组找中位数字.cpp */,
+				3BAE39D725F22A9E00D9BEE7 /* 题库01两个排序数组找中位数字.hpp */,
+				3BAE39D025F200A800D9BEE7 /* 题库02数组排序.cpp */,
+				3BAE39D125F200A800D9BEE7 /* 题库02数组排序.hpp */,
+				3BAE39DD25F22AEC00D9BEE7 /* 题库03设计LRU缓存结构.cpp */,
+				3BAE39DE25F22AEC00D9BEE7 /* 题库03设计LRU缓存结构.hpp */,
+				3BAE39E525F23CCF00D9BEE7 /* 题库04有重复数字的升序数组的二分查找.cpp */,
+				3BAE39E625F23CCF00D9BEE7 /* 题库04有重复数字的升序数组的二分查找.hpp */,
+				3BAE39EF25F24D8E00D9BEE7 /* 题库05最小的k个数.cpp */,
+				3BAE39F025F24D8E00D9BEE7 /* 题库05最小的k个数.hpp */,
+				3BAE39F425F25B6600D9BEE7 /* 题库06寻找第k大.cpp */,
+				3BAE39F525F25B6600D9BEE7 /* 题库06寻找第k大.hpp */,
+				3BF0395525F29EAF00341CC5 /* 题库07每k个一组翻转.cpp */,
+				3BF0395625F29EAF00341CC5 /* 题库07每k个一组翻转.hpp */,
+				3BF0395925F371D600341CC5 /* 题库08连表中环的入口.cpp */,
+				3BF0395A25F371D600341CC5 /* 题库08连表中环的入口.hpp */,
+				3BF0395D25F379C000341CC5 /* 题库09删除倒数第k个节点.cpp */,
+				3BF0395E25F379C000341CC5 /* 题库09删除倒数第k个节点.hpp */,
+				3BF0396125F37F4B00341CC5 /* 题库10最长公共子串.cpp */,
+				3BF0396225F37F4B00341CC5 /* 题库10最长公共子串.hpp */,
+				3BF0396625F5073400341CC5 /* 题库11大数加法.cpp */,
+				3BF0396725F5073400341CC5 /* 题库11大数加法.hpp */,
+				3BF0396A25F5189700341CC5 /* 题库12求平方根.cpp */,
+				3BF0396B25F5189700341CC5 /* 题库12求平方根.hpp */,
+				3BF0396E25F51C4600341CC5 /* 题库13前序和中序构建二叉树.cpp */,
+				3BF0396F25F51C4600341CC5 /* 题库13前序和中序构建二叉树.hpp */,
+				3BF0397225F5247300341CC5 /* 题库14合并k个已升序链表.cpp */,
+				3BF0397325F5247300341CC5 /* 题库14合并k个已升序链表.hpp */,
+				3BF0397625F53C5900341CC5 /* 题库15最长递增子序列.cpp */,
+				3BF0397725F53C5900341CC5 /* 题库15最长递增子序列.hpp */,
+				3BF0397A25F5484000341CC5 /* 题库16在左旋转的数组里寻找目标值.cpp */,
+				3BF0397B25F5484000341CC5 /* 题库16在左旋转的数组里寻找目标值.hpp */,
+				3BCF59E225EE27C2004B6A18 /* --------------常规--------------.h */,
 				3B5A408F25E7C30E0079329D /* 105.cpp */,
 				3B5A409025E7C30E0079329D /* 105.hpp */,
-				8D2196FD25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.cpp */,
-				8D2196FE25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.hpp */,
-				3BCF59EE25F0A971004B6A18 /* 快速排序01.cpp */,
-				3BCF59EF25F0A971004B6A18 /* 快速排序01.hpp */,
-				3BCF59F225F0DDC7004B6A18 /* 归并排序02.cpp */,
-				3BCF59F325F0DDC7004B6A18 /* 归并排序02.hpp */,
-				3BCF59F625F11144004B6A18 /* 二分查找03.cpp */,
-				3BCF59F725F11144004B6A18 /* 二分查找03.hpp */,
-				3BCF59E225EE27C2004B6A18 /* --------------常规--------------.h */,
-				3BCF59E325EE27D5004B6A18 /* _4_寻找两个正序数组的中位数.cpp */,
-				3BCF59E425EE27D5004B6A18 /* _4_寻找两个正序数组的中位数.hpp */,
 				3BED9E7E25DD035100866BE5 /* --------------数组--------------.h */,
 				3BE3DF8225DFF193008FD20B /* 1_两数之和.cpp */,
 				3BE3DF8325DFF193008FD20B /* 1_两数之和.hpp */,
@@ -1356,8 +1428,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B59F34425CBE58300B6317A /* 51_N皇后.cpp in Sources */,
-				8D2196FF25ED55A9003C2270 /* 面试01，两个排序数组找中位数字.cpp in Sources */,
 				3B5A410125E90BE10079329D /* 剑指 Offer 32 - I. 从上到下打印二叉树.cpp in Sources */,
+				3BF0395F25F379C000341CC5 /* 题库09删除倒数第k个节点.cpp in Sources */,
 				3BE3DF4625DD4622008FD20B /* 138_复制带随机指针的链表.cpp in Sources */,
 				65870729250BA06C005BFEC2 /* offer_22_链表中倒数第k个节点.cpp in Sources */,
 				3BC270D125EA30CD003102DC /* 剑指 Offer 53 - I. 在排序数组中查找数字 I.cpp in Sources */,
@@ -1408,6 +1480,8 @@
 				3B3C8A0C2591FD1800DEA8D3 /* 872_叶子相似的树.cpp in Sources */,
 				65A1286D2513A84B008E24AF /* 239_滑动窗口最大值.cpp in Sources */,
 				65FA4BDC2511F9D000FB8651 /* 1047__删除字符串中的所有相邻重复项.cpp in Sources */,
+				3BAE39F625F25B6600D9BEE7 /* 题库06寻找第k大.cpp in Sources */,
+				3BAE39DF25F22AEC00D9BEE7 /* 题库03设计LRU缓存结构.cpp in Sources */,
 				3BBE594725EA990B009A3510 /* 剑指 Offer 68 - II. 二叉树的最近公共祖先.cpp in Sources */,
 				3B5A40EF25E8EFD70079329D /* 剑指 Offer 29. 顺时针打印矩阵.cpp in Sources */,
 				3BC2708825E959F1003102DC /* 剑指 Offer 40. 最小的k个数.cpp in Sources */,
@@ -1432,6 +1506,7 @@
 				3BC7B36F2590D100002FD4EF /* 669_修剪二叉搜索树.cpp in Sources */,
 				3BC97F9A25976497009E9831 /* 110_平衡二叉树.cpp in Sources */,
 				654466B72509111000E5959E /* 83_删除排序链表中的重复元素.cpp in Sources */,
+				3BF0397C25F5484000341CC5 /* 题库16在左旋转的数组里寻找目标值.cpp in Sources */,
 				65870726250B9C5D005BFEC2 /* 1290_二进制链表转整数.cpp in Sources */,
 				3BC97F922597223A009E9831 /* 783_二叉搜索树节点最小距离.cpp in Sources */,
 				3B5A40AE25E7CF130079329D /* 剑指 Offer 12. 矩阵中的路径.cpp in Sources */,
@@ -1467,6 +1542,7 @@
 				65282CFC250F5E0C00CEFC94 /* faceTest_0206_回文链表.cpp in Sources */,
 				3B846D8C25A449E90072AAAB /* 1104_二叉树寻路.cpp in Sources */,
 				65A9D3F2251B23E000244EFF /* 589_N叉树的前序遍历.cpp in Sources */,
+				3BF0396825F5073400341CC5 /* 题库11大数加法.cpp in Sources */,
 				3BC270BF25EA1EAD003102DC /* 剑指 Offer 50. 第一个只出现一次的字符.cpp in Sources */,
 				65A9D3EE251B239000244EFF /* 662_二叉树最大宽度.cpp in Sources */,
 				3BE61F4A259C704500CA2084 /* 1261_在受污染的二叉树中查找元素.cpp in Sources */,
@@ -1491,6 +1567,8 @@
 				3BC270CB25EA2E2A003102DC /* 剑指 Offer 52. 两个链表的第一个公共节点.cpp in Sources */,
 				3B5A407925E7A2450079329D /* 剑指 Offer 04. 二维数组中的查找.cpp in Sources */,
 				3B5A40C125E8C3F80079329D /* 剑指 Offer 20. 表示数值的字符串.cpp in Sources */,
+				3BAE39D225F200A800D9BEE7 /* 题库02数组排序.cpp in Sources */,
+				3BF0396325F37F4B00341CC5 /* 题库10最长公共子串.cpp in Sources */,
 				3B5A40CD25E8D17C0079329D /* 剑指 Offer 24. 反转链表.cpp in Sources */,
 				65870735250BB560005BFEC2 /* faceTest_0201_移除重复节点.cpp in Sources */,
 				3B5A40A825E7CCA10079329D /* 剑指 Offer 11. 旋转数组的最小数字.cpp in Sources */,
@@ -1501,7 +1579,9 @@
 				3BE3DF5C25DFB58E008FD20B /* 328_奇偶链表.cpp in Sources */,
 				3BE3DF6C25DFD2D7008FD20B /* 283_移动零.cpp in Sources */,
 				3B5A408B25E7AF510079329D /* 剑指 Offer 07. 重建二叉树.cpp in Sources */,
+				3BF0397425F5247300341CC5 /* 题库14合并k个已升序链表.cpp in Sources */,
 				3BCBE22C25D28D6E000CFD5E /* faceTest_1716_按摩师.cpp in Sources */,
+				3BAE39F125F24D8E00D9BEE7 /* 题库05最小的k个数.cpp in Sources */,
 				3BE61F42259C5C9500CA2084 /* 1305_两棵二叉搜索树中的所有元素.cpp in Sources */,
 				65118AF32508EC4B004D8F15 /* 14_最长公共前缀.cpp in Sources */,
 				3BE3DF4B25DE4141008FD20B /* 25_K 个一组翻转链表.cpp in Sources */,
@@ -1530,8 +1610,8 @@
 				65DF9BE3251A30320055E0BE /* 102_二叉树的层序遍历.cpp in Sources */,
 				3B90ACBB25DBCBCA008693D3 /* 88_合并两个有序数组.cpp in Sources */,
 				3BAB0A5C259C57070078AD65 /* 173_二叉搜索树迭代器.cpp in Sources */,
+				3BAE39E725F23CCF00D9BEE7 /* 题库04有重复数字的升序数组的二分查找.cpp in Sources */,
 				65A9D402251B249A00244EFF /* 101_对称二叉树.cpp in Sources */,
-				3BCF59E525EE27D5004B6A18 /* _4_寻找两个正序数组的中位数.cpp in Sources */,
 				3BCBE21725D26577000CFD5E /* 70_爬楼梯.cpp in Sources */,
 				6587072C250BA320005BFEC2 /* faceTest_0202_返回倒数第 k 个节点.cpp in Sources */,
 				65DF9BDE251A27610055E0BE /* 94_二叉树的中序遍历.cpp in Sources */,
@@ -1541,18 +1621,24 @@
 				3BBC5DE2258E1638004CC98D /* 897_递增顺序查找树.cpp in Sources */,
 				3B90ACC725DBE980008693D3 /* faceTest_1616_部分排序.cpp in Sources */,
 				65A9D40A251B24FE00244EFF /* 106_从中序与后序遍历序列构造二叉树.cpp in Sources */,
+				3BAE39D925F22A9E00D9BEE7 /* 题库01两个排序数组找中位数字.cpp in Sources */,
 				65118AFE2508FF79004D8F15 /* 141_环形链表.cpp in Sources */,
+				3BF0396C25F5189700341CC5 /* 题库12求平方根.cpp in Sources */,
 				65C28C6A2519DA9F00C94E7C /* 226_翻转二叉树.cpp in Sources */,
 				3BCBE22825D28371000CFD5E /* 746_使用最小花费爬楼梯.cpp in Sources */,
 				3B5A40B525E8A0D10079329D /* 剑指 Offer 18. 删除链表的节点.cpp in Sources */,
 				3B5461C625987E7900BEAE0B /* 993_二叉树的堂兄弟节点.cpp in Sources */,
 				3BC97F9E25976B32009E9831 /* 543_二叉树的直径.cpp in Sources */,
 				3B0A12D625EA3A89006E89F1 /* 剑指 Offer 55 - I. 二叉树的深度.cpp in Sources */,
+				3BF0395B25F371D600341CC5 /* 题库08连表中环的入口.cpp in Sources */,
 				3B5A40FB25E8FE2B0079329D /* 剑指 Offer 31. 栈的压入、弹出序列.cpp in Sources */,
 				3B5A40E125E8E0E60079329D /* 剑指 Offer 27. 二叉树的镜像.cpp in Sources */,
+				3BF0397025F51C4600341CC5 /* 题库13前序和中序构建二叉树.cpp in Sources */,
 				3BE3DF3E25DD0E92008FD20B /* 2_两数相加.cpp in Sources */,
+				3BF0397825F53C5900341CC5 /* 题库15最长递增子序列.cpp in Sources */,
 				3B3C034A2599D63700EBAA9F /* 1315_祖父节点值为偶数的节点和.cpp in Sources */,
 				3B5461DD25989F3000BEAE0B /* 572_另一个树的子树.cpp in Sources */,
+				3BF0395725F29EAF00341CC5 /* 题库07每k个一组翻转.cpp in Sources */,
 				65118AEF2508EA58004D8F15 /* 237_删除链表中的节点.cpp in Sources */,
 				65118AE92508D175004D8F15 /* 5_最长回文子串.cpp in Sources */,
 				3BCBE23025D29368000CFD5E /* 198_打家劫舍.cpp in Sources */,
